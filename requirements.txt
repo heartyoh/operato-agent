@@ -1,0 +1,14 @@
+langchain-core>=0.3.65
+langchain-openai>=0.3.23
+langchain-huggingface>=0.3.0
+langchain-chroma>=0.2.4
+langchain_community
+openai
+requests
+chromadb
+sentence-transformers
+huggingface-hub
+pyyaml
+graphql-core>=3.2.0
+pytest
+pytest-asyncio
