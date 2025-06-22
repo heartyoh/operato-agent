@@ -12,114 +12,267 @@ type APIDocCompletionOutput {
   message: String
 }
 
+"""Represents a pair of access and refresh tokens."""
 type AccessToken {
+  """The access token for API authentication."""
   accesToken: String!
+
+  """The refresh token to obtain a new access token."""
   refreshToken: String!
 }
 
-"""Any Scalar type (String, Boolean, Int, Float, Object, List)"""
+"""
+A flexible scalar type that can represent any GraphQL value, including String, Boolean, Int, Float, Object, or List. Use this type for fields or arguments that may accept or return various data types.
+"""
 scalar Any
 
+"""
+Represents a user that is bound to a specific application, with an associated scope and refresh token.
+"""
 type AppBinding {
+  """The application to which the user is bound."""
   application: Application
+
+  """Timestamp when the user account was created."""
   createdAt: DateTimeISO
   creator: User!
+
+  """Optional description or note about the user."""
   description: String
+
+  """Domains (organizations, companies, etc.) the user belongs to."""
   domains: [Domain!]!
+
+  """Email address of the user."""
   email: EmailAddress!
+
+  """Unique identifier for the user."""
   id: ID!
+
+  """Locale or language preference for the user."""
   locale: String
+
+  """Full name of the user."""
   name: String
+
+  """Whether the user is the owner of the domain (not persisted in DB)."""
   owner: Boolean
+
+  """Reference information for the user (external system, etc.)."""
   reference: String
+
+  """The refresh token for the application."""
   refreshToken: String
+
+  """Roles assigned to the user."""
   roles: [Role!]!
+
+  """The scope of access granted to the application."""
   scope: String
+
+  """Single sign-on (SSO) identifier for federated authentication."""
   ssoId: String
+
+  """Current status of the user account."""
   status: String!
+
+  """Timestamp when the user account was last updated."""
   updatedAt: DateTimeISO
   updater: User!
+
+  """Type or category of the user (e.g., user, application, appliance)."""
   userType: String
+
+  """Unique username for the user."""
   username: String
+
+  """External authentication providers linked to the user."""
   usersAuthProviders: [UsersAuthProviders!]
 }
 
+"""A paginated list of application bindings."""
 type AppBindingList {
+  """The list of application binding items."""
   items: [AppBinding!]
+
+  """The total number of application bindings."""
   total: Int
 }
 
+"""
+Represents a physical or virtual appliance that can be managed by the system.
+"""
 type Appliance {
+  """The access token for the appliance."""
   accessToken: String
+
+  """The brand or manufacturer of the appliance."""
   brand: String
+
+  """The timestamp when the appliance was created."""
   createdAt: DateTimeISO
+
+  """The user who created the appliance."""
   creator: User
+
+  """A description of the appliance."""
   description: String
+
+  """The domain to which the appliance belongs."""
   domain: Domain!
+
+  """Unique identifier for the appliance."""
   id: ID!
+
+  """The model of the appliance."""
   model: String
+
+  """The name of the appliance."""
   name: String!
+
+  """The network mask of the appliance."""
   netmask: String
+
+  """The serial number of the appliance."""
   serialNo: String
+
+  """The timestamp when the appliance was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the appliance."""
   updater: User
 }
 
+"""A paginated list of appliances."""
 type ApplianceList {
+  """The list of appliance items."""
   items: [Appliance!]
+
+  """The total number of appliances."""
   total: Int
 }
 
+"""Input for updating (patching) an existing appliance."""
 input AppliancePatch {
+  """The new brand for the appliance."""
   brand: String
+
+  """The new description for the appliance."""
   description: String
+
+  """The unique identifier of the appliance to update."""
   id: ID
+
+  """The new model for the appliance."""
   model: String
+
+  """The new name for the appliance."""
   name: String
+
+  """The new network mask for the appliance."""
   netmask: String
+
+  """The new serial number for the appliance."""
   serialNo: String
 }
 
+"""
+Represents a third-party application that can be integrated with the system.
+"""
 type Application {
   accessTokenUrl: String!
+
+  """The unique key for the application (client ID)."""
   appKey: String
+
+  """The secret key for the application (client secret)."""
   appSecret: String
   authUrl: String!
   availableScopes: String!
+
+  """The timestamp when the application was created."""
   createdAt: DateTimeISO
+
+  """The user who created the application."""
   creator: User
+
+  """A description of the application."""
   description: String
+
+  """The domain to which the application belongs."""
   domain: Domain!
+
+  """The contact email for the application."""
   email: EmailAddress!
+
+  """A URL to the icon for the application."""
   icon: String
+
+  """Unique identifier for the application."""
   id: ID!
+
+  """The name of the application."""
   name: String!
+
+  """The redirect URL for OAuth2 flows."""
   redirectUrl: String!
+
+  """The status of the application (e.g., DRAFT, ACTIVATED)."""
   status: String!
+
+  """The type of the application."""
   type: String!
+
+  """The timestamp when the application was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the application."""
   updater: User
+
+  """The URL of the application."""
   url: String!
+
+  """The webhook URL for the application to receive events."""
   webhook: String
 }
 
+"""A paginated list of applications."""
 type ApplicationList {
+  """The list of application items."""
   items: [Application!]
+
+  """The total number of applications."""
   total: Int
 }
 
+"""Input for updating (patching) an existing application."""
 input ApplicationPatch {
+  """The new description for the application."""
   description: String
+
+  """The new contact email for the application."""
   email: EmailAddress
+
+  """The new icon URL for the application."""
   icon: String
+
+  """The new name for the application."""
   name: String
+
+  """The new redirect URL for the application."""
   redirectUrl: String
+
+  """The new type for the application."""
   type: ApplicationType
+
+  """The new URL for the application."""
   url: String
+
+  """The new webhook URL for the application."""
   webhook: String
 }
 
-"""state enumeration of a application"""
+"""The type of an application."""
 enum ApplicationType {
   MMS
   OTHERS
@@ -224,38 +377,82 @@ input AttachmentPatch {
   tags: Object
 }
 
-"""Entity for AttributeSet"""
+"""
+Represents an AttributeSet entity, which defines a set of attributes for a specific entity type.
+"""
 type AttributeSet {
+  """The date and time when this AttributeSet was created."""
   createdAt: DateTimeISO
+
+  """A description of the AttributeSet."""
   description: String
+
+  """The name of the entity this AttributeSet is associated with."""
   entity: String
+
+  """The unique identifier of the AttributeSet."""
   id: ID!
+
+  """A list of items (attributes) included in this AttributeSet."""
   items: [AttributeSetItem!]
+
+  """The date and time when this AttributeSet was last updated."""
   updatedAt: DateTimeISO
 }
 
-"""Entity for AttributeSetItem"""
+"""
+Represents an item (attribute) within an AttributeSet, including its type, options, and metadata.
+"""
 type AttributeSetItem {
+  """Whether the attribute item is active."""
   active: Boolean
-  description: String
-  hidden: Boolean
-  name: String!
-  options: Object
-  tag: String
-  type: String
-}
 
-input AttributeSetItemPatch {
-  active: Boolean
+  """A description of the attribute item."""
   description: String
+
+  """Whether the attribute item is hidden."""
   hidden: Boolean
-  name: String
+
+  """The name of the attribute item."""
+  name: String!
+
+  """Options or additional settings for the attribute item."""
   options: Object
+
+  """A tag for categorizing or identifying the attribute item."""
   tag: String
+
+  """The type of the attribute item (e.g., number, text, boolean)."""
   type: AttributeSetItemType
 }
 
-"""type enumeration of a attribute-set-item"""
+"""Input type for creating or updating an AttributeSetItem."""
+input AttributeSetItemPatch {
+  """Whether the attribute item is active."""
+  active: Boolean
+
+  """A description of the attribute item."""
+  description: String
+
+  """Whether the attribute item is hidden."""
+  hidden: Boolean
+
+  """The name of the attribute item."""
+  name: String
+
+  """Options or additional settings for the attribute item."""
+  options: Object
+
+  """A tag for categorizing or identifying the attribute item."""
+  tag: String
+
+  """The type of the attribute item (e.g., number, text, boolean)."""
+  type: AttributeSetItemType
+}
+
+"""
+Enumeration of possible types for an attribute set item, such as number, text, boolean, select, date, datetime, or file.
+"""
 enum AttributeSetItemType {
   boolean
   date
@@ -266,178 +463,450 @@ enum AttributeSetItemType {
   text
 }
 
+"""A paginated list of AttributeSet entities."""
 type AttributeSetList {
+  """The list of AttributeSet entities."""
   items: [AttributeSet!]!
+
+  """The total number of AttributeSet entities."""
   total: Int!
 }
 
+"""Input type for updating an existing AttributeSet entity."""
 input AttributeSetPatch {
+  """A flag indicating create/update operation."""
   cuFlag: String
+
+  """A description of the AttributeSet."""
   description: String
+
+  """The name of the entity this AttributeSet is associated with."""
   entity: String
+
+  """The unique identifier of the AttributeSet."""
   id: ID
+
+  """A list of items (attributes) to update in this AttributeSet."""
   items: [AttributeSetItemPatch!]
 }
 
-"""Entity for AuthProvider"""
+"""
+Represents a configured instance of an authentication provider for a specific domain.
+"""
 type AuthProvider {
+  """Indicates whether this authentication provider is currently active."""
   active: Boolean
+
+  """Client ID for OAuth/OIDC providers."""
   clientId: String
+
+  """Client secret for OAuth/OIDC providers (stored encrypted)."""
   clientSecret: String
+
+  """The timestamp when this provider instance was created."""
   createdAt: DateTimeISO
+
+  """The user who created this provider instance."""
   creator: User
+
+  """The domain to which this authentication provider belongs."""
   domain: Domain!
+
+  """Unique identifier for the configured authentication provider."""
   id: ID!
+
+  """A key-value map for additional provider-specific parameters."""
   params: Object
+
+  """Private key, used by some authentication providers (stored encrypted)."""
   privateKey: String
+
+  """Tenant ID, used by some multi-tenant authentication providers."""
   tenantId: String
+
+  """The type of the authentication provider (e.g., keycloak, google)."""
   type: String
+
+  """The timestamp when this provider instance was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated this provider instance."""
   updater: User
+
+  """A list of user-provider associations for this provider."""
   usersAuthProviders: [UsersAuthProviders!]
 }
 
+"""A paginated list of configured authentication provider instances."""
 type AuthProviderList {
+  """The list of authentication provider items."""
   items: [AuthProvider!]!
+
+  """The total number of authentication providers."""
   total: Int!
 }
 
+"""
+Describes a single configuration parameter for an authentication provider.
+"""
 type AuthProviderParameterSpec {
+  """The human-readable label for the parameter, shown in UI."""
   label: String!
+
+  """The name of the parameter, used as the key in the params object."""
   name: String!
+
+  """Placeholder text for the input field."""
   placeholder: String
+
+  """Additional properties for the parameter (e.g., min, max)."""
   property: Object
+
+  """CSS styles for the input field."""
   styles: Object
+
+  """The data type of the parameter (e.g., text, number, boolean)."""
   type: String!
 }
 
+"""
+Input for updating (patching) an existing authentication provider instance.
+"""
 input AuthProviderPatch {
+  """The new active status for the provider."""
   active: Boolean
+
+  """The new client ID for the provider."""
   clientId: String
+
+  """The new client secret for the provider."""
   clientSecret: String
+
+  """
+  A flag indicating whether the provider is being created, updated, or deleted.
+  """
   cuFlag: String
+
+  """The unique identifier of the provider instance to update."""
   id: ID
+
+  """The new provider-specific parameters."""
   params: Object
+
+  """The new private key for the provider."""
   privateKey: String
+
+  """The new tenant ID for the provider."""
   tenantId: String
+
+  """The new type for the provider."""
   type: String
 }
 
+"""Describes a type of authentication provider available in the system."""
 type AuthProviderType {
+  """A brief description of the authentication provider."""
   description: String
+
+  """Helpful information or a link to documentation for the provider."""
   help: String
+
+  """
+  A list of parameters required to configure this authentication provider.
+  """
   parameterSpec: [AuthProviderParameterSpec!]
+
+  """
+  The unique type name of the authentication provider (e.g., keycloak, google).
+  """
   type: String!
 }
 
+"""A list of available authentication provider types."""
 type AuthProviderTypeList {
+  """The list of authentication provider type items."""
   items: [AuthProviderType!]!
+
+  """The total number of authentication provider types."""
   total: Int!
 }
 
-"""Entity for Visualization Board"""
+"""Represents a visual dashboard or display board."""
 type Board {
+  """The timestamp when the board was created."""
   createdAt: DateTimeISO
+
+  """The user who created the board."""
   creator: User
+
+  """The timestamp when the board was soft-deleted."""
   deletedAt: DateTimeISO
+
+  """A detailed description of the board."""
   description: String
+
+  """The domain to which this board belongs."""
   domain: Domain
+
+  """The group to which this board belongs."""
   group: Group
+
+  """Unique identifier for the board."""
   id: ID
+
+  """The JSON model defining the layout and components of the board."""
   model: String
+
+  """The name of the board."""
   name: String!
+
+  """A list of play groups that this board is a part of."""
   playGroups: [PlayGroup!]
+
+  """The state of the board, can be 'draft' or 'released'."""
   state: String
+
+  """A base64 encoded thumbnail image of the board."""
   thumbnail: String
+
+  """The type of the board, can be 'main', 'sub', or 'popup'."""
+  type: String
+
+  """The timestamp when the board was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the board."""
   updater: User
+
+  """The version of the board model."""
   version: Float
 }
 
+"""Represents a board that a user has marked as a favorite."""
 type BoardFavorite {
+  """The timestamp when the board was created."""
   createdAt: DateTimeISO
+
+  """The user who created the board."""
   creator: User
+
+  """The timestamp when the board was soft-deleted."""
   deletedAt: DateTimeISO
+
+  """A detailed description of the board."""
   description: String
+
+  """The domain to which this board belongs."""
   domain: Domain
+
+  """The unique identifier for the favorite marking itself."""
   favoriteId: String
+
+  """The group to which this board belongs."""
   group: Group
+
+  """Unique identifier for the board."""
   id: ID
+
+  """The JSON model defining the layout and components of the board."""
   model: String
+
+  """The name of the board."""
   name: String!
+
+  """A list of play groups that this board is a part of."""
   playGroups: [PlayGroup!]
+
+  """The state of the board, can be 'draft' or 'released'."""
   state: String
+
+  """A base64 encoded thumbnail image of the board."""
   thumbnail: String
+
+  """The type of the board, can be 'main', 'sub', or 'popup'."""
+  type: String
+
+  """The timestamp when the board was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the board."""
   updater: User
+
+  """The version of the board model."""
   version: Float
 }
 
+"""A paginated list of favorite boards."""
 type BoardFavoriteList {
+  """The list of favorite board items."""
   items: [BoardFavorite!]!
+
+  """The total number of favorite boards."""
   total: Int!
 }
 
-"""History Entity of Board"""
+"""Stores historical versions of board entities."""
 type BoardHistory {
+  """
+  The action that created this history record (e.g., created, updated, deleted).
+  """
+  action: String!
+
+  """The creation timestamp of the original board."""
   createdAt: DateTimeISO
+
+  """The user who created the original board."""
   creator: User
+
+  """The deletion timestamp of the board, if applicable."""
   deletedAt: DateTimeISO
+
+  """The description of the board at this point in history."""
   description: String
+
+  """The domain this board belonged to."""
   domain: Domain
+
+  """The group the board belonged to at this point in history."""
   group: Group
+
+  """Unique identifier for the board history record."""
   id: ID!
+
+  """The JSON model of the board at this point in history."""
   model: String
+
+  """The name of the board at this point in history."""
   name: String!
+
+  """The ID of the original board entity this history record belongs to."""
+  originalId: String!
+
+  """The play groups the board was part of at this point in history."""
   playGroups: [PlayGroup!]
+
+  """
+  The base64 encoded thumbnail image of the board at this point in history.
+  """
   thumbnail: String
+
+  """
+  The type of the board at this point in history, can be 'main', 'sub', or 'popup'.
+  """
+  type: String
+
+  """The last update timestamp of the board at this point in history."""
   updatedAt: DateTimeISO
+
+  """The user who made the changes recorded in this history entry."""
   updater: User
+
+  """The version number of this board history record."""
   version: Float
 }
 
+"""A paginated list of boards."""
 type BoardList {
+  """The list of board items."""
   items: [Board!]!
+
+  """The total number of boards."""
   total: Int!
 }
 
+"""Input for updating (patching) an existing board."""
 input BoardPatch {
+  """The new description for the board."""
   description: String
+
+  """The new group ID for the board."""
   groupId: String
+
+  """The new JSON model for the board."""
   model: String
+
+  """The new name for the board."""
   name: String
+
+  """The new base64 encoded thumbnail image for the board."""
   thumbnail: String
+
+  """The new type for the board, can be 'main', 'sub', or 'popup'."""
+  type: String
 }
 
-"""Entity for BoardTemplate"""
+"""A reusable template for creating new boards."""
 type BoardTemplate {
+  """The timestamp when the template was created."""
   createdAt: DateTimeISO
+
+  """The user who created the template."""
   creator: User
+
+  """A detailed description of the board template."""
   description: String
+
+  """The domain to which this template belongs."""
   domain: Domain!
+
+  """Unique identifier for the board template."""
   id: ID!
   mine: Boolean!
+
+  """The JSON model that defines the layout and components of the template."""
   model: String
+
+  """The name of the board template."""
   name: String
-  tags: Object
+
+  """A list of tags for categorizing the template."""
+  tags: [String!]
+
+  """A base64 encoded thumbnail image of the template."""
   thumbnail: String
+
+  """The timestamp when the template was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the template."""
   updater: User
+
+  """The visibility of the template: 'private', 'public', or 'domain'."""
   visibility: String
 }
 
+"""A paginated list of board templates."""
 type BoardTemplateList {
+  """The list of board template items."""
   items: [BoardTemplate!]!
+
+  """The total number of board templates."""
   total: Int!
 }
 
+"""Input for updating (patching) an existing board template."""
 input BoardTemplatePatch {
+  """
+  A flag indicating whether the template is being created, updated, or deleted.
+  """
   cuFlag: String
+
+  """The new description for the board template."""
   description: String
+
+  """The unique identifier of the board template to update."""
   id: ID
+
+  """The new JSON model for the board template."""
   model: String
+
+  """The new name for the board template."""
   name: String
+
+  """The new base64 encoded thumbnail image for the board template."""
   thumbnail: String
+
+  """The new visibility for the board template: 'private' or 'public'."""
   visibility: String
 }
 
@@ -515,61 +984,147 @@ input CommonCodePatch {
   name: String
 }
 
+"""Represents a configured connection to an external system or service."""
 type Connection {
+  """
+  Indicates whether the connection is currently active and should be maintained.
+  """
   active: Boolean
+
+  """The timestamp when the connection was created."""
   createdAt: DateTimeISO
+
+  """The user who created the connection."""
   creator: User
+
+  """A detailed description of the connection."""
   description: String
+
+  """The domain to which this connection belongs."""
   domain: Domain
+
+  """The edge appliance that delegates this connection, if any."""
   edge: Appliance
+
+  """The endpoint URL or address for the connection."""
   endpoint: String
+
+  """Unique identifier for the connection."""
   id: ID!
+
+  """The name of the connection."""
   name: String!
+
+  """A key-value map of parameters for the connection."""
   params: Object
+
+  """The current status of the connection (e.g., CONNECTED, DISCONNECTED)."""
   state: String
+
+  """The type of the connection (e.g., tcp, http, mqtt)."""
   type: String
+
+  """The timestamp when the connection was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the connection."""
   updater: User
 }
 
+"""A paginated list of connections."""
 type ConnectionList {
+  """The list of connection items."""
   items: [Connection!]!
+
+  """The total number of connections."""
   total: Int!
 }
 
+"""Input for updating (patching) an existing connection."""
 input ConnectionPatch {
+  """The new active status for the connection."""
   active: Boolean
+
+  """
+  A flag indicating whether the connection is being created, updated, or deleted.
+  """
   cuFlag: String
+
+  """The new description for the connection."""
   description: String
+
+  """The new edge appliance for the connection."""
   edge: ObjectRef
+
+  """The new endpoint for the connection."""
   endpoint: String
+
+  """The unique identifier of the connection to update."""
   id: ID
+
+  """The new name for the connection."""
   name: String
+
+  """The new parameters for the connection."""
   params: Object
+
+  """The new type for the connection."""
   type: String
 }
 
+"""Represents the state of a connection at a point in time."""
 type ConnectionState {
+  """The description of the connection."""
   description: String
+
+  """The domain of the connection."""
   domain: Domain!
+
+  """The edge appliance associated with the connection."""
   edge: Appliance
+
+  """The unique identifier of the connection."""
   id: String
+
+  """The name of the connection."""
   name: String
+
+  """The current status of the connection."""
   state: String
+
+  """The timestamp when this state was recorded."""
   timestamp: DateTimeISO
+
+  """The type of the connection."""
   type: String
 }
 
+"""A paginated list of connector types."""
 type ConnectorList {
+  """The list of connector type items."""
   items: [ConnectorType!]!
+
+  """The total number of connector types."""
   total: Int!
 }
 
+"""
+Describes a type of connector, which handles communication for a specific protocol.
+"""
 type ConnectorType {
+  """A brief description of the connector."""
   description: String
+
+  """A URL or text providing more detailed help information."""
   help: String
+
+  """The unique name of the connector type."""
   name: String!
+
+  """A list of parameters required to configure this connector type."""
   parameterSpec: [PropertySpec!]
+
+  """A list of task prefixes that this connector can handle."""
   taskPrefixes: [String!]
 }
 
@@ -624,18 +1179,25 @@ input ContactPatch {
   profile: ProfileInput
 }
 
+"""
+Represents a data payload delivered via subscription, including its domain, tag, and content.
+"""
 type Data {
-  """Data delivered by subscription"""
+  """The actual data content delivered by the subscription."""
   data: Object
 
-  """The domain where the data originated"""
+  """The domain where the data originated."""
   domain: Domain
 
-  """Tag name attached to data"""
+  """
+  The tag name attached to the data, used for filtering and identification.
+  """
   tag: String!
 }
 
-"""Date custom scalar type"""
+"""
+A custom scalar type for representing date values. Accepts and serializes dates as either timestamps (milliseconds since epoch) or ISO date strings. Use this type for fields or arguments that require date-only values without time components.
+"""
 scalar Date
 
 """
@@ -646,7 +1208,19 @@ scalar DateTimeISO
 """Entity for Department"""
 type Department {
   active: Boolean
-  children(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): [Department!]!
+  children(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): [Department!]!
   controlNo: String!
   createdAt: DateTimeISO
   creator: User
@@ -682,62 +1256,149 @@ input DepartmentPatch {
   picture: Upload
 }
 
+"""
+Represents a domain entity, which is a logical grouping of users, roles, and resources within the system.
+"""
 type Domain {
+  """Additional attributes associated with the domain."""
   attributes: Object
+
+  """The brand image URL associated with the domain, if any."""
   brandImage: String
+
+  """The brand name associated with the domain, if any."""
   brandName: String
+
+  """The child domains, if any, under this domain."""
   children: Domain
+
+  """The content image URL associated with the domain, if any."""
   contentImage: String
+
+  """The date and time when the domain was created."""
   createdAt: DateTimeISO
+
+  """The date and time when the domain was deleted, if applicable."""
   deletedAt: DateTimeISO
+
+  """A description of the domain."""
   description: String
+
+  """The external type of the domain, if applicable."""
   extType: String
+
+  """The unique identifier of the domain."""
   id: ID!
+
+  """A list of IPs and their associated access levels for the domain."""
   iplist: Object
+
+  """The name of the domain."""
   name: String!
+
+  """The owner of the domain, if applicable."""
   owner: String
   ownerUser: User
+
+  """The parent domain, if this domain is a subdomain."""
   parent: Domain
+
+  """The subdomain of the domain, if applicable."""
   subdomain: String
+
+  """
+  A flag indicating if the domain is a system domain. Deprecated, use `parent` instead.
+  """
   systemFlag: Boolean
+
+  """The theme associated with the domain, if any."""
   theme: String
+
+  """The timezone of the domain, if applicable."""
   timezone: String
+
+  """The date and time when the domain was last updated."""
   updatedAt: DateTimeISO
 }
 
+"""Input for generating a new domain."""
 input DomainGeneratorInput {
+  """A description for the new domain."""
   description: String
+
+  """The name of the new domain."""
   name: String!
 }
 
+"""
+Input type for creating a new domain entity, including name, description, and extended entity type.
+"""
 input DomainInput {
+  """A description of the domain."""
   description: String
+
+  """
+  The 'extType' field stands for 'extended entity type' and specifies the business or organizational category this domain represents, such as company, department, factory, or project.
+  """
   extType: String
+
+  """The name of the domain."""
   name: String!
 }
 
-"""Entity for DomainLink representing a connection between two domains"""
+"""Represents a typed relationship between two domains."""
 type DomainLink {
+  """The timestamp when the domain link was created."""
   createdAt: DateTimeISO!
+
+  """The user who created the domain link."""
   creator: User
+
+  """Unique identifier for the domain link."""
   id: ID!
+
+  """The source domain in the relationship."""
   sourceDomain: Domain!
+
+  """The target domain in the relationship."""
   targetDomain: Domain!
+
+  """The type of the relationship (e.g., has, maintains, owns)."""
   type: String!
+
+  """The timestamp when the domain link was last updated."""
   updatedAt: DateTimeISO!
+
+  """The user who last updated the domain link."""
   updater: User
 }
 
+"""A paginated list of domain links."""
 type DomainLinkList {
+  """The list of domain link items."""
   items: [DomainLink!]!
+
+  """The total number of domain links."""
   total: Int!
 }
 
+"""Input for updating (patching) an existing domain link."""
 input DomainLinkPatch {
+  """
+  A flag indicating whether the link is being created, updated, or deleted.
+  """
   cuFlag: String
+
+  """The unique identifier of the domain link to update."""
   id: ID!
+
+  """The new source domain for the relationship."""
   sourceDomain: ObjectRef
+
+  """The new target domain for the relationship."""
   targetDomain: ObjectRef
+
+  """The new type for the relationship."""
   type: String
 }
 
@@ -746,26 +1407,64 @@ type DomainList {
   total: Int
 }
 
+"""Input type for updating an existing domain entity."""
 input DomainPatch {
+  """Additional attributes for the domain in key-value pairs."""
   attributes: Object
+
+  """The brand image URL for the domain."""
   brandImage: String
+
+  """The brand name associated with the domain."""
   brandName: String
+
+  """The content image URL for the domain."""
   contentImage: String
+
+  """A description of the domain."""
   description: String
+
+  """
+  The 'extType' field stands for 'extended entity type' and specifies the business or organizational category this domain represents, such as company, department, factory, or project.
+  """
   extType: String
+
+  """The unique identifier of the domain."""
   id: String
+
+  """The name of the domain."""
   name: String
+
+  """The unique identifier of the domain owner."""
   owner: String
+
+  """A reference to the parent domain, if any."""
   parent: ObjectRef
+
+  """The subdomain associated with the domain."""
   subdomain: String
+
+  """A flag indicating if the domain is a system domain."""
   systemFlag: Boolean
+
+  """The theme associated with the domain."""
   theme: String
+
+  """The timezone setting for the domain."""
   timezone: String
 }
 
+"""
+Input for the domain creation wizard, including domain, users, and roles.
+"""
 input DomainUserRoleInput {
+  """The details of the new domain to be created."""
   domain: DomainInput!
+
+  """A list of new roles to be created within the domain."""
   roles: [NewRole!]!
+
+  """A list of new users to be created within the domain."""
   users: [NewUserByDomainWizardInput!]!
 }
 
@@ -1047,10 +1746,18 @@ type FavoriteList {
   total: Int!
 }
 
+"""Input type for specifying a filter condition in a list query."""
 input Filter {
+  """The field name to apply the filter on."""
   name: String!
+
+  """The operator to use for filtering (e.g., eq, ne, gt, lt, in, etc.)."""
   operator: String!
+
+  """Set to true if the filter applies to a relation field."""
   relation: Boolean
+
+  """The value to compare the field against."""
   value: Any
 }
 
@@ -1084,32 +1791,63 @@ input FontPatch {
   uri: String
 }
 
+"""Represents a role that is granted to a specific domain."""
 type GrantedRole {
+  """The domain to which the role is granted."""
   domain: Domain!
+
+  """Unique identifier for the granted role."""
   id: ID!
+
+  """The role being granted."""
   role: Role!
 }
 
-"""Entity for Board Management Group"""
+"""A group used to organize and manage boards."""
 type Group {
+  """The list of boards belonging to this group."""
   boards: [Board!]
+
+  """The timestamp when the group was created."""
   createdAt: DateTimeISO
+
+  """The user who created the group."""
   creator: User
+
+  """A detailed description of the group."""
   description: String
+
+  """The domain to which this group belongs."""
   domain: Domain
+
+  """Unique identifier for the group."""
   id: ID!
+
+  """The name of the group."""
   name: String!
+
+  """The timestamp when the group was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the group."""
   updater: User
 }
 
+"""A paginated list of board groups."""
 type GroupList {
+  """The list of group items."""
   items: [Group!]!
+
+  """The total number of groups."""
   total: Int!
 }
 
+"""Input for updating (patching) an existing board group."""
 input GroupPatch {
+  """The new description for the group."""
   description: String
+
+  """The new name for the group."""
   name: String
 }
 
@@ -1123,26 +1861,55 @@ type ImageCompletionOutput {
   images: String
 }
 
+"""
+Enumeration for inherited value types: None, Only, or Include. Used to specify how values are inherited in queries or filters.
+"""
 enum InheritedValueType {
   Include
   None
   Only
 }
 
+"""
+Represents an invitation for a user to join a system or a specific resource.
+"""
 type Invitation {
+  """The timestamp when the invitation was created."""
   createdAt: DateTimeISO
+
+  """The user who created the invitation."""
   creator: User
+
+  """The email address to which the invitation is sent."""
   email: EmailAddress!
+
+  """Unique identifier for the invitation."""
   id: ID!
+
+  """
+  A reference to the resource the user is invited to (e.g., company ID, bizplace ID).
+  """
   reference: String!
+
+  """The unique token used to accept the invitation."""
   token: String!
+
+  """The type of resource the invitation is for (e.g., company, bizplace)."""
   type: String!
+
+  """The timestamp when the invitation was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the invitation."""
   updater: User
 }
 
+"""A paginated list of invitations."""
 type InvitationList {
+  """The list of invitation items."""
   items: [Invitation!]
+
+  """The total number of invitations."""
   total: Int
 }
 
@@ -1151,30 +1918,47 @@ A field whose value is a JSON Web Token (JWT): https://jwt.io/introduction.
 """
 scalar JWT
 
+"""
+Represents a log entry, including its source, level, message, and timestamp.
+"""
 type Log {
-  """log level (error, warning, info, ..)"""
+  """The severity level of the log entry (e.g., error, warning, info)."""
   level: String!
 
-  """log body message"""
+  """The main message or content of the log entry."""
   message: String!
 
-  """the source of the log"""
+  """The source object or context from which the log originated."""
   source: Object!
 
-  """timestamp the log occurred"""
+  """The timestamp indicating when the log entry was created."""
   timestamp: String!
 }
 
+"""Records user login attempts."""
 type LoginHistory {
+  """The domain the user logged into."""
   accessDomain: Domain!
+
+  """The user who logged in."""
   accessUser: User!
+
+  """The timestamp of the login attempt."""
   accessedAt: DateTimeISO
+
+  """The IP address from which the login attempt was made."""
   accessorIp: String
+
+  """Unique identifier for the login history record."""
   id: ID!
 }
 
+"""A paginated list of login history records."""
 type LoginHistoryList {
+  """The list of login history items."""
   items: [LoginHistory!]!
+
+  """The total number of login history records."""
   total: Int!
 }
 
@@ -1536,8 +2320,13 @@ input MenuPatch {
 }
 
 type Mutation {
-  """To activate user"""
-  activateUser(username: String!): Boolean!
+  """
+  Activates a user account in the current domain. Use this mutation to enable a user who was previously inactive.
+  """
+  activateUser(
+    """The username or email of the user to activate."""
+    username: String!
+  ): Boolean!
 
   """
   Attaches an existing contact to an employee. The contact is identified by its ID and the employee is identified by their ID.
@@ -1548,13 +2337,17 @@ type Mutation {
   """To clear translations cache"""
   clearTranslationsCache: Boolean!
 
-  """To clone a Board from existing Board"""
+  """
+  Clones a board from an existing one, potentially into a different domain.
+  """
   cloneBoard(id: String!, patch: BoardPatch!, targetGroupId: String, targetSubdomain: String!): Board!
 
-  """To connect a connection"""
+  """Establishes a live connection to a configured endpoint."""
   connectConnection(name: String!): Connection!
 
-  """To import multiple scenarios"""
+  """
+  Copies multiple existing scenarios within the same domain, creating new scenarios with new IDs.
+  """
   copyScenarios(ids: [String!]!): [Scenario!]!
 
   """To create new appliance"""
@@ -1568,13 +2361,18 @@ type Mutation {
   createAttachment(attachment: NewAttachment!): Attachment!
   createAttachments(attachments: [NewAttachment!]!): [Attachment!]!
 
-  """To create new AttributeSet"""
-  createAttributeSet(attribute: NewAttributeSet!): AttributeSet!
+  """
+  Creates a new AttributeSet entity. Use this mutation to define a new set of attributes for a specific entity type.
+  """
+  createAttributeSet(
+    """The input object containing the new AttributeSet details."""
+    attribute: NewAttributeSet!
+  ): AttributeSet!
 
   """To create new AuthProvider"""
   createAuthProvider(authProvider: NewAuthProvider!): AuthProvider!
 
-  """To create new Board"""
+  """Creates a new board."""
   createBoard(board: NewBoard!): Board!
 
   """To create new BoardTemplate"""
@@ -1586,7 +2384,7 @@ type Mutation {
   """To create new CommonCodeDetail"""
   createCommonCodeDetail(commonCodeDetail: NewCommonCodeDetail!): CommonCodeDetail!
 
-  """To create new connection"""
+  """Creates a new connection."""
   createConnection(connection: NewConnection!): Connection!
 
   """To create new Contact"""
@@ -1595,8 +2393,13 @@ type Mutation {
   """To create new Department"""
   createDepartment(department: NewDepartment!): Department!
 
-  """To create domain (Only superuser is granted this privilege.)"""
-  createDomain(domainInput: DomainPatch!): Domain!
+  """
+  Creates a new domain entity. Only superusers are granted this privilege. Use this mutation to register a new domain with a unique subdomain.
+  """
+  createDomain(
+    """The input object containing the new domain details."""
+    domainInput: DomainPatch!
+  ): Domain!
 
   """To create new DomainLink"""
   createDomainLink(domainLink: NewDomainLink!): DomainLink!
@@ -1618,7 +2421,7 @@ type Mutation {
   """To create new Font"""
   createFont(font: NewFont!): Font!
 
-  """To create new Group"""
+  """Creates a new board group."""
   createGroup(group: NewGroup!): Group
 
   """To create new Menu"""
@@ -1660,10 +2463,10 @@ type Mutation {
   """To create new PDFTemplate"""
   createPDFTemplate(pdfTemplate: NewPDFTemplate!): PDFTemplate!
 
-  """To create new PayloadLog"""
+  """Creates a new payload log."""
   createPayloadLog(payloadLog: NewPayloadLog!): PayloadLog!
 
-  """To create new PlayGroup"""
+  """Creates a new play group."""
   createPlayGroup(playGroup: NewPlayGroup!): PlayGroup!
 
   """To create new PrinterDevice"""
@@ -1675,23 +2478,28 @@ type Mutation {
   """To create new user"""
   createRole(role: NewRole!): User!
 
-  """To create new scenario"""
+  """Creates a new scenario."""
   createScenario(scenario: NewScenario!): Scenario!
 
   """To create new Setting"""
   createSetting(setting: NewSetting!): Setting!
 
-  """To create new StateRegister"""
+  """Creates a new state register."""
   createStateRegister(stateRegister: NewStateRegister!): StateRegister!
 
   """To create new Terminology"""
   createTerminology(terminology: NewTerminology!): Terminology!
 
-  """To create new Theme"""
+  """Creates a new theme."""
   createTheme(theme: NewTheme!): Theme!
 
-  """To create new user"""
-  createUser(user: NewUser!): User!
+  """
+  Creates a new user in the system. Use this mutation to register a user with the specified credentials and domain information.
+  """
+  createUser(
+    """The input object containing new user information."""
+    user: NewUser!
+  ): User!
 
   """To create new UserPreference"""
   createUserPreference(preference: NewUserPreference!): UserPreference!
@@ -1711,17 +2519,27 @@ type Mutation {
   deleteAttachment(id: String!): Boolean!
   deleteAttachmentsByRef(refBys: [String!]!, refType: String): Boolean!
 
-  """To delete AttributeSet"""
-  deleteAttributeSet(id: String!): Boolean!
+  """
+  Deletes an AttributeSet entity by its unique identifier. Use this mutation to permanently remove an attribute set.
+  """
+  deleteAttributeSet(
+    """The unique identifier of the AttributeSet to delete."""
+    id: String!
+  ): Boolean!
 
-  """To delete multiple AttributeSets"""
-  deleteAttributeSets(ids: [String!]!): Boolean!
+  """
+  Deletes multiple AttributeSet entities by their unique identifiers. Use this mutation to remove several attribute sets at once.
+  """
+  deleteAttributeSets(
+    """An array of unique identifiers for the AttributeSets to delete."""
+    ids: [String!]!
+  ): Boolean!
 
   """To delete AuthProvider"""
   deleteAuthProvider(id: String!): Boolean!
   deleteAuthProviders(ids: [String!]!): Boolean!
 
-  """To delete Board"""
+  """Deletes a board."""
   deleteBoard(id: String!): Boolean!
 
   """To delete BoardTemplate"""
@@ -1739,10 +2557,10 @@ type Mutation {
   """To delete multiple CommonCodes"""
   deleteCommonCodes(ids: [String!]!): Boolean!
 
-  """To delete connection"""
+  """Deletes a single connection by its name."""
   deleteConnection(name: String!): Boolean!
 
-  """To delete multiple connections"""
+  """Deletes multiple connections by their names."""
   deleteConnections(names: [String!]!): Boolean!
 
   """To delete Contact"""
@@ -1757,8 +2575,13 @@ type Mutation {
   """To delete multiple Departments"""
   deleteDepartments(ids: [String!]!): Boolean!
 
-  """To delete domain (Only superuser is granted this privilege.)"""
-  deleteDomain(name: String!): Domain!
+  """
+  Deletes a domain entity by its name. Only superusers are granted this privilege. Use this mutation to permanently remove a domain.
+  """
+  deleteDomain(
+    """The name of the domain to delete."""
+    name: String!
+  ): Domain!
 
   """To delete DomainLink"""
   deleteDomainLink(id: String!): Boolean!
@@ -1766,11 +2589,21 @@ type Mutation {
   """To delete multiple DomainLinks"""
   deleteDomainLinks(ids: [String!]!): Boolean!
 
-  """To delete domain user"""
-  deleteDomainUser(username: String!): Boolean!
+  """
+  Removes a user from the current domain. Use this mutation to revoke a user's access to a specific domain without deleting their account.
+  """
+  deleteDomainUser(
+    """The username or email of the user to remove from the domain."""
+    username: String!
+  ): Boolean!
 
-  """To delete multiple domains (Only superuser is granted this privilege.)"""
-  deleteDomains(names: [String!]!): Boolean!
+  """
+  Deletes multiple domain entities by their names. Only superusers are granted this privilege. Use this mutation to remove several domains at once.
+  """
+  deleteDomains(
+    """An array of domain names to delete."""
+    names: [String!]!
+  ): Boolean!
 
   """
   Deletes an employee record identified by the given ID. Also deletes any attachments associated with the employee.
@@ -1800,7 +2633,7 @@ type Mutation {
   """To delete Font"""
   deleteFont(id: String!): Boolean!
 
-  """To delete Group"""
+  """Deletes a board group."""
   deleteGroup(id: String!): Boolean!
 
   """To delete Menu"""
@@ -1890,13 +2723,13 @@ type Mutation {
   """To delete multiple partnerSettings"""
   deletePartnerSettings(ids: [String!]!): Boolean!
 
-  """To delete PayloadLog"""
+  """Deletes a single payload log by its ID."""
   deletePayloadLog(id: String!): Boolean!
 
-  """To delete multiple payloadLogs"""
+  """Deletes multiple payload logs by their IDs."""
   deletePayloadLogs(ids: [String!]!): Boolean!
 
-  """To delete PlayGroup"""
+  """Deletes a play group."""
   deletePlayGroup(id: String!): Boolean!
 
   """To delete PrinterDevice"""
@@ -1914,10 +2747,10 @@ type Mutation {
   """To delete multiple roles"""
   deleteRoles(ids: [String!]!): Boolean!
 
-  """To delete scenario"""
+  """Deletes a single scenario by its name."""
   deleteScenario(name: String!): Boolean!
 
-  """To delete multiple scenarios"""
+  """Deletes multiple scenarios by their IDs."""
   deleteScenarios(ids: [String!]!): Boolean!
 
   """To delete Setting"""
@@ -1926,13 +2759,13 @@ type Mutation {
   """To delete multiple settings"""
   deleteSettings(names: [String!]!): Boolean!
 
-  """To delete StateRegister"""
+  """Deletes a single state register by its ID."""
   deleteStateRegister(id: String!): Boolean!
 
-  """To delete multiple StateRegisters"""
+  """Deletes multiple state registers by their IDs."""
   deleteStateRegisters(ids: [String!]!): Boolean!
 
-  """To delete multiple steps"""
+  """Deletes multiple scenario steps by their IDs."""
   deleteSteps(ids: [String!]!): Boolean!
 
   """To delete multiple Terminologies"""
@@ -1941,14 +2774,19 @@ type Mutation {
   """To delete Terminology"""
   deleteTerminology(id: String!): Boolean!
 
-  """To delete Theme"""
+  """Deletes a single theme by its ID."""
   deleteTheme(id: String!): Boolean!
 
-  """To delete multiple Themes"""
+  """Deletes multiple themes by their IDs."""
   deleteThemes(ids: [String!]!): Boolean!
 
-  """To delete a user"""
-  deleteUser(username: String!): Boolean!
+  """
+  Deletes a user from the system by their username. Use this mutation to permanently remove a user account and revoke their access.
+  """
+  deleteUser(
+    """The username of the user to delete."""
+    username: String!
+  ): Boolean!
 
   """To delete UserPreference"""
   deleteUserPreference(id: String!): Boolean!
@@ -1956,15 +2794,20 @@ type Mutation {
   """To delete multiple UserPreferences"""
   deleteUserPreferences(ids: [String!]!): Boolean!
 
-  """To delete some users"""
-  deleteUsers(usernames: [String!]!): Boolean!
+  """
+  Deletes multiple users from the system by their usernames. Use this mutation to remove several user accounts at once.
+  """
+  deleteUsers(
+    """An array of usernames to delete."""
+    usernames: [String!]!
+  ): Boolean!
 
   """
   Detaches an existing contact from an employee. The employee is identified by their ID.
   """
   detachContact(id: String!): Employee!
 
-  """To disconnect a connection"""
+  """Terminates a live connection."""
   disconnectConnection(name: String!): Connection!
   domainRegister(domainInput: DomainGeneratorInput!): Domain!
   domainUserRoleRegister(newDomainInfo: DomainUserRoleInput!): Domain!
@@ -1982,10 +2825,15 @@ type Mutation {
   """To import some Attachments"""
   importAttachments(file: Upload!): [Attachment!]!
 
-  """To import multiple AttributeSets"""
-  importAttributeSets(attributes: [AttributeSetPatch!]!): Boolean!
+  """
+  Imports multiple AttributeSet entities into the system. Use this mutation to bulk import attribute sets from external sources.
+  """
+  importAttributeSets(
+    """An array of AttributeSetPatch objects to import."""
+    attributes: [AttributeSetPatch!]!
+  ): Boolean!
 
-  """To import some Boards"""
+  """Imports multiple boards from JSON files."""
   importBoards(files: [Upload!]!, groupId: String!, overwrite: Boolean!): [Board!]!
 
   """To import multiple CommonCodeDetails"""
@@ -1994,7 +2842,9 @@ type Mutation {
   """To import multiple CommonCodes"""
   importCommonCodes(commonCodes: [CommonCodePatch!]!): Boolean!
 
-  """To import multiple connections"""
+  """
+  Imports multiple connections. Can overwrite existing connections if IDs or names match.
+  """
   importConnections(connections: [ConnectionPatch!]!): Boolean!
 
   """To import multiple Contacts"""
@@ -2038,32 +2888,44 @@ type Mutation {
   """To import multiple PDFTemplates"""
   importPDFTemplates(pdfTemplates: [PDFTemplatePatch!]!): Boolean!
 
-  """To import multiple scenarios"""
+  """
+  Imports multiple scenarios, including their steps. This can overwrite existing scenarios if IDs match.
+  """
   importScenarios(scenarios: [ScenarioPatch!]!): Boolean!
 
-  """To import multiple StateRegisters"""
+  """Imports multiple state registers from a provided list."""
   importStateRegisters(stateRegisters: [StateRegisterPatch!]!): Boolean!
 
   """To import multiple Terminologies"""
   importTerminologies(terminologies: [TerminologyPatch!]!): Boolean!
 
-  """To import multiple Themes"""
+  """Imports multiple themes."""
   importThemes(themes: [ThemePatch!]!): Boolean!
 
-  """To inactivate user"""
-  inactivateUser(username: String!): Boolean!
+  """
+  Inactivates a user account in the current domain. Use this mutation to disable a user, making them unable to log in.
+  """
+  inactivateUser(
+    """The username or email of the user to inactivate."""
+    username: String!
+  ): Boolean!
   inviteCustomer(customerDomainName: String!): Boolean!
 
-  """To invite new user"""
-  inviteUser(username: String!): Boolean!
+  """
+  Invites an existing user to join the current domain. Use this mutation to add a user to a domain if they already exist in the system.
+  """
+  inviteUser(
+    """The username or email of the user to invite."""
+    username: String!
+  ): Boolean!
 
-  """To make the board to join the group"""
+  """Assigns one or more boards to a group."""
   joinGroup(boardIds: [String!]!, id: String!): Group!
 
-  """To make the board to join the play group"""
+  """Adds one or more boards to a play group."""
   joinPlayGroup(boardIds: [String!]!, id: String!): PlayGroup!
 
-  """To make the board to leave from the play group"""
+  """Removes one or more boards from a play group."""
   leavePlayGroup(boardIds: [String!]!, id: String!): PlayGroup!
   multipleUpload(files: [Upload!]!): [Attachment!]!
 
@@ -2094,37 +2956,42 @@ type Mutation {
   ): Boolean!
   registerSchedule(schedule: NewSchedule!): ID!
 
-  """To release a Board"""
+  """Releases a board, making it public and creating a version history."""
   releaseBoard(id: String!): Board!
   renewApplicationAccessToken(id: String!, scope: String!): AccessToken!
 
-  """To modify board order of a PlayGroup"""
+  """Sets the custom playback order for boards in a play group."""
   reorderPlayGroup(boardIds: [String!]!, id: String!): PlayGroup!
 
-  """To reset password to default"""
-  resetPasswordToDefault(username: String!): Boolean!
+  """
+  Resets a user's password to the default value. Use this mutation to restore access to a user who has forgotten their password.
+  """
+  resetPasswordToDefault(
+    """The username or email of the user whose password to reset."""
+    username: String!
+  ): Boolean!
 
-  """To revert Board version"""
+  """Reverts a board to a specific historical version."""
   revertBoardVersion(id: String!, version: Float!): Board!
 
   """
-  To run new scenario instance and will return the result after the scenario stop.
+  Runs a new scenario instance once and returns the result after it finishes.
   """
   runScenario(instanceName: String, scenarioName: String!, variables: Object): ScenarioInstanceRunResult!
   sendInvitation(email: EmailAddress!, reference: String!, type: String!): Invitation!
   singleUpload(file: Upload!): Attachment!
 
-  """To start new scenario instance"""
+  """Starts a new scenario instance, which will run in the background."""
   startScenario(instanceName: String, scenarioName: String!, variables: Object): ScenarioInstance!
 
-  """To start posting scenario based on the schedule of the given scenario"""
+  """Starts the schedule for a specific scenario, if one is defined."""
   startScenarioSchedule(scenarioId: String!): Scenario!
 
-  """To start new scenario instance"""
+  """Stops a running scenario instance by its name."""
   stopScenario(instanceName: String): ScenarioInstance
 
-  """To stop posting scenario based on the schedule of the given scenario"""
-  stopScenarioSchedule(scenarioId: String!): Scenario
+  """Stops the schedule for a specific scenario."""
+  stopScenarioSchedule(scenarioId: String!): Scenario!
 
   """To subscribe azure active directory users"""
   subscribeAzureADUsers: Boolean!
@@ -2141,8 +3008,13 @@ type Mutation {
   synchronizePrivilegeMaster(privilege: NewPrivilege!): Boolean!
   terminateContract(partnerName: String!): Boolean!
 
-  """To transfer owner of domain"""
-  transferOwner(username: String!): Boolean!
+  """
+  Transfers domain ownership to another user. Use this mutation to assign the owner role to a different user within the domain.
+  """
+  transferOwner(
+    """The username or email of the user to transfer ownership to."""
+    username: String!
+  ): Boolean!
   unregisterSchedule(handle: ID!): Boolean!
   updateAppliance(id: String!, patch: AppliancePatch!): Appliance!
   updateApplication(id: String!, patch: ApplicationPatch!): Application!
@@ -2151,13 +3023,23 @@ type Mutation {
   updateApprovalLine(id: String!, patch: ApprovalLinePatch!): ApprovalLine!
   updateAttachment(id: String!, patch: AttachmentPatch!): Attachment!
 
-  """To modify AttributeSet information"""
-  updateAttributeSet(id: String!, patch: AttributeSetPatch!): AttributeSet!
+  """
+  Updates an existing AttributeSet entity. Use this mutation to modify the properties or items of an AttributeSet.
+  """
+  updateAttributeSet(
+    """The unique identifier of the AttributeSet to update."""
+    id: String!
+
+    """The patch object containing updated fields for the AttributeSet."""
+    patch: AttributeSetPatch!
+  ): AttributeSet!
 
   """To modify AuthProvider information"""
   updateAuthProvider(id: String!, patch: AuthProviderPatch!): AuthProvider!
 
-  """To modify Board information"""
+  """
+  Updates a board. If a model is provided, it also generates a new thumbnail.
+  """
   updateBoard(id: String!, patch: BoardPatch!): Board!
 
   """To modify BoardTemplate information"""
@@ -2169,7 +3051,7 @@ type Mutation {
   """To modify CommonCodeDetail information"""
   updateCommonCodeDetail(id: String!, patch: CommonCodeDetailPatch!): CommonCodeDetail!
 
-  """To modify connection information"""
+  """Updates an existing connection."""
   updateConnection(name: String!, patch: ConnectionPatch!): Connection!
 
   """To modify Contact information"""
@@ -2201,7 +3083,7 @@ type Mutation {
   """To modify Font information"""
   updateFont(id: String!, patch: FontPatch!): Font!
 
-  """To modify Group information"""
+  """Updates an existing board group."""
   updateGroup(id: String!, patch: GroupPatch!): Group!
 
   """To modify Menu information"""
@@ -2225,8 +3107,13 @@ type Mutation {
   """To modify multiple ApprovalLines' information"""
   updateMultipleApprovalLine(patches: [ApprovalLinePatch!]!): [ApprovalLine!]!
 
-  """To modify multiple AttributeSets' information"""
-  updateMultipleAttributeSet(patches: [AttributeSetPatch!]!): [AttributeSet!]!
+  """
+  Updates or creates multiple AttributeSet entities in a single operation. Use this mutation for batch processing of attribute sets.
+  """
+  updateMultipleAttributeSet(
+    """An array of patch objects for batch update or creation."""
+    patches: [AttributeSetPatch!]!
+  ): [AttributeSet!]!
   updateMultipleAuthProvider(patches: [AuthProviderPatch!]!): [AuthProvider!]!
 
   """To modify multiple CommonCodes' information"""
@@ -2235,7 +3122,7 @@ type Mutation {
   """To modify multiple CommonCodeDetails' information"""
   updateMultipleCommonCodeDetail(patches: [CommonCodeDetailPatch!]!): [CommonCodeDetail!]!
 
-  """To modify multiple connections' information"""
+  """Updates multiple connections at once."""
   updateMultipleConnection(patches: [ConnectionPatch!]!): [Connection!]!
 
   """To modify multiple Contacts' information"""
@@ -2279,32 +3166,43 @@ type Mutation {
   """To modify multiple PartnerSettings' information"""
   updateMultiplePartnerSetting(patches: [PartnerSettingPatch!]!): [PartnerSetting!]!
 
-  """To modify multiple PayloadLogs' information"""
+  """Updates multiple payload logs at once."""
   updateMultiplePayloadLog(patches: [PayloadLogPatch!]!): [PayloadLog!]!
 
   """To modify multiple PrinterDevices' information"""
   updateMultiplePrinterDevice(patches: [PrinterDevicePatch!]!): [PrinterDevice!]!
 
-  """To modify multiple scenarios' information"""
+  """
+  Updates multiple scenarios at once. Can be used to create or update records.
+  """
   updateMultipleScenario(patches: [ScenarioPatch!]!): [Scenario!]!
 
   """To modify multiple Settings' information"""
   updateMultipleSetting(patches: [SettingPatch!]!): [Setting!]!
 
-  """To modify multiple StateRegisters' information"""
+  """Updates multiple state registers at once."""
   updateMultipleStateRegister(patches: [StateRegisterPatch!]!): [StateRegister!]!
 
-  """To modify multiple steps' in a scenario"""
+  """
+  Updates multiple steps within a specific scenario. This operation replaces all existing steps for the scenario.
+  """
   updateMultipleStep(patches: [StepPatch!]!, scenarioId: String!): [Step!]!
 
   """To modify multiple Terminologies' information"""
   updateMultipleTerminologies(patches: [TerminologyPatch!]!): [Terminology!]!
 
-  """To modify multiple Themes' information"""
+  """
+  Updates multiple themes at once. Can create or update themes based on the cuFlag.
+  """
   updateMultipleTheme(patches: [ThemePatch!]!): [Theme!]!
 
-  """To modify multiple users information"""
-  updateMultipleUser(patches: [UserPatch!]!): [User!]!
+  """
+  Updates or creates multiple users in a single operation. Use this mutation for batch processing of user records.
+  """
+  updateMultipleUser(
+    """An array of patch objects for batch update or creation."""
+    patches: [UserPatch!]!
+  ): [User!]!
 
   """To modify ApprovalLine information for current user"""
   updateMyApprovalLine(id: String!, patch: ApprovalLinePatch!): ApprovalLine!
@@ -2330,10 +3228,10 @@ type Mutation {
   """To modify PDFTemplate information"""
   updatePDFTemplate(id: String!, patch: PDFTemplatePatch!): PDFTemplate!
 
-  """To modify PayloadLog information"""
+  """Updates an existing payload log."""
   updatePayloadLog(id: String!, patch: PayloadLogPatch!): PayloadLog!
 
-  """To modify PlayGroup information"""
+  """Updates an existing play group."""
   updatePlayGroup(id: String!, patch: PlayGroupPatch!): PlayGroup!
 
   """To modify PrinterDevice information"""
@@ -2351,7 +3249,7 @@ type Mutation {
   """To update role Menu"""
   updateRoleMenus(isCheckedAll: Boolean!, parentMenuId: String!, roleId: String!): [Menu!]!
 
-  """To modify scenario information"""
+  """Updates an existing scenario."""
   updateScenario(name: String!, patch: ScenarioPatch!): Scenario!
   updateSchedule(schedule: SchedulePatch!): ID!
 
@@ -2361,45 +3259,94 @@ type Mutation {
   """To modify Setting information"""
   updateSetting(name: String!, patch: SettingPatch!): Setting!
 
-  """To modify StateRegister information"""
+  """Updates an existing state register."""
   updateStateRegister(id: String!, patch: StateRegisterPatch!): StateRegister!
 
-  """To update state of StateRegister by name"""
+  """
+  Updates the state of a specific state register, identified by its name.
+  """
   updateStateRegisterByName(name: String!, state: Object!): StateRegister!
 
   """To modify Terminology information"""
   updateTerminology(id: String!, patch: TerminologyPatch!): Terminology!
 
-  """To modify Theme information"""
+  """Updates an existing theme."""
   updateTheme(id: String!, patch: ThemePatch!): Theme!
 
-  """To modify user information"""
-  updateUser(email: EmailAddress!, patch: UserPatch!): User!
+  """
+  Updates the information of an existing user. Use this mutation to modify user profile details, such as name, email, or roles.
+  """
+  updateUser(
+    """The email address of the user to update."""
+    email: EmailAddress!
+
+    """The patch object containing updated user fields."""
+    patch: UserPatch!
+  ): User!
 
   """To modify UserPreference information"""
   updateUserPreference(id: String!, patch: UserPreferencePatch!): UserPreference!
 
-  """To update roles for a user"""
-  updateUserRoles(availableRoles: [ObjectRef!]!, selectedRoles: [ObjectRef!]!, username: String!): User!
+  """
+  Updates the roles assigned to a user. Use this mutation to change a user's permissions within the domain.
+  """
+  updateUserRoles(
+    """The list of roles that can be assigned to the user."""
+    availableRoles: [ObjectRef!]!
+
+    """The list of roles to be assigned to the user."""
+    selectedRoles: [ObjectRef!]!
+
+    """The username or email of the user whose roles to update."""
+    username: String!
+  ): User!
 }
 
+"""Input for creating a new appliance."""
 input NewAppliance {
+  """The brand of the new appliance."""
   brand: String!
+
+  """A description for the new appliance."""
   description: String
+
+  """The model of the new appliance."""
   model: String!
+
+  """The name of the new appliance."""
   name: String!
+
+  """The network mask for the new appliance."""
   netmask: String
+
+  """The serial number of the new appliance."""
   serialNo: String!
 }
 
+"""Input for creating a new application."""
 input NewApplication {
+  """A description for the new application."""
   description: String
+
+  """The contact email for the new application."""
   email: EmailAddress
+
+  """A URL to the icon for the new application."""
   icon: String
+
+  """The name of the new application."""
   name: String!
+
+  """The redirect URL for the new application."""
   redirectUrl: String
+
+  """The type of the new application."""
   type: ApplicationType
+
+  """The URL of the new application."""
   url: String
+
+  """The webhook URL for the new application."""
   webhook: String
 }
 
@@ -2420,36 +3367,83 @@ input NewAttachment {
   tags: Object
 }
 
+"""
+Input type for creating a new AttributeSet entity, including entity name, description, and items.
+"""
 input NewAttributeSet {
+  """Whether this AttributeSet is active."""
   active: Boolean
+
+  """A description of the AttributeSet."""
   description: String
+
+  """The name of the entity this AttributeSet is associated with."""
   entity: String!
+
+  """A list of items (attributes) included in this AttributeSet."""
   items: [AttributeSetItemPatch!]
 }
 
+"""Input for creating a new authentication provider instance."""
 input NewAuthProvider {
+  """Whether the new provider instance should be active."""
   active: Boolean
+
+  """Client ID for OAuth/OIDC providers."""
   clientId: String
+
+  """Client secret for OAuth/OIDC providers."""
   clientSecret: String
+
+  """Provider-specific parameters."""
   params: Object
+
+  """Private key, for certain types of providers."""
   privateKey: String
+
+  """Tenant ID, for multi-tenant providers."""
   tenantId: String
+
+  """The type of the authentication provider (e.g., keycloak, google)."""
   type: String!
 }
 
+"""Input for creating a new board."""
 input NewBoard {
+  """A detailed description for the new board."""
   description: String
+
+  """The ID of the group to associate the new board with."""
   groupId: String
+
+  """The JSON model for the new board."""
   model: String!
+
+  """The name of the new board."""
   name: String!
+
+  """A base64 encoded thumbnail image for the new board."""
   thumbnail: String
+
+  """The type for the new board, can be 'main', 'sub', or 'popup'."""
+  type: String
 }
 
+"""Input for creating a new board template."""
 input NewBoardTemplate {
+  """A detailed description for the new board template."""
   description: String!
+
+  """The JSON model for the new board template."""
   model: String!
+
+  """The name of the new board template."""
   name: String!
+
+  """A base64 encoded thumbnail image for the new board template."""
   thumbnail: String
+
+  """The visibility for the new board template: 'private' or 'public'."""
   visibility: String!
 }
 
@@ -2467,12 +3461,24 @@ input NewCommonCodeDetail {
   rank: Float!
 }
 
+"""Input for creating a new connection."""
 input NewConnection {
+  """A detailed description for the new connection."""
   description: String
+
+  """Reference to the edge appliance for the new connection."""
   edge: ObjectRef
+
+  """The endpoint URL or address for the new connection."""
   endpoint: String
+
+  """The name for the new connection."""
   name: String!
+
+  """A key-value map of parameters for the new connection."""
   params: Object
+
+  """The type of the new connection (e.g., tcp, http, mqtt)."""
   type: String
 }
 
@@ -2499,9 +3505,15 @@ input NewDepartment {
   picture: Upload
 }
 
+"""Input for creating a new domain link."""
 input NewDomainLink {
+  """The source domain in the relationship."""
   sourceDomain: ObjectRef!
+
+  """The target domain in the relationship."""
   targetDomain: ObjectRef!
+
+  """The type of the relationship."""
   type: String!
 }
 
@@ -2599,8 +3611,12 @@ input NewFont {
   uri: String
 }
 
+"""Input for creating a new board group."""
 input NewGroup {
+  """A detailed description for the new group."""
   description: String
+
+  """The name of the new group."""
   name: String!
 }
 
@@ -2818,13 +3834,21 @@ input NewPagePreference {
   user: ObjectRef!
 }
 
+"""Input for creating a new payload log."""
 input NewPayloadLog {
+  """A description for the new payload log entry."""
   description: String
+
+  """The name for the new payload log entry."""
   name: String!
 }
 
+"""Input for creating a new play group."""
 input NewPlayGroup {
+  """A detailed description for the new play group."""
   description: String
+
+  """The name of the new play group."""
   name: String!
 }
 
@@ -2846,28 +3870,60 @@ input NewPrinterDevice {
   type: String
 }
 
+"""Input for creating a new privilege."""
 input NewPrivilege {
+  """The category of the new privilege."""
   category: String!
+
+  """A description for the new privilege."""
   description: String
+
+  """The name of the new privilege."""
   name: String!
+
+  """Roles to which the new privilege will be assigned."""
   roles: [ObjectRef!]
 }
 
+"""Input for creating a new role."""
 input NewRole {
+  """A description for the new role."""
   description: String
+
+  """The name of the new role."""
   name: String!
+
+  """Privileges to be granted by the new role."""
   privileges: [ObjectRef!]
+
+  """Users to be assigned to the new role."""
   users: [ObjectRef!]
 }
 
+"""Input for creating a new scenario."""
 input NewScenario {
+  """Indicates if the new scenario should be active upon creation."""
   active: Boolean
+
+  """A detailed description for the new scenario."""
   description: String
+
+  """The name of the new scenario."""
   name: String!
+
+  """The role required to execute the new scenario."""
   role: ObjectRef
+
+  """A cron-style schedule for the new scenario."""
   schedule: String
+
+  """The timezone for the schedule."""
   timezone: String
+
+  """Time-to-live in seconds for new scenario instances."""
   ttl: Float
+
+  """The type of the new scenario, for categorization."""
   type: String
 }
 
@@ -2887,6 +3943,7 @@ input NewSetting {
   value: String
 }
 
+"""Input for creating a new state register."""
 input NewStateRegister {
   """Description of the state register"""
   description: String
@@ -2926,30 +3983,70 @@ input NewTerminology {
   name: String!
 }
 
+"""Input for creating a new theme."""
 input NewTheme {
+  """Whether the new theme should be active upon creation."""
   active: Boolean
+
+  """A detailed description for the new theme."""
   description: String
+
+  """The name for the new theme."""
   name: String!
+
+  """The type of the new theme."""
   type: String
+
+  """A JSON object of style values for the new theme."""
   value: Object
 }
 
+"""Input type for creating a new user account."""
 input NewUser {
+  """Optional description or note about the user."""
   description: String
+
+  """Email address of the user."""
   email: EmailAddress!
+
+  """Full name of the user."""
   name: String!
+
+  """Password for the user account."""
   password: String
+
+  """Roles assigned to the user."""
   roles: [ObjectRef!]
+
+  """Type or category of the user (e.g., admin, operator, guest)."""
   userType: String
+
+  """Unique username for the user."""
   username: String!
 }
 
+"""Input for creating a new user as part of the domain creation wizard."""
 input NewUserByDomainWizardInput {
+  """The email address of the new user."""
   email: EmailAddress!
+
+  """
+  Indicates whether the user should be invited via email instead of created directly.
+  """
   isInvitee: Boolean
+
+  """The full name of the new user."""
   name: String!
+
+  """Indicates whether this user is an owner of the domain."""
   owner: Boolean!
+
+  """
+  The password for the new user. If not provided, an invitation will be sent.
+  """
   password: String
+
+  """A list of roles to be assigned to the new user."""
   roles: [NewRole!]!
 }
 
@@ -3099,44 +4196,49 @@ input Oauth2ClientPatch {
   webhook: String
 }
 
-"""Can be anything"""
+"""
+A custom scalar type for representing arbitrary JSON objects. Use this type for fields or arguments that require flexible, structured data beyond standard GraphQL scalar types.
+"""
 scalar Object
 
+"""
+Input type for referencing another object by its unique identifier, with optional name and description.
+"""
 input ObjectRef {
-  """Field description"""
+  """A description of the referenced object."""
   description: String
 
-  """Field id"""
+  """The unique identifier of the referenced object."""
   id: ID!
 
-  """Field name"""
+  """The name of the referenced object."""
   name: String
 }
 
 input ObjectRefApprovalLineOwnerType {
   controlNo: String
 
-  """Field description"""
+  """A description of the referenced object."""
   description: String
 
-  """Field id"""
+  """The unique identifier of the referenced object."""
   id: ID!
 
-  """Field name"""
+  """The name of the referenced object."""
   name: String
 }
 
 input ObjectRefForContact {
   address: String
 
-  """Field description"""
+  """A description of the referenced object."""
   description: String
   email: EmailAddress
 
-  """Field id"""
+  """The unique identifier of the referenced object."""
   id: ID!
 
-  """Field name"""
+  """The name of the referenced object."""
   name: String
   phone: String
 }
@@ -3144,13 +4246,13 @@ input ObjectRefForContact {
 input ObjectRefForDepartment {
   controlNo: String
 
-  """Field description"""
+  """A description of the referenced object."""
   description: String
 
-  """Field id"""
+  """The unique identifier of the referenced object."""
   id: ID!
 
-  """Field name"""
+  """The name of the referenced object."""
   name: String
 }
 
@@ -3159,31 +4261,31 @@ input ObjectRefForEmployee {
   alias: String
   controlNo: String
 
-  """Field description"""
+  """A description of the referenced object."""
   description: String
   email: EmailAddress
   hiredOn: DateTimeISO
 
-  """Field id"""
+  """The unique identifier of the referenced object."""
   id: ID!
   jobPosition: String
   jobResponsibility: String
 
-  """Field name"""
+  """The name of the referenced object."""
   name: String
   photo: String
   type: EmployeeType
 }
 
 input ObjectRefForUser {
-  """Field description"""
+  """A description of the referenced object."""
   description: String
   email: EmailAddress
 
-  """Field id"""
+  """The unique identifier of the referenced object."""
   id: ID!
 
-  """Field name"""
+  """The name of the referenced object."""
   name: String
 }
 
@@ -3315,23 +4417,45 @@ type PagePreferenceList {
   total: Int!
 }
 
+"""Input type for specifying pagination options in a list query."""
 input Pagination {
+  """The maximum number of items per page."""
   limit: Int
+
+  """The page number to retrieve."""
   page: Int
 }
 
+"""Represents a partnership between two domains."""
 type Partner {
+  """The timestamp when the partnership was approved."""
   approvedAt: DateTimeISO
+
+  """The user who approved the partnership."""
   approver: User
+
+  """The domain initiating the partnership."""
   domain: Domain!
+
+  """Unique identifier for the partnership."""
   id: ID!
+
+  """The domain being partnered with."""
   partnerDomain: Domain!
+
+  """The timestamp when the partnership was requested."""
   requestedAt: DateTimeISO
+
+  """The user who requested the partnership."""
   requester: User
 }
 
+"""A paginated list of partnerships."""
 type PartnerList {
+  """The list of partnership items."""
   items: [Partner!]
+
+  """The total number of partnerships."""
   total: Int
 }
 
@@ -3366,73 +4490,168 @@ input PartnerSettingPatch {
   value: String
 }
 
+"""
+Password rule configuration for user accounts, specifying required character types and patterns.
+"""
 type PasswordRule {
+  """Whether repeated characters are allowed in the password."""
   allowRepeat: Boolean
+
+  """Whether at least one digit is required."""
   digit: Boolean
+
+  """Minimum length required for a loose password pattern."""
   looseCharacterLength: Float
+
+  """Whether at least one lowercase letter is required."""
   lowerCase: Boolean
+
+  """Whether at least one special character is required."""
   specialCharacter: Boolean
+
+  """Minimum length required for a strict password pattern."""
   tightCharacterLength: Float
+
+  """Whether at least one uppercase letter is required."""
   upperCase: Boolean
+
+  """Whether to allow a loose password pattern."""
   useLoosePattern: Boolean
+
+  """Whether to enforce a strict password pattern."""
   useTightPattern: Boolean
 }
 
-"""Entity for PayloadLog"""
+"""Logs the request and response payloads for API interactions."""
 type PayloadLog {
+  """The timestamp when the log entry was created."""
   createdAt: DateTimeISO
+
+  """The user who created the log entry."""
   creator: User
+
+  """The domain in which the transaction occurred."""
   domain: Domain!
+
+  """The API endpoint that was called."""
   endpoint: String!
+
+  """Unique identifier for the payload log entry."""
   id: ID!
+
+  """A descriptive name for the transaction being logged."""
   name: String!
+
+  """The full request payload, usually in JSON format."""
   request: String!
+
+  """The full response payload, usually in JSON format."""
   response: String!
+
+  """The source of the request."""
   src: String
+
+  """The direction of the data flow (ingestion or egestion)."""
   type: String!
+
+  """The timestamp when the log entry was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the log entry."""
   updater: User
 }
 
+"""A paginated list of payload logs."""
 type PayloadLogList {
+  """The list of payload log items."""
   items: [PayloadLog!]!
+
+  """The total number of payload logs."""
   total: Int!
 }
 
+"""Input for updating (patching) an existing payload log."""
 input PayloadLogPatch {
+  """
+  A flag indicating whether the log is being created, updated, or deleted.
+  """
   cuFlag: String!
+
+  """The new description for the payload log entry."""
   description: String
+
+  """The unique identifier of the payload log to update."""
   id: ID
+
+  """The new name for the payload log entry."""
   name: String
 }
 
+"""Represents an item pending in a scenario queue."""
 type PendingObject {
+  """The timestamp indicating when the item is due for processing."""
   due: String!
+
+  """The priority level of the item in the queue."""
   priority: Int!
+
+  """The actual data or task object in the queue."""
   stuff: Object!
+
+  """A tag for categorizing or filtering queue items."""
   tag: String
 }
 
-"""Entity for Board PlayGroup"""
+"""A group of boards that can be played in a sequence or collection."""
 type PlayGroup {
+  """The list of boards included in this play group."""
   boards: [Board!]
+
+  """The timestamp when the play group was created."""
   createdAt: DateTimeISO
+
+  """The user who created the play group."""
   creator: User
+
+  """A detailed description of the play group."""
   description: String
+
+  """The domain to which this play group belongs."""
   domain: Domain
+
+  """Unique identifier for the play group."""
   id: ID!
+
+  """The name of the play group."""
   name: String!
+
+  """
+  An array of board IDs, defining the specific playback order of boards within the group.
+  """
+  order: [String!]
+
+  """The timestamp when the play group was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the play group."""
   updater: User
 }
 
+"""A paginated list of play groups."""
 type PlayGroupList {
+  """The list of play group items."""
   items: [PlayGroup!]!
+
+  """The total number of play groups."""
   total: Int!
 }
 
+"""Input for updating (patching) an existing play group."""
 input PlayGroupPatch {
+  """The new description for the play group."""
   description: String
+
+  """The new name for the play group."""
   name: String
 }
 
@@ -3486,36 +4705,78 @@ input PrinterDevicePatch {
   type: String
 }
 
+"""
+A privilege that can be granted to roles to control access to resources.
+"""
 type Privilege {
+  """The category of the privilege (e.g., security, resource)."""
   category: String
+
+  """The timestamp when the privilege was created."""
   createdAt: DateTimeISO
+
+  """The user who created the privilege."""
   creator: User
+
+  """A detailed description of what the privilege allows."""
   description: String
+
+  """Unique identifier for the privilege."""
   id: ID!
+
+  """The name of the privilege."""
   name: String!
   privilege: String!
+
+  """Roles that include this privilege."""
   roles: [Role!]
+
+  """The timestamp when the privilege was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the privilege."""
   updater: User
 }
 
+"""A paginated list of privileges."""
 type PrivilegeList {
+  """The list of privilege items."""
   items: [Privilege!]
+
+  """The total number of privileges."""
   total: Int
 }
 
+"""Represents a privilege object with its properties."""
 type PrivilegeObject {
+  """The category of the privilege."""
   category: String
+
+  """Indicates if the privilege is for an owner."""
   owner: Boolean
+
+  """The name of the privilege."""
   privilege: String
+
+  """Indicates if the privilege is for a superuser."""
   super: Boolean
 }
 
+"""Input for updating (patching) an existing privilege."""
 input PrivilegePatch {
+  """The new category for the privilege."""
   category: String
+
+  """The new description for the privilege."""
   description: String
+
+  """The unique identifier of the privilege to update."""
   id: String
+
+  """The new name for the privilege."""
   name: String
+
+  """A new list of roles to be assigned to the privilege."""
   roles: [ObjectRef!]
 }
 
@@ -3536,12 +4797,28 @@ input ProfileInput {
   zoom: Float
 }
 
+"""
+Describes a single property for a component or a step, used for UI rendering and configuration.
+"""
 type PropertySpec {
+  """The human-readable label for the property, shown in UI."""
   label: String!
+
+  """The name of the property, used as the key in configuration objects."""
   name: String!
+
+  """Placeholder text for the input field."""
   placeholder: String
+
+  """
+  Additional properties specific to the type (e.g., options for a select).
+  """
   property: Object
+
+  """CSS styles to be applied to the input field."""
   styles: Object
+
+  """The data type of the property (e.g., text, number, boolean, select)."""
   type: String!
 }
 
@@ -3552,41 +4829,149 @@ type Query {
   PDFTemplate(id: String!): PDFTemplate
 
   """To fetch multiple PDFTemplates"""
-  PDFTemplates(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): PDFTemplateList!
+  PDFTemplates(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): PDFTemplateList!
   appBinding(id: String!): AppBinding!
-  appBindings(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): AppBindingList!
+  appBindings(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): AppBindingList!
 
   """ To fetch appliance"""
   appliance(id: String!): Appliance!
 
   """To fetch multiple appliance"""
-  appliances(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ApplianceList!
+  appliances(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ApplianceList!
 
   """To fetch application"""
   application(id: String!): Application!
 
   """To fetch multiple application"""
-  applications(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ApplicationList!
+  applications(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ApplicationList!
 
   """To fetch a approval line"""
   approvalLine(id: String!): ApprovalLine
 
   """To fetch referable approval lines for the user"""
-  approvalLineReferences(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ApprovalLineList!
+  approvalLineReferences(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ApprovalLineList!
 
   """To fetch multiple approval lines"""
-  approvalLines(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ApprovalLineList!
+  approvalLines(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ApprovalLineList!
   attachment(id: String!): Attachment!
-  attachments(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): AttachmentList!
+  attachments(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch a AttributeSet"""
-  attributeSet(id: String!): AttributeSet
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
 
-  """To fetch a AttributeSet by Entity name"""
-  attributeSetByEntity(entity: String!): AttributeSet
+    """Pagination options for the list query."""
+    pagination: Pagination
 
-  """To fetch multiple AttributeSets"""
-  attributeSets(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): AttributeSetList!
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): AttachmentList!
+
+  """
+  Fetches a single AttributeSet entity by its unique identifier. Use this query to retrieve the details of a specific attribute set.
+  """
+  attributeSet(
+    """The unique identifier of the AttributeSet to fetch."""
+    id: String!
+  ): AttributeSet
+
+  """
+  Fetches a single AttributeSet entity by the associated entity name. Use this query to retrieve the attribute set for a specific entity type.
+  """
+  attributeSetByEntity(
+    """The entity name associated with the AttributeSet."""
+    entity: String!
+  ): AttributeSet
+
+  """
+  Fetches a list of AttributeSet entities with pagination and filtering options. Use this query to retrieve multiple attribute sets.
+  """
+  attributeSets(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): AttributeSetList!
 
   """To fetch a AuthProvider"""
   authProvider(id: String!): AuthProvider
@@ -3595,34 +4980,94 @@ type Query {
   authProviderTypes: AuthProviderTypeList
 
   """To fetch multiple AuthProviders"""
-  authProviders(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): AuthProviderList!
+  authProviders(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch a board"""
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): AuthProviderList!
+
+  """Finds a single board by its ID."""
   board(id: String!): Board!
 
-  """To fetch a Board Model by name"""
+  """Finds a single board by its name."""
   boardByName(name: String!): Board
 
-  """To fetch the latest Board published"""
+  """Retrieves the most recently published version of a board."""
   boardPublished(id: String!): BoardHistory!
 
   """To fetch a BoardTemplate"""
   boardTemplate(id: String!): BoardTemplate
 
   """To fetch multiple BoardTemplates"""
-  boardTemplates(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): BoardTemplateList!
+  boardTemplates(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): BoardTemplateList!
 
   """To fetch BoardTemplates created by me"""
-  boardTemplatesCreatedByMe(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): BoardTemplateList!
+  boardTemplatesCreatedByMe(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch a Board Versions"""
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): BoardTemplateList!
+
+  """Retrieves up to 10 historical versions of a specific board."""
   boardVersions(id: String!): [BoardHistory!]!
 
-  """To fetch multiple Boards"""
-  boards(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): BoardList!
+  """Retrieves a paginated list of all boards."""
+  boards(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch Boards created by me"""
-  boardsCreatedByMe(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): BoardList!
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): BoardList!
+
+  """Retrieves a paginated list of boards created by the current user."""
+  boardsCreatedByMe(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): BoardList!
   chatCompletion(input: ChatCompletionInput!): ChatCompletionOutput!
 
   """
@@ -3644,10 +5089,25 @@ type Query {
   checkUserBelongsDomain: Boolean!
 
   """Checks if a user with the given email address exists in the system."""
-  checkUserExistence(email: EmailAddress!): Boolean!
+  checkUserExistence(
+    """The email address to check for existence."""
+    email: EmailAddress!
+  ): Boolean!
 
   """To fetch common approval lines"""
-  commonApprovalLines(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ApprovalLineList!
+  commonApprovalLines(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ApprovalLineList!
 
   """To fetch a CommonCode"""
   commonCode(name: String!): CommonCode
@@ -3656,28 +5116,81 @@ type Query {
   commonCodeDetail(id: String!): CommonCodeDetail!
 
   """To fetch multiple CommonCodeDetails"""
-  commonCodeDetails(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): CommonCodeDetailList!
+  commonCodeDetails(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): CommonCodeDetailList!
 
   """To fetch multiple CommonCodes"""
-  commonCodes(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): CommonCodeList!
+  commonCodes(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch a connector"""
-  connection(name: String!): ConnectorType!
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
 
-  """To fetch multiple connections"""
-  connections(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ConnectionList!
+    """Pagination options for the list query."""
+    pagination: Pagination
 
-  """To fetch the connector from a connection"""
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): CommonCodeList!
+
+  """Fetches a single connection by its name, including its current state."""
+  connection(name: String!): Connection!
+
+  """
+  Fetches a paginated list of connections, including their current states.
+  """
+  connections(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ConnectionList!
+
+  """Fetches a single connector type by its name."""
+  connector(name: String!): ConnectorType!
+
+  """Fetches the connector type associated with a specific connection."""
   connectorByConnection(connectionName: String!): ConnectorType!
 
-  """To fetch multiple connector"""
+  """Fetches a list of all available connector types."""
   connectors: ConnectorList!
 
   """To fetch a Contact"""
   contact(id: String!): Contact
 
   """To fetch multiple Contacts"""
-  contacts(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ContactList!
+  contacts(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ContactList!
   customers: [Domain!]!
   decipherCode(input: CodeDecipherInput!): CodeDecipherOutput!
   decipherErrorCode(input: CodeDecipherInput!): CodeDecipherOutput!
@@ -3686,28 +5199,97 @@ type Query {
   department(id: String!): Department
 
   """To fetch a Root Departments"""
-  departmentRoots(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): DepartmentList
+  departmentRoots(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): DepartmentList
 
   """To fetch multiple Departments"""
-  departments(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): DepartmentList!
+  departments(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch domain"""
-  domain(id: String!): Domain!
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): DepartmentList!
+
+  """
+  Fetches a single domain entity by its unique identifier. Only superusers are granted this privilege.
+  """
+  domain(
+    """The unique identifier of the domain to fetch."""
+    id: String!
+  ): Domain!
 
   """To fetch multiple DomainLinks"""
-  domainLinks(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): DomainLinkList!
+  domainLinks(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch domain"""
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): DomainLinkList!
+
+  """
+  Fetches the list of available domain types from configuration. Only superusers are granted this privilege.
+  """
   domainTypes: [String!]!
 
-  """To fetch all domains (Only superuser is granted this privilege.)"""
-  domains(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): DomainList!
+  """
+  Fetches all domain entities with pagination and filtering options. Only superusers are granted this privilege.
+  """
+  domains(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): DomainList!
 
   """To fetch domains with given privilege for user"""
   domainsWithPrivilege(category: String!, privilege: String!): [Domain!]!
 
   """To fetch multiple appliance"""
-  edges(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ApplianceList!
+  edges(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ApplianceList!
 
   """
   Fetches a specific employee by their unique ID. Returns the employee object if found, or null if not found.
@@ -3717,10 +5299,34 @@ type Query {
   """
   Fetches a list of employees based on provided query parameters. Supports searching by name, control number, and alias.
   """
-  employees(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): EmployeeList!
+  employees(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): EmployeeList!
 
   """To fetch multiple Entities"""
-  entities(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): EntityList!
+  entities(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): EntityList!
 
   """To fetch a Entity"""
   entity(id: String!): Entity!
@@ -3729,7 +5335,19 @@ type Query {
   entityColumn(id: String!): EntityColumn!
 
   """To fetch multiple EntityColumns"""
-  entityColumns(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): EntityColumnList!
+  entityColumns(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): EntityColumnList!
 
   """To fetch a EntityMetadata"""
   entityMetadata(name: String!): EntityMetadata!
@@ -3738,27 +5356,75 @@ type Query {
   favorite(id: String!): Favorite!
 
   """To fetch multiple BoardFavorites"""
-  favoriteBoards(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): BoardFavoriteList!
+  favoriteBoards(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): BoardFavoriteList!
 
   """To fetch multiple Favorites"""
-  favorites(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): FavoriteList!
+  favorites(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch the state of a connection"""
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): FavoriteList!
+
+  """Fetches the current state of a single connection by its name."""
   fetchConnectionState(name: String!): ConnectionState!
 
   """To fetch a Font"""
   font(id: String!): Font!
 
   """To fetch multiple Fonts"""
-  fonts(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): FontList!
+  fonts(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): FontList!
   grantedRoles: [GrantedRole!]!
   grantingRoles(customerId: String!): [GrantedRole!]!
 
-  """To fetch a Group"""
+  """Finds a single board group by its ID."""
   group(id: String!): Group
 
-  """To fetch multiple Groups"""
-  groups(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): GroupList!
+  """Retrieves a paginated list of board groups."""
+  groups(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): GroupList!
 
   """To query whether I have the given permission"""
   hasPrivilege(category: String!, privilege: String!): Boolean!
@@ -3771,7 +5437,19 @@ type Query {
   invitations(reference: String!, type: String!): InvitationList!
 
   """To fetch multiple LoginHistories"""
-  loginHistories(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): LoginHistoryList!
+  loginHistories(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): LoginHistoryList!
 
   """To fetch a Menu"""
   menu(id: String!): Menu!
@@ -3780,7 +5458,19 @@ type Query {
   menuButton(id: String!): MenuButton!
 
   """To fetch multiple MenuButtons"""
-  menuButtons(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): MenuButtonList!
+  menuButtons(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): MenuButtonList!
 
   """To fetch a Menu by routing"""
   menuByRouting(routing: String!): Menu!
@@ -3789,7 +5479,19 @@ type Query {
   menuColumn(id: String!): MenuColumn!
 
   """To fetch multiple MenuColumns"""
-  menuColumns(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): MenuColumnList!
+  menuColumns(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): MenuColumnList!
 
   """To fetch a MenuDetail"""
   menuDetail(id: String!): MenuDetail!
@@ -3798,32 +5500,116 @@ type Query {
   menuDetailButton(id: String!): MenuDetailButton!
 
   """To fetch multiple MenuDetailButtons"""
-  menuDetailButtons(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): MenuDetailButtonList!
+  menuDetailButtons(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): MenuDetailButtonList!
 
   """To fetch a MenuDetailColumn"""
   menuDetailColumn(id: String!): MenuDetailColumn!
 
   """To fetch multiple MenuDetailColumns"""
-  menuDetailColumns(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): MenuDetailColumnList!
+  menuDetailColumns(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): MenuDetailColumnList!
 
   """To fetch multiple MenuDetails"""
-  menuDetails(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): MenuDetailList!
+  menuDetails(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): MenuDetailList!
 
   """To fetch multiple Menus"""
-  menus(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): MenuList!
+  menus(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): MenuList!
 
   """To fetch approval lines only for to the user"""
-  myApprovalLines(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ApprovalLineList!
+  myApprovalLines(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ApprovalLineList!
 
   """To fetch current user's Favorites"""
   myFavorites: [Favorite!]!
   myLoginHistories(limit: Float!): [LoginHistory!]!
 
   """To fetch my own Menus"""
-  myMenus(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): MenuList!
+  myMenus(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): MenuList!
 
   """To fetch my notifications"""
-  myNotifications(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): NotificationList!
+  myNotifications(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): NotificationList!
 
   """To fetch a User's own PagePreference"""
   myPageAllPreferences(page: String!): [PagePreference!]
@@ -3832,16 +5618,40 @@ type Query {
   myPagePreference(element: String!, page: String!): PagePreference
 
   """To fetch multiple PagePreferences"""
-  myPagePreferences(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): PagePreferenceList!
+  myPagePreferences(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch roles of current user"""
-  myRoles: [Role!]!
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): PagePreferenceList!
+
+  """To fetch roles of current user (id, name only)"""
+  myRoles: [RoleBrief!]!
 
   """To fetch a User's own UserPreference"""
   myUserPreference(element: String!, key: String!): UserPreference
 
   """To fetch multiple UserPreferences"""
-  myUserPreferences(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): UserPreferenceList!
+  myUserPreferences(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): UserPreferenceList!
 
   """To fetch a Notification"""
   notification(id: String!): Notification
@@ -3850,16 +5660,52 @@ type Query {
   notificationRule(id: String!): NotificationRule
 
   """To fetch multiple NotificationRules"""
-  notificationRules(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): NotificationRuleList!
+  notificationRules(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): NotificationRuleList!
 
   """To fetch multiple Notificationes"""
-  notificationes(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): NotificationList!
+  notificationes(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): NotificationList!
 
   """To fetch a Oauth2Client"""
   oauth2Client(id: String!): Oauth2Client
 
   """To fetch multiple Oauth2Clients"""
-  oauth2Clients(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): Oauth2ClientList!
+  oauth2Clients(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): Oauth2ClientList!
 
   """To fetch a PagePreference"""
   pagePreference(id: String!): PagePreference
@@ -3872,33 +5718,81 @@ type Query {
 
   """To fetch multiple PartnerSettings"""
   partnerSettings(filters: [Filter!]!, pagination: Pagination!, partnerDomain: ObjectRef!, sortings: [Sorting!]!): PartnerSettingList!
-  partners(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): PartnerList!
+  partners(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): PartnerList!
 
   """
   Retrieves the current password rule configuration for the system, such as required character types and minimum length.
   """
   passwordRule: PasswordRule!
 
-  """To fetch a PayloadLog"""
+  """Fetches a single payload log by its ID."""
   payloadLog(id: String!): PayloadLog!
 
-  """To fetch multiple PayloadLogs"""
-  payloadLogs(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): PayloadLogList!
+  """Fetches a paginated list of payload logs."""
+  payloadLogs(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): PayloadLogList!
 
   """To fetch a PDFRelease"""
   pdfRelease(id: String!): PDFRelease
 
   """To fetch multiple PDFReleases"""
-  pdfReleases(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): PDFReleaseList!
+  pdfReleases(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch a PlayGroup"""
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): PDFReleaseList!
+
+  """Finds a single play group by its ID."""
   playGroup(id: String!): PlayGroup
 
-  """To fetch a PlayGroup by name"""
+  """Finds a single play group by its name."""
   playGroupByName(name: String!): PlayGroup
 
-  """To fetch multiple PlayGroups"""
-  playGroups(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): PlayGroupList!
+  """Retrieves a paginated list of play groups."""
+  playGroups(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): PlayGroupList!
 
   """To fetch a UserPreference"""
   preference(id: String!): UserPreference
@@ -3907,10 +5801,34 @@ type Query {
   printerDevice(id: String!): PrinterDevice!
 
   """To fetch multiple PrinterDevices"""
-  printerDevices(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): PrinterDeviceList!
+  printerDevices(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): PrinterDeviceList!
 
   """To fetch multiple privileges"""
-  privileges(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): PrivilegeList!
+  privileges(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): PrivilegeList!
 
   """To fetch role"""
   role(name: String!): Role!
@@ -3922,72 +5840,199 @@ type Query {
   rolePrivileges(roleId: String!): [RolePrivilege!]!
 
   """To fetch multiple users"""
-  roles(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): RoleList!
+  roles(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch a scenario"""
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): RoleList!
+
+  """Fetches a single scenario by its ID."""
   scenario(id: String!): Scenario!
 
-  """To fetch a scenario instance"""
+  """Fetches a single scenario instance by its name."""
   scenarioInstance(instanceName: String!): ScenarioInstance!
 
-  """To fetch multiple scenario instances"""
-  scenarioInstances(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ScenarioInstanceList!
+  """Fetches a list of all active scenario instances."""
+  scenarioInstances(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch multiple scenarios"""
-  scenarios(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ScenarioList!
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ScenarioInstanceList!
+
+  """Fetches a paginated list of scenarios."""
+  scenarios(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ScenarioList!
   schedule(id: ID!): Schedule
 
   """To fetch multiple Schedules"""
-  schedules(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ScheduleList!
-  searchCustomers(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): DomainList!
+  schedules(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch domain"""
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ScheduleList!
+  searchCustomers(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): DomainList!
+
+  """
+  Fetches the secure IP list (whitelist, blacklist, etc.) for the current domain. Only domain owners and superusers are granted this privilege.
+  """
   secureIPList: Object
 
   """To fetch a Setting"""
   setting(name: String!, partnerDomainId: String): Setting!
 
   """To fetch multiple Settings"""
-  settings(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): SettingList!
+  settings(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch a StateRegister"""
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): SettingList!
+
+  """Fetches a single state register by its ID."""
   stateRegister(id: String!): StateRegister
 
-  """To fetch a StateRegister by name"""
+  """Fetches a single state register by its name."""
   stateRegisterByName(name: String!): StateRegister
 
-  """To fetch multiple StateRegisters"""
-  stateRegisters(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): StateRegisterList!
+  """Fetches a paginated list of state registers."""
+  stateRegisters(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch a step"""
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): StateRegisterList!
+
+  """Fetches a single scenario step by its name."""
   step(name: String!): Step!
 
-  """To fetch multiple steps"""
-  steps(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): StepList!
+  """Fetches a paginated list of scenario steps."""
+  steps(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
 
-  """To fetch a task-type"""
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): StepList!
+
+  """Fetches a single task type by its name."""
   taskType(name: String!): TaskType!
 
-  """To fetch multiple task-type"""
+  """Fetches a list of all available task types."""
   taskTypes: TaskTypeList!
 
-  """To fetch the connector from a task-type"""
+  """
+  Fetches a list of task types that are compatible with a specific connection.
+  """
   taskTypesByConnection(connectionName: String!): TaskTypeList!
 
   """To fetch multiple Terminologies"""
-  terminologies(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): TerminologyList!
+  terminologies(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): TerminologyList!
 
   """To fetch a Terminology"""
   terminology(id: String!): Terminology!
 
-  """To fetch a Theme"""
+  """Finds a single theme by its ID."""
   theme(id: String!): Theme
 
-  """To fetch multiple Themes"""
-  themes(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): ThemeList!
+  """Retrieves a paginated list of themes."""
+  themes(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): ThemeList!
 
   """Fetches a user by their email address within the current domain."""
-  user(email: EmailAddress!): User!
+  user(
+    """The email address of the user to fetch."""
+    email: EmailAddress!
+  ): User!
 
   """To fetch Menus by role"""
   userMenus: [Menu!]!
@@ -3998,7 +6043,19 @@ type Query {
   """
   Fetches a list of users based on provided search parameters within the current domain.
   """
-  users(filters: [Filter!], inherited: InheritedValueType, pagination: Pagination, sortings: [Sorting!]): UserList!
+  users(
+    """An array of filter conditions to apply to the list query."""
+    filters: [Filter!]
+
+    """Inherited value type for the list query."""
+    inherited: InheritedValueType
+
+    """Pagination options for the list query."""
+    pagination: Pagination
+
+    """Sorting options for the list query."""
+    sortings: [Sorting!]
+  ): UserList!
   vendors: [Domain!]!
 }
 
@@ -4008,120 +6065,286 @@ type RecipientItem {
   value: String
 }
 
+"""
+A role that groups a set of privileges, which can be assigned to users.
+"""
 type Role {
+  """The timestamp when the role was created."""
   createdAt: DateTimeISO
+
+  """The user who created the role."""
   creator: User
+
+  """A description of the role."""
   description: String
+
+  """The domain to which the role belongs."""
   domain: Domain!
+
+  """Unique identifier for the role."""
   id: ID!
+
+  """The name of the role."""
   name: String
+
+  """Privileges granted by this role."""
   privileges: [Privilege!]
+
+  """The timestamp when the role was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the role."""
   updater: User
+
+  """Users who are assigned this role."""
   users: [User!]
 }
 
+"""A brief summary of a role, containing only the ID and name."""
+type RoleBrief {
+  """The unique identifier of the role."""
+  id: String
+
+  """The name of the role."""
+  name: String
+}
+
+"""A paginated list of roles."""
 type RoleList {
+  """The list of role items."""
   items: [Role!]
+
+  """The total number of roles."""
   total: Int
 }
 
+"""Input for updating (patching) an existing role."""
 input RolePatch {
+  """
+  A flag indicating whether the role is being created, updated, or deleted.
+  """
   cuFlag: String
+
+  """The new description for the role."""
   description: String
+
+  """The unique identifier of the role to update."""
   id: String
+
+  """The new name for the role."""
   name: String
+
+  """A new list of privileges to be granted by the role."""
   privileges: [ObjectRef!]
+
+  """A new list of users to be assigned to the role."""
   users: [ObjectRef!]
 }
 
+"""Represents a privilege and whether it is assigned to a specific role."""
 type RolePrivilege {
+  """Indicates whether the privilege is assigned to the role."""
   assigned: Boolean
+
+  """The category of the privilege."""
   category: String
+
+  """A description of the privilege."""
   description: String
+
+  """The unique identifier of the privilege."""
   id: String
+
+  """The name of the privilege."""
   name: String
 }
 
+"""Represents a sequence of steps designed to automate a task or process."""
 type Scenario {
-  """[will be deprecated] automatically be started when this server start"""
+  """
+  Indicates if the scenario should be automatically started when the server starts. [will be deprecated]
+  """
   active: Boolean
   connectionNames: [Connection!]!
+
+  """The timestamp when the scenario was created."""
   createdAt: DateTimeISO
+
+  """The user who created the scenario."""
   creator: User
+
+  """A detailed description of the scenario."""
   description: String
+
+  """The domain to which this scenario belongs."""
   domain: Domain!
+
+  """Unique identifier for the scenario."""
   id: ID!
   instances: [ScenarioInstance!]
+
+  """The name of the scenario."""
   name: String!
+
+  """Privilege required to execute the scenario."""
   privilege: PrivilegeObject
 
-  """accessible and executable system-wide"""
+  """Indicates if the scenario is accessible and executable system-wide."""
   public: Boolean
   publishTags: [Connection!]!
+
+  """Role required to execute the scenario."""
   role: Role
+
+  """A cron-style schedule for running the scenario automatically."""
   schedule: String
+
+  """The ID of the scheduled job, if any."""
   scheduleId: String
   state: String
+
+  """The sequence of steps that make up the scenario."""
   steps: [Step!]
+
+  """The timezone for the schedule."""
   timezone: String
+
+  """Time-to-live in seconds for scenario instances."""
   ttl: Float
+
+  """The type of the scenario, used for categorization."""
   type: String
+
+  """The timestamp when the scenario was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the scenario."""
   updater: User
 }
 
+"""Represents a running or completed instance of a scenario."""
 type ScenarioInstance {
+  """A key-value map of data generated and used by the instance."""
   data: Object
+
+  """The domain in which the instance is running."""
   domain: Domain
+
+  """The unique name for this specific instance of the scenario."""
   instanceName: String
+
+  """A message associated with the current state (e.g., an error message)."""
   message: String
+
+  """The current progress of the instance."""
   progress: ScenarioInstanceProgress
+
+  """The final result of the scenario run."""
   result: Object
+
+  """The root scenario instance if this is a sub-scenario."""
   root: ScenarioInstance
+
+  """The name of the scenario being executed."""
   scenarioName: String
+
+  """The current execution state of the instance."""
   state: String
+
+  """The timestamp of the last update."""
   timestamp: DateTimeISO
+
+  """The user who initiated the instance."""
   user: User
+
+  """A key-value map of variables used in the instance."""
   variables: Object
 }
 
+"""A paginated list of scenario instances."""
 type ScenarioInstanceList {
+  """The list of scenario instance items."""
   items: [ScenarioInstance!]!
+
+  """The total number of scenario instances."""
   total: Int!
 }
 
+"""Provides progress information for a running scenario instance."""
 type ScenarioInstanceProgress {
+  """The completion rate of the scenario as a percentage."""
   rate: Int!
+
+  """The number of rounds the scenario has completed."""
   rounds: Int!
+
+  """The current step number being executed."""
   step: Int!
+
+  """The total number of steps in the scenario."""
   steps: Int!
 }
 
+"""Contains the final result of a completed scenario instance run."""
 type ScenarioInstanceRunResult {
+  """The final set of data after the run."""
   data: Object
+
+  """The unique name of the instance that was run."""
   instanceName: String
+
+  """A final message from the run (e.g., success or failure reason)."""
   message: String
+
+  """The final result returned by the scenario."""
   result: Object
+
+  """The name of the scenario that was executed."""
   scenarioName: String
+
+  """The final state of the instance after the run."""
   state: String
+
+  """The timestamp when the run completed."""
   timestamp: DateTimeISO
+
+  """The final set of variables after the run."""
   variables: Object
 }
 
+"""
+Represents the complete state of a scenario instance at a point in time.
+"""
 type ScenarioInstanceState {
+  """A key-value map of data generated and used by the instance."""
   data: Object
+
+  """The domain in which the instance is running."""
   domain: Domain
+
+  """The unique name of this specific instance."""
   instanceName: String
+
+  """A message associated with the current state (e.g., an error message)."""
   message: String
+
+  """The progress of the running instance."""
   progress: ScenarioInstanceProgress
+
+  """The name of the scenario being executed."""
   scenarioName: String
+
+  """The current execution state of the instance."""
   state: ScenarioInstanceStatus
+
+  """The timestamp when this state was recorded."""
   timestamp: DateTimeISO
+
+  """A key-value map of variables used in the instance."""
   variables: Object
 }
 
-"""state enumeration of a scenario-instance"""
+"""Enumeration of possible states for a scenario instance."""
 enum ScenarioInstanceStatus {
   HALTED
   READY
@@ -4130,27 +6353,59 @@ enum ScenarioInstanceStatus {
   UNLOADED
 }
 
+"""A paginated list of scenarios."""
 type ScenarioList {
+  """The list of scenario items."""
   items: [Scenario!]!
+
+  """The total number of scenarios."""
   total: Int!
 }
 
+"""Input for updating (patching) an existing scenario."""
 input ScenarioPatch {
+  """The new active status for the scenario."""
   active: Boolean
+
+  """
+  A flag indicating whether the scenario is being created, updated, or deleted.
+  """
   cuFlag: String
+
+  """The new description for the scenario."""
   description: String
+
+  """The unique identifier of the scenario to update."""
   id: ID
+
+  """The new name for the scenario."""
   name: String
+
+  """The new role for the scenario."""
   role: ObjectRef
+
+  """The new schedule for the scenario."""
   schedule: String
+
+  """A list of steps to be updated within the scenario."""
   steps: [StepPatch!]
+
+  """The new timezone for the scenario."""
   timezone: String
+
+  """The new time-to-live for scenario instances."""
   ttl: Float
+
+  """The new type for the scenario."""
   type: String
 }
 
+"""Represents the state of a scenario queue for a specific domain."""
 type ScenarioQueueState {
+  """The domain to which this queue state belongs."""
   domain: Domain!
+
+  """The list of pending items in the queue."""
   queue: [PendingObject!]!
 }
 
@@ -4257,17 +6512,18 @@ input SettingPatch {
   value: String
 }
 
+"""Input type for specifying sorting options in a list query."""
 input Sorting {
-  """
-  Set to true if descending sort. Default is "false"
-  """
+  """Set to true for descending order. Default is false (ascending)."""
   desc: Boolean
 
-  """Field name to sort by"""
+  """The field name to sort the results by."""
   name: String!
 }
 
-"""Entity for StateRegister"""
+"""
+Represents a key-value store for maintaining the state of various entities within a domain.
+"""
 type StateRegister {
   """Creation time of the state register"""
   createdAt: DateTimeISO
@@ -4289,6 +6545,8 @@ type StateRegister {
 
   """Group name for the state register"""
   group: String
+
+  """Unique identifier for the state register."""
   id: ID!
 
   """Name of the state register"""
@@ -4333,6 +6591,7 @@ type StateRegister {
   wroteAt: DateTimeISO
 }
 
+"""A paginated list of state registers."""
 type StateRegisterList {
   """List of state registers"""
   items: [StateRegister!]!
@@ -4341,6 +6600,7 @@ type StateRegisterList {
   total: Int!
 }
 
+"""Input for updating (patching) an existing state register."""
 input StateRegisterPatch {
   """Flag indicating create/update operations"""
   cuFlag: String
@@ -4378,70 +6638,157 @@ input StateRegisterPatch {
   unit: String
 }
 
+"""
+Represents a single step within a scenario, defining a specific task to be executed.
+"""
 type Step {
+  """The name of the connection to be used for this step."""
   connection: String
+
+  """The timestamp when the step was created."""
   createdAt: DateTimeISO
+
+  """The user who created this step."""
   creator: User
+
+  """A detailed description of what the step involves."""
   description: String
+
+  """The domain to which this step belongs."""
   domain: Domain
+
+  """The unique identifier for the step."""
   id: ID!
+
+  """Indicates if the step execution should be logged."""
   log: Boolean
+
+  """The name of the step."""
   name: String!
+
+  """A key-value map of parameters for the step task."""
   params: Object
 
   """
-  A boolean attribute indicating the inclusion status of an element in the result
+  A boolean attribute indicating whether the result of this step should be included in the final output.
   """
   result: Boolean
+
+  """The scenario that includes this step."""
   scenario: Scenario
+
+  """The sequence number of the step within its scenario."""
   sequence: Float
+
+  """Indicates if the step should be skipped during execution."""
   skip: Boolean
+
+  """The specific task type associated with this step."""
   task: String
+
+  """The timestamp when the step was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated this step."""
   updater: User
 }
 
+"""A paginated list of steps."""
 type StepList {
+  """The list of step items."""
   items: [Step!]!
+
+  """The total number of steps."""
   total: Int!
 }
 
+"""Input for updating (patching) an existing step."""
 input StepPatch {
+  """The new connection for the step."""
   connection: String
+
+  """
+  A flag indicating whether the step is being created, updated, or deleted.
+  """
   cuFlag: String
+
+  """The new description for the step."""
   description: String
+
+  """The unique identifier of the step to update."""
   id: ID
+
+  """The new log status for the step."""
   log: Boolean
+
+  """The new name for the step."""
   name: String
+
+  """The new parameters for the step."""
   params: Object
+
+  """The new result inclusion status for the step."""
   result: Boolean
+
+  """The new sequence number for the step."""
   sequence: Int
+
+  """The new skip status for the step."""
   skip: Boolean
+
+  """The new task type for the step."""
   task: String
 }
 
 type Subscription {
+  """Subscribes to real-time updates for a specific board."""
   board(id: String!): Board!
+
+  """Subscribes to log messages from connections."""
   connectionLog(level: String): Log!
+
+  """Subscribes to the state changes of connections."""
   connectionState(name: String): ConnectionState!
   data(tag: String!): Data!
   notification(subjects: [String!]): Notification!
+
+  """Subscribes to real-time updates for a specific play group."""
   playGroup(id: String!): PlayGroup!
+
+  """Subscribes to log messages from scenario instances."""
   scenarioInstanceLog(instanceName: String, level: String, scenarioName: String): Log!
+
+  """Subscribes to state changes from scenario instances."""
   scenarioInstanceState(instanceName: String, scenarioName: String): ScenarioInstanceState!
+
+  """Subscribes to changes in the scenario queue."""
   scenarioQueueState: ScenarioQueueState!
 }
 
+"""Describes a type of task that can be used in a scenario."""
 type TaskType {
+  """Indicates whether this task type can be used without a connector."""
   connectorFree: Boolean
+
+  """A brief description of what the task does."""
   description: String
+
+  """A URL or text providing more detailed help information."""
   help: String
+
+  """The unique name of the task type."""
   name: String!
+
+  """A list of parameters that can be configured for this task type."""
   parameterSpec: [PropertySpec!]
 }
 
+"""A paginated list of task types."""
 type TaskTypeList {
+  """The list of task type items."""
   items: [TaskType!]!
+
+  """The total number of task types."""
   total: Int!
 }
 
@@ -4475,34 +6822,79 @@ input TerminologyPatch {
   name: String
 }
 
-"""Entity for Theme"""
+"""
+Represents a visual theme or style that can be applied to dashboard components.
+"""
 type Theme {
+  """Indicates whether the theme is currently active and available for use."""
   active: Boolean
+
+  """The timestamp when the theme was created."""
   createdAt: DateTimeISO
+
+  """The user who created the theme."""
   creator: User
+
+  """The timestamp when the theme was soft-deleted."""
   deletedAt: DateTimeISO
+
+  """A detailed description of the theme."""
   description: String
+
+  """The domain to which this theme belongs."""
   domain: Domain!
+
+  """Unique identifier for the theme."""
   id: ID!
+
+  """The name of the theme."""
   name: String
+
+  """The type of the theme (e.g., Legend)."""
   type: String
+
+  """The timestamp when the theme was last updated."""
   updatedAt: DateTimeISO
+
+  """The user who last updated the theme."""
   updater: User
+
+  """A JSON object containing the theme-specific style values."""
   value: Object
 }
 
+"""A paginated list of themes."""
 type ThemeList {
+  """The list of theme items."""
   items: [Theme!]!
+
+  """The total number of themes."""
   total: Int!
 }
 
+"""Input for updating (patching) an existing theme."""
 input ThemePatch {
+  """The new active status for the theme."""
   active: Boolean
+
+  """
+  A flag indicating whether the theme is being created, updated, or deleted.
+  """
   cuFlag: String
+
+  """The new description for the theme."""
   description: String
+
+  """The unique identifier of the theme to update."""
   id: ID
+
+  """The new name for the theme."""
   name: String
+
+  """The new type for the theme."""
   type: String
+
+  """The new JSON object of style values for the theme."""
   value: Object
 }
 
@@ -4514,42 +6906,106 @@ type UploadURL {
   url: String!
 }
 
+"""
+Represents a user account in the system, including authentication, roles, and domain associations.
+"""
 type User {
+  """Timestamp when the user account was created."""
   createdAt: DateTimeISO
+
+  """User who created this user account."""
   creator: User
+
+  """Optional description or note about the user."""
   description: String
+
+  """Domains (organizations, companies, etc.) the user belongs to."""
   domains: [Domain!]!
+
+  """Email address of the user."""
   email: EmailAddress!
+
+  """Unique identifier for the user."""
   id: ID!
+
+  """Locale or language preference for the user."""
   locale: String
+
+  """Full name of the user."""
   name: String
+
+  """Whether the user is the owner of the domain (not persisted in DB)."""
   owner: Boolean
+
+  """Reference information for the user (external system, etc.)."""
   reference: String
+
+  """Roles assigned to the user."""
   roles: [Role!]!
+
+  """Single sign-on (SSO) identifier for federated authentication."""
   ssoId: String
+
+  """Current status of the user account."""
   status: String!
+
+  """Timestamp when the user account was last updated."""
   updatedAt: DateTimeISO
+
+  """User who last updated this user account."""
   updater: User
+
+  """Type or category of the user (e.g., user, application, appliance)."""
   userType: String
+
+  """Unique username for the user."""
   username: String
+
+  """External authentication providers linked to the user."""
   usersAuthProviders: [UsersAuthProviders!]
 }
 
+"""A paginated list of users and the total count."""
 type UserList {
+  """List of user objects."""
   items: [User!]
+
+  """Total number of users matching the query."""
   total: Int
 }
 
+"""Input type for updating (patching) an existing user account."""
 input UserPatch {
+  """
+  Change flag for tracking updates (e.g., C/U/D for create/update/delete).
+  """
   cuFlag: String
+
+  """Optional description or note about the user."""
   description: String
+
+  """Domains associated with the user."""
   domains: [ObjectRef!]
+
+  """Email address of the user."""
   email: EmailAddress
+
+  """Unique identifier of the user to update."""
   id: ID
+
+  """Full name of the user."""
   name: String
+
+  """Password for the user account."""
   password: String
+
+  """Roles assigned to the user."""
   roles: [ObjectRef!]
+
+  """Status of the user account (e.g., active, inactive)."""
   status: String
+
+  """Type or category of the user (e.g., admin, operator, guest)."""
   userType: String
 }
 
@@ -4579,21 +7035,46 @@ input UserPreferencePatch {
   user: ObjectRef!
 }
 
+"""Represents a role and whether it is assigned to a specific user."""
 type UserRole {
+  """Indicates whether the role is assigned to the user."""
   assigned: Boolean
+
+  """A description of the role."""
   description: String
+
+  """The unique identifier of the role."""
   id: String
+
+  """The name of the role."""
   name: String
 }
 
-"""Entity for UsersAuthProviders"""
+"""
+Represents the link between a user and an external authentication provider.
+"""
 type UsersAuthProviders {
+  """The authentication provider associated with this link."""
   authProvider: AuthProvider
+
+  """The timestamp when this link was created."""
   createdAt: DateTimeISO
+
+  """The domain to which this link belongs."""
   domain: Domain!
+
+  """Unique identifier for the user-provider link."""
   id: ID!
+
+  """
+  The unique identifier for the user from the external provider (SSO ID).
+  """
   ssoId: String
+
+  """The timestamp when this link was last updated."""
   updatedAt: DateTimeISO
+
+  """The user associated with this link."""
   user: User
 }
 
