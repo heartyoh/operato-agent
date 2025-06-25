@@ -4,8 +4,8 @@ import os
 import yaml
 from graphql import build_schema
 
-SCHEMA_PATH = "data/schema.graphql"
-DSL_OUTPUT_DIR = "generated_dsls"
+SCHEMA_PATH = "data/graphql/schema.graphql"
+DSL_OUTPUT_DIR = "generated_dsl/graphql_dsl"
 
 os.makedirs(DSL_OUTPUT_DIR, exist_ok=True)
 

@@ -6,7 +6,7 @@ from llm.llm_client import load_llm
 
 def load_dsl_file(filename):
     """실제 DSL 파일을 로드"""
-    dsl_path = os.path.join("generated_dsls", filename)
+    dsl_path = os.path.join("generated_dsl", "graphql_dsl", filename)
     if os.path.exists(dsl_path):
         with open(dsl_path, 'r', encoding='utf-8') as f:
             return yaml.safe_load(f)

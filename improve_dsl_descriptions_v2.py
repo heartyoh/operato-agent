@@ -42,7 +42,7 @@ def improve_dsl_descriptions_v2():
         }
     }
     
-    dsl_dir = "generated_dsls"
+    dsl_dir = "generated_dsl"
     
     for filename, improvement in improvements.items():
         filepath = os.path.join(dsl_dir, filename)

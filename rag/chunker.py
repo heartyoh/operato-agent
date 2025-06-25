@@ -3,7 +3,7 @@
 import os
 import yaml
 
-def load_dsls(dsl_dir="generated_dsls"):
+def load_dsls(dsl_dir="generated_dsl"):
     chunks = []
     for filename in os.listdir(dsl_dir):
         if not filename.endswith(".yaml"):

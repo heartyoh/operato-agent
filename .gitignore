@@ -36,7 +36,7 @@ env/
 
 # Project specific
 rag_data/
-generated_dsls/
+generated_dsl/
 *.log
 .coverage
 htmlcov/

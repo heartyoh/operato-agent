@@ -1,0 +1,240 @@
+paths:
+  /scenario/{scenarioId}:
+    get:
+      tags:
+        - integration
+      description: Use this call to get information for single integration scenario.
+      operationId: scenario
+      parameters:
+        - in: header
+          name: x-things-factory-domain
+          schema:
+            type: string
+          required: false
+          description: things-factory subdomain name
+        - in: path
+          name: scenarioId
+          required: true
+          type: string
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad request is sent
+        '401':
+          description: Authentication Error
+        '404':
+          description: Resource not found
+        '500':
+          description: Server error
+
+  /scenarios:
+    get:
+      tags:
+        - integration
+      description: Use this API to get a list of integration scenarios.
+      operationId: scenarios
+      parameters:
+        - in: header
+          name: x-things-factory-domain
+          schema:
+            type: string
+          required: false
+          description: things-factory subdomain name
+        - in: query
+          name: page
+          description: This integer value is used to specify the maximum number of entries to return in a single "page" of data. Max entries per page is 100.
+          type: integer
+          format: uint32
+        - in: query
+          name: offset
+          description: Specifies the starting entry of data to return in the current call. Default is 1. if data is more than one page, the offset can be some entry to start next call.
+          type: integer
+          format: uint32
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad request is sent
+        '401':
+          description: Authentication Error
+        '404':
+          description: Resource not found
+        '500':
+          description: Server error
+
+  /scenario-instance/{instanceName}:
+    get:
+      tags:
+        - integration
+      description: Use this call to get information for single integration scenario instance.
+      operationId: scenarioInstance
+      parameters:
+        - in: header
+          name: x-things-factory-domain
+          schema:
+            type: string
+          required: false
+          description: things-factory subdomain name
+        - in: path
+          name: instanceName
+          required: true
+          type: string
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad request is sent
+        '401':
+          description: Authentication Error
+        '404':
+          description: Resource not found
+        '500':
+          description: Server error
+
+  /scenario-instances:
+    get:
+      tags:
+        - integration
+      description: Use this API to get a list of integration scenario instances.
+      operationId: scenarioInstances
+      parameters:
+        - in: header
+          name: x-things-factory-domain
+          schema:
+            type: string
+          required: false
+          description: things-factory subdomain name
+        - in: query
+          name: page
+          description: This integer value is used to specify the maximum number of entries to return in a single "page" of data. Max entries per page is 100.
+          type: integer
+          format: uint32
+        - in: query
+          name: offset
+          description: Specifies the starting entry of data to return in the current call. Default is 1. if data is more than one page, the offset can be some entry to start next call.
+          type: integer
+          format: uint32
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad request is sent
+        '401':
+          description: Authentication Error
+        '404':
+          description: Resource not found
+        '500':
+          description: Server error
+
+  /run-scenario/{scenarioName}:
+    post:
+      tags:
+        - integration
+      description: Use this call to run scenario as standalone.
+      operationId: runScenario
+      requestBody:
+        content:
+          application/json:
+            schema: # Request body contents
+              type: object
+              properties:
+                instanceName:
+                  type: string
+                  description: Scenario Instance Name to identify new scenario instance to run
+                variables:
+                  type: object
+                  description: Input parameters for the new scenario instance to run
+      parameters:
+        - in: header
+          name: x-things-factory-domain
+          schema:
+            type: string
+          required: false
+          description: things-factory subdomain name
+        - in: path
+          name: scenarioName
+          required: true
+          type: string
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad request is sent
+        '401':
+          description: Authentication Error
+        '404':
+          description: Resource not found
+        '500':
+          description: Server error
+
+  /start-scenario/{scenarioName}:
+    post:
+      tags:
+        - integration
+      description: Use this call to start scenario as a given instance name.
+      operationId: startScenario
+      requestBody:
+        content:
+          application/json:
+            schema: # Request body contents
+              type: object
+              properties:
+                instanceName:
+                  type: string
+                  description: Scenario Instance Name to identify new scenario instance to start
+                variables:
+                  type: object
+                  description: Input parameters for the new scenario instance to start
+      parameters:
+        - in: header
+          name: x-things-factory-domain
+          schema:
+            type: string
+          required: false
+          description: things-factory subdomain name
+        - in: path
+          name: scenarioName
+          required: true
+          type: string
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad request is sent
+        '401':
+          description: Authentication Error
+        '404':
+          description: Resource not found
+        '500':
+          description: Server error
+
+  /stop-scenario/{instanceName}:
+    post:
+      tags:
+        - integration
+      description: Use this call to stop scenario running as a given instance name.
+      operationId: stopScenario
+      parameters:
+        - in: header
+          name: x-things-factory-domain
+          schema:
+            type: string
+          required: false
+          description: things-factory subdomain name
+        - in: path
+          name: instanceName
+          required: true
+          type: string
+          description: scenario instance name to be stopped
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad request is sent
+        '401':
+          description: Authentication Error
+        '404':
+          description: Resource not found
+        '500':
+          description: Server error

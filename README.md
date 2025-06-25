@@ -59,7 +59,7 @@ GraphQL 스키마에서 DSL을 생성합니다:
 python dsl_registry/gql_schema_to_dsl.py
 ```
 
-이 명령은 `schema.graphql` 파일을 기반으로 `generated_dsls` 디렉토리에 DSL 정의 파일들을 생성합니다.
+이 명령은 `schema.graphql` 파일을 기반으로 `generated_dsl` 디렉토리에 DSL 정의 파일들을 생성합니다.
 
 ## RAG 인덱스 빌드
 
