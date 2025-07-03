@@ -1,0 +1,2126 @@
+﻿key,zh,ms,ja,en,ko
+APPROVAL,,,配布待ち,,배포대기
+EDIT,编辑,,編集,,편집
+RELEASED,,,配布,,배포
+button.accept,同意,Terima,承認,Accept,승인
+button.account,账户,Akaun,アカウント,account,계정
+button.activate,激活,aktifkan,アクティブ化,activate,활성화
+button.add,添加,tambah,追加,add,추가
+button.add-child-dept,添加下级部门,tambah jabatan bawahan,下位部門追加,sub. dept.,하위부서
+button.add-sibling-dept,添加同级部门,tambah jabatan sejawat,同等部門追加,peer dept.,동급부서
+button.align-bottom,底部对齐,Jajar Bawah,下揃え,align bottom,아래쪽 정렬
+button.align-center,居中对齐,Jajar Tengah,中央揃え,align center,중앙 정렬
+button.align-left,左对齐,Jajar Kiri,左側揃え,align left,좌측 정렬
+button.align-middle,中央对齐,Jajar Tengah,真ん中揃え,align middle,가운데 정렬
+button.align-right,右对齐,Jajar Kanan,右揃え,align right,우측 정렬
+button.align-top,顶部对齐,Jajar Atas,上揃え,align top,위쪽 정렬
+button.back-to-info,回到版本信息,Kembali ke Maklumat,前に戻る,back to information,뒤로 가기
+button.bring-forward,置到最前端,Bawa Ke Depan,最前面へ移動,bring forward,맨 앞으로 보내기
+button.bring-to-back,置后,Bawa Ke Belakang,背面へ移動,bring to back,뒤로 보내기
+button.bring-to-front,置前,Bawa Ke Hadapan,前面へ移動,bring to front,앞으로 보내기
+button.cancel,取消,batal,キャンセル,cancel,취소
+button.cancel-request-confirm,取消申请,Batal,再編集,Re-Edit,재 편집
+button.cancel-request-release,申请发布取消,Batal,再編集,Re-Edit,재 편집
+button.change_password,更改密码,Tukar Kata Laluan,パスワード変更,Change Password,비밀번호 변경
+button.check,勾选,Semak,チェック,Check,체크
+button.check-initialized,确认初始化的设置。,Semak Tetapan Dijangka,初期化設定チェック,Check Initialized Settings,초기화 설정 체크
+button.clear,初始化,Kosongkan,フォーム リセット,Clear,폼 리셋
+button.clear-cache,清除缓存,kosongkan cache,キャッシュをクリア,clear cache,캐시 삭제
+button.close,关闭,Tutup,閉じる,Close,닫기
+button.confirm,确认,sahkan,確認,confirm,확인
+button.connect,连接,sambung,接続,connect,연결
+button.copy,复制,salin,コピー,copy,복사
+button.copy from,复制自,salin dari,コピーしてくる,copy from,복사해오기
+button.copy-url,复制URL,salin URL,URLをコピー,copy URL,URL 복사
+button.create,创建,cipta,作成,create,생성
+button.deactivate,停用,deaktifkan,非アクティブ化,deactivate,비활성화
+button.decrease-font,减小字体,Kecilkan Fon,フォント サイズ縮小,decrease font,폰트 줄이기
+button.delete,删除,padam,削除,delete,삭제
+button.delete role,删除角色,padam peranan,ロール削除,delete role,역할 삭제
+button.delete this appliance,删除此设备,padamkan peralatan ini,この機器を削除,delete this appliance,단말장치 삭제
+button.delete user,删除用户,padam pengguna,ユーザー削除,delete user,사용자 삭제
+button.detach,分离,lepaskan,連結解除,detach,연결해제
+button.detail,明细,butiran,詳細,detail,상세
+button.disconnect,断开连接,putuskan sambungan,切断,disconnect,연결끊기
+button.download,下载,muat turun,ダウンロード,download,다운로드
+button.edit,编辑,edit,修正,edit,수정
+button.edit-contact,编辑联系人,edit kenalan,連絡先を編集,edit contact,연락처 편집
+button.edit-detail,编辑详情,edit butiran,詳細を編集,edit detail,상세 편집
+button.edit-group,更改组信息,Edit Kumpulan,グループ修正,Edit Group,그룹 수정
+button.empty,清空,kosongkan,空にする,empty,비우기
+button.export,导出,eksport,エクスポート,export,내보내기
+button.export-locale-file,导出语言信息,Eksport Fail Lokal,ローケル ファイル抽出,export locale files,로케일파일 추출
+button.font-selector,字体选择器,Pemilih Fon,フォント選択,Font Selector,폰트 선택
+button.fullscreen,全屏,Skrin Penuh,フルスクリーン,fullscreen,전체화면
+button.generate new access token,生成新的访问令牌,Cipta akses token baru,新しいアクセス トークンを生成,generate new access token,새토큰 생성
+button.go to home,首页,ke halaman utama,ホームへ移動,go to home,홈으로 이동
+button.group,组合,Kumpulan,グループ,group,그룹
+button.history,打印记录,Sejarah Cetakan,印刷履歴,print history,인쇄 이력
+button.image-download,图片下载,Muat Turun Gambar,イメージ ダウンロード,image download,이미지 다운로드
+button.import,导入,import,インポート,import,가져오기
+button.import-board,导入面板,Import papan,ボードをインポート,import board,보드 임포트
+button.increase-font,增大字体,Besarkan Fon,フォント サイズ拡大,increase font,폰트 키우기
+button.info,信息,Maklumat,情報,info,정보
+button.init-setting,创建设置,Cipta Tetapan,セットデータ作成,Create Settings,세팅 데이터 생성
+button.logout,退出,logout,ログアウト,logout,로그아웃
+button.modeller,修改模版,Modeller,モデラー,modeller,모델러
+button.need help,需要帮助,perlukan bantuan,何かお困りですか?,need help,도움이 필요하세요?
+button.new,新增,Baru,新規,new,신규
+button.new-contact,新建联系人,kenalan baru,新しい連絡先,new contact,새 연락처 생성
+button.new-group,新组,Kumpulan Baru,新しいグループ,New Group,새 그룹
+button.notification-send,通知推送,hantar pemberitahuan,通知を送る,notification send,알림 보내기
+button.open-import,导入,Import,読み込み,Import,가져오기
+button.open-in-new,在新窗口中打开,buka dalam tetingkap baru,新しいウィンドウで開く,open in new,새창에서 열기
+button.profile,当前用户信息,Profil,プロフィール,profile,프로필
+button.push message test,推送消息测试,ujian mesej tolak,プッシュメッセージ テスト,push message test,푸시 메시지 테스트
+button.receive,接收,terima,受付,receive,접수
+button.redo,重做,Ulang,やり直す,redo,되돌리기
+button.refresh,刷新,Segar Semula,リロード,refresh,새로고침
+button.register,注册,daftar,登録,register,등록
+button.register-account,注册账户,,アカウント登録,register,계정 등록
+button.register-template,注册模板,daftar templat,テンプレートを登録,register template,템플릿 등록
+button.reject,拒绝,Tolak,拒む,Reject,반려
+button.release,发布,Lepas,リリース,release,배포
+button.reload,刷新,muat semula,再スタート,reload,재시작
+button.rename,名称变更,Namakan Semula,名前変更,rename,이름변경
+button.request-confirm,审批申请,Selesai,編集完了,Finish,편집완료
+button.request-release,申请发布,Selesai,編集完了,finish,편집완료
+button.request_active,用户激活,Aktifkan,アカウント アクティブ化要求,Activating,계정 활성화 요청
+button.request_role,申请角色,Permintaan Peranan,ロール申請,Request Role,역할 신청
+button.reset,初始化,Tetap Semula,リセット,Reset,초기화
+button.reset_password,重置密码,Tetap Semula,パスワード リセット,Reset,비밀번호 초기화
+button.revert-board-version,还原版本,Kembalikan versi,バージョンを戻す,revert version,버전적용
+button.role-list,角色,Senarai Peranan,ロール,Roles,역할
+button.save,保存,simpan,保存,save,저장
+button.schedule-task,安排任务,jadualkan tugas,jadualkan tugas,schedule task,스케쥴 등록
+button.script,脚本,Skrip,スクリプト,script,스크립트
+button.security-key registration,安全密钥注册,pendaftaran kunci keselamatan,セキュリティキー登録,security key registration,보안인증키 등록
+button.self-confirm,自我审批,Sahkan Sendiri,自己配布,Self confirm,자가 배포
+button.send-backward,置到最后端,Hantar Ke Belakang,最背面へ移動,send backward,맨 뒤로 보내기
+button.setting,配置,Tetapan,設定,setting,설정
+button.setup,配置,Penyusunan,設定,Setup,설정
+button.show-zpl,,,ZPL表示,,ZPL 보기
+button.sign_in,登录,Log Masuk,ログイン,Login,로그인
+button.sign_up,申请账户,Daftar,ユーザー登録申請,Sign Up,사용자 등록신청
+button.start,开始,mula,開始,start,시작
+button.start monitor,启动监视器,mula pemantauan,モニタリング開始,start monitor,모니터링 시작
+button.stop,停止,berhenti,停止,stop,종료
+button.stop monitor,停止监视器,hentikan pemantauan,モニタリング終了,stop monitor,모니터링 종료
+button.submit,提交,hantar,サブミット,submit,제출
+button.terminate contract,终止合同,tamatkan,契約解除,terminate,계약 해지
+button.toggle-property-panel,切换属性面板,Togol Panel Harta,プロパティパネル表示/非表示,toggle property panel,프로퍼티 패널 표시/숨김
+button.toggle_sidebar,菜单切换,Togol Menu,メニュー トグル,Menu Toggle,메뉴 토글
+button.transfer owner,转让所有权,pindah pemilik,管理者付与,transfer owner,관리자 부여
+button.undo,撤销,Buat Asal Semula,取り消す,undo,실행취소
+button.ungroup,取消组合,Buka Kumpulan,グループ解除,ungroup,그룹 해제
+button.unschedule-task,取消安排任务,batalkan jadual tugas,batalkan jadual tugas,unschedule task,스케쥴 취소
+button.update,更新,Kemaskini,修正,update,수정
+button.upload,上传,Muat Naik,アップロード,Upload,업로드
+button.version-up,版本升级,Naik Versi,バージョンアップ,version up,버전 업
+button.view,查看,Lihat,見る,view,보기
+button.view-short,查看,Lihat,見る,view,보기
+button.view_release_note,查看发布说明,Lihat catatan rilis,リリースノートを見る,view release note,릴리즈노트 보기
+button.zoom-in,放大,Zum Masuk,ズーム イン,zoom in,줌 인
+button.zoom-out,缩小,Zum Keluar,ズーム アウト,zoom out,줌 아웃
+component.3d-container,3D容器,3D container,3Dコンテナ,3D container,3D 컨테이너
+component.audio,音频,audio,オーディオ,audio,오디오
+component.banner,横幅,banner,バナー,banner,배너
+component.bar-chart,条形图,carta bar,バー チャート,bar chart,바 차트
+component.barcode,条码,barcode,バーコード,barcode,바코드
+component.barcode-scanner,条码扫描仪,penyelakuan barcode,バーコードスキャナー,barcode-scanner,바코드 스캐너
+component.both arrow,双向箭头,kedua-dua anak panah,両方の矢印,both arrow,양방향 화살표
+component.button,按钮,butang,ボタン,button,button
+component.camera,摄像机,camera,カメラ,camera,카메라
+component.chartjs,图表,carta,チャート,chart,차트
+component.clock-analog,模拟时钟,jam analog,アナログ時計,analog clock,아나로그 시계
+component.clock-text,数字时钟,jam digital,デジタル時計,digital clock,디지털 시계
+component.clone,克隆,klon,クローン,clone,복제기
+component.color image,彩色图像,gambar berwarna,カラー画像,color image,컬러 이미지
+component.compass,指南针,kompas,コンパス,compass,나침반
+component.connection-control,连接控制,kawal sambungan,接続制御,Connection control,커넥션 컨트롤
+component.connection-state-subscription,连接状态订阅,langganan status sambungan,接続状態のサブスクリプション,Connection state subscription,커넥션 상태 구독
+component.container,容器,kontena,コンテナ,container,컨테이너
+component.conveyor,传送带,penghantar,コンベア,conveyor,컨베이어
+component.conveyor-belt,传送带带,tali pinggang penghantar,コンベアベルト,conveyor-belt,컨베이어 벨트
+component.conveyor-join,传送带连接,sambungan penghantar,コンベア結合,conveyor-join,컨베이어 조인
+component.conveyor-join-trapezoid,传送带连接梯形,sambungan penghantar trapezoid,コンベア結合台形,conveyor-join-trapezoid,컨베이어 조인 사다리꼴
+component.credential,用户信息,maklumat pengguna,ユーザー情報,user info.,사용자정보
+component.cube,立方体,cube,立方体,cube,큐브
+component.cylinder,圆柱体,cylinder,円柱,cylinder,실린더
+component.dash,虚线,dash,ダッシュ,dash,대시라인
+component.data-accessor,数据访问器,pencapai data,データアクセサ,data accessor,데이타 접근자
+component.data-aggregator,数据聚合器,pengagregat data,データアグリゲーター,data aggregator,데이터 집계자
+component.data-enhancer,数据增强器,penguat data,データエンハンサー,data enhancer,데이터 강화자
+component.data-list,数据列表,senarai data,データリスト,data-list,데이타리스트
+component.data-paginator,数据分页器,pengatur halaman data,データページネーター,data paginator,데이터 페이지네이터
+component.data-queue,数据队列,barisan data,データキュー,data queue,데이터 큐
+component.data-reducer,数据简化器,pengurang data,データリデューサー,data reducer,데이터 축소자
+component.data-splitter,数据分割器,pembahagi data,データスプリッター,data splitter,데이터 분할자
+component.data-subscription,数据订阅,langganan data,データサブスクリプション,Data subscription,데이타 구독
+component.data-wrapper,数据包装器,pembungkus data,データラッパー,data wrapper,데이터 래퍼
+component.desk,桌子,desk,デスク,desk,책상
+component.div,区块,div,div,div,div
+component.donut,圆环,donut,ドーナツ,donut,도넛
+component.doughnut-chart,甜甜圈图,carta donat,ドーナツチャート,doughnut chart,도넛 차트
+component.duetimer,双计时器,duetimer,デュアルタイマー,duetimer,만료 타이머
+component.ellipse,椭圆,elips,楕円,ellipse,타원
+component.embed,嵌入,tanam,埋め込み,embed,embed
+component.excel,excel,excel,excel,excel,엑셀
+component.fieldset,字段集,fieldset,フィールドセット,fieldset,fieldset
+component.form,表单,borang,フォーム,form,form
+component.gantt,gantt,gantt,gantt,gantt,간트차트
+component.gauge-circle,圆形仪表盘,meter bulat,円形ゲージ,circle gauge,원형 게이지
+component.gauge-horizon,水平仪表盘,meter mendatar,水平ゲージ,horizontal gauge,수평 게이지
+component.gauge-vertical,垂直仪表盘,meter menegak,垂直ゲージ,vertical gauge,수직 게이지
+component.gif image,GIF图像,gambar gif,GIF画像,gif image,GIF 이미지
+component.gif-view,GIF视图,paparan gif,GIFビュー,gif-view,GIF 뷰
+component.global-ref,全球引用,rujukan global,グローバル参照,global reference,글로벌 레퍼런스
+component.gltf-object,gltf对象,gltf-object,gltfオブジェクト,gltf-object,GLTF 오브젝트
+component.gmap-marker,谷歌地图标记,Penanda Google Map,グーグルマップ マーカー,gmap marker,구글맵 마커
+component.gmap-path,谷歌地图路径,Laluan Google Map,グーグルマップ パス,gmap path,구글맵 경로
+component.google-map,谷歌地图,Google Map,グーグルマップ,google map,구글맵
+component.graphql-client,GraphQL 客户端,Klien GraphQL,GraphQL クライアント,GraphQL client,graphql 클라이언트
+component.graphql-mutation,GraphQL 变更,Mutasi GraphQL,GraphQL ミューテーション,GraphQL mutation,graphql 뮤테이션
+component.graphql-query,GraphQL 查询,Kuiri GraphQL,GraphQL クエリ,GraphQL query,graphql 쿼리
+component.graphql-subscription,GraphQL 订阅,Langganan GraphQL,GraphQL サブスクリプション,GraphQL subscription,graphql 구독
+component.gray image,灰色图像,gambar kelabu,グレー画像,gray image,흑백 이미지
+component.group,组,kumpulan,グループ,group,그룹
+component.half-roundrect,单边圆角矩形,segi empat dengan bulatan sebelah,片面ラウンドの四角形,single-side rounded rect.,단면 라운드 사각형
+component.horizontal-bar-chart,水平条形图,carta bar mendatar,水平バー チャート,horizontal bar chart,수평바 차트
+component.html-date,HTML 日期,tarikh HTML,HTML日付,html date,html-date
+component.html-label,HTML 标签,label HTML,HTMLラベル,html label,html-label
+component.icon-embed,,,,,icon-embed
+component.icon-radio-group,,,,,icon-radio-group
+component.icon-video,,,,,icon-video
+component.iframe,内联框架,iframe,iframe,iframe,iframe
+component.image-slider,图像滑块,slider imej,画像スライダー,image slider,이미지 슬라이더
+component.image-view,图像视图,paparan imej,イメージビュー,image-view,이미지
+component.img,图像,img,画像,img,img
+component.indoor-map,室内地图,peta dalaman,屋内マップ,indoor-map,실내맵
+component.info-window,信息窗口,tingkap maklumat,情報ウィンドウ,info window,인포윈도우
+component.input-checkbox,复选框,checkbox,チェックボックス,checkbox,input-checkbox
+component.input-color,颜色输入,input warna,カラー入力,color input,input-color
+component.input-date,日期输入,input tarikh,日付入力,date input,input-date
+component.input-datetime-local,输入-日期时间-本地,input-datetime-local,入力-日時-ローカル,input-datetime-local,input-datetime-local
+component.input-email,电子邮件输入,input emel,メール入力,email input,input-email
+component.input-file,文件输入,input fail,ファイル入力,file input,input-file
+component.input-month,月份输入,input bulan,月入力,month input,input-month
+component.input-number,数字输入,input nombor,数値入力,number input,input-number
+component.input-password,密码输入,input kata laluan,パスワード入力,password input,input-password
+component.input-radio,单选框,input radio,ラジオ入力,radio input,input-radio
+component.input-range,范围输入,input julat,範囲入力,range input,input-range
+component.input-reset,重置输入,input set semula,リセット入力,reset input,input-reset
+component.input-search,搜索,cari,検索,search,input-search
+component.input-submit,提交,hantar,送信,submit,input-submit
+component.input-text,文本输入,input teks,テキスト入力,text input,input-text
+component.input-time,时间输入,input masa,時間入力,time input,input-time
+component.jsonp,jsonp,JSONP,JSONP,jsonp,jsonp
+component.label,标签,label,ラベル,label,라벨
+component.label-printer,标签打印机,pencetak label,ラベルプリンター,label-printer,라벨프린터
+component.legend,图例,legenda,凡例,legend,레전드
+component.light,灯光,light,ライト,light,조명
+component.line,线条,garis,ライン,line,선
+component.line-chart,折线图,carta garisan,ラインチャート,line chart,라인 차트
+component.link,链接,pautan,リンク,link,link
+component.local-ref,本地引用,rujukan tempatan,ローカル参照,local reference,로컬 레퍼런스
+component.marker,标记,penanda,マーカー,marker,마커
+component.md-dialog,对话框,Dialog,ダイアログ,Dialog,다이얼로그
+component.md-fab,浮动操作按钮,Butang Tindakan Terapung,フローティング アクション ボタン,Floating Action Button,플로팅 액션 버튼
+component.mixed-chart,混合图,carta campuran,混合チャート,mixed chart,혼합 차트
+component.model-layer,画布,kainvas,キャンバス,canvas,캔바스
+component.news-ticker,新闻滚动条,ticker berita,ニュースティッカー,news ticker,뉴스 티커
+component.ortholine,正交线,ortolin,オーソライン,ortholine,직교라인
+component.pdf-page,PDF页面,pdf page,PDFページ,PDF page,PDF 페이지
+component.pie-chart,饼图,carta pai,パイチャート,pie chart,파이 차트
+component.polar-area-chart,极区图,carta kutub,ポーラチャート,polar area chart,폴라 차트
+component.polygon,多边形,poligon,ポリゴン,polygon,다각형
+component.polyline,多段线,polilin,ポリライン,polyline,폴리라인
+component.polypath,多边路径,laluan pelbagai,ポリパス,polypath,다중경로
+component.popup,弹出窗口,popup,ポップアップ,popup,팝업
+component.progress-circle,圆形进度,lingkaran kemajuan,サークル進捗,progress circle,원형 프로그레스
+component.progress-horizontal,水平进度,kemajuan mendatar,水平進捗,progress horizontal,수평 프로그레스
+component.progress-vertical,垂直进度,kemajuan menegak,垂直進捗,progress vertical,수직 프로그레스
+component.rack,机架,rak,ラック,rack,랙
+component.rack-table,机架表,rack table,ラックテーブル,rack table,rack 테이블
+component.radar-chart,雷达图,carta radar,レーダーチャート,radar chart,레이다 차트
+component.radio-group,单选按钮组,kumpulan radio,ラジオグループ,radio group,radio-group
+component.random,随机,rawak,ランダム,random,랜덤
+component.rect,矩形,segi empat,矩形,rect,사각형
+component.restful,restful,restful,restful,restful,restful
+component.scanner,扫描仪,pemindai,スキャナ,scanner,스캐너
+component.scenario-control,场景控制,kawal senario,シナリオ制御,Scenario control,시나리오 컨트롤
+component.scenario-instance-subscription,场景实例订阅,langganan contoh senario,シナリオインスタンスのサブスクリプション,Scenario instance subscription,시나리오 인스턴스 구독
+component.scenario-queue-subscription,场景队列订阅,langganan barisan senario,シナリオキューサブスクリプション,Scenario queue subscription,시나리오 큐 구독
+component.scenario-run,运行场景,jalankan senario,シナリオ実行,Run scenario,시나리오 실행
+component.scenario-start,开始场景,mula senario,シナリオ開始,Start scenario,시나리오 시작
+component.scenario-stop,停止场景,hentikan senario,シナリオ停止,Stop scenario,시나리오 종료
+component.scichart-multiple-timeseries,多图表 时间序列,masa siri berbilang carta,マルチチャート タイムシリーズ,multiple timeseries,다중차트 타임시리즈
+component.scichart-timeseries,时间序列,siri masa,タイムシリーズ,timeseries,타임시리즈
+component.select,选择,pilih,セレクト,select,select
+component.simple-switch,简单开关,penyuisan mudah,シンプルスイッチ,simple switch,스위치
+component.single arrow,单箭头,anak panah tunggal,単一矢印,single arrow,단방향 화살표
+component.soap-client,SOAP 客户端,klien SOAP,SOAPクライアント,soap client,soap-client
+component.sphere,球体,sphere,球体,sphere,구체
+component.sprite,精灵,sprite,スプライト,sprite,스프라이트
+component.star,星形,bintang,星,star,별
+component.svg,SVG,svg,SVG,svg,SVG
+component.tab,标签,tab,タブ,tab,탭
+component.tab-container,标签容器,bekas tab,タブコンテナ,tab container,탭 컨테이너
+component.table,表格,jadual,テーブル,table,테이블
+component.table-cell,表格单元格,sel jadual,テーブルセル,table cell,테이블 셀
+component.tact-timer,工艺标准时间计时器,pemasa masa standard proses,工程標準時間タイマー,tact timer,공정표준시간 타이머
+component.text,文本,teks,テキスト,text,텍스트
+component.textarea,文本域,textarea,テキストエリア,textarea,textarea
+component.timer,计时器,pemasa,タイマー,timer,타이머
+component.triangle,三角形,segitiga,三角形,triangle,삼각형
+component.video,视频,video,ビデオ,video,비디오
+component.visualizer,可视化器,visualizer,ビジュアライザ,visualizer,비쥬얼라이저
+component.wall,墙,wall,壁,wall,벽체
+component.wheel-sorter,轮式分拣器,pengisih roda,ホイールソータ,wheel-sorter,휠소터
+error.MAX_LENGTH_OF_X_IS_Y,{name}的最大长度是 {value}。,Panjang Maksimum {name} adalah {value},{name}の最大の長さは{value}です.,Maximum Length of {name} is {value},{name}의 최대 길이는 {value} 입니다.
+error.SERVER-ERROR,发生了服务端错误。({msg}),Ralat berlaku di pelayan. ({msg}),サーバーでエラーが発生しました.({msg}),An error occurred at the server.({msg}),서버에서 에러가 발생했습니다.({msg})
+error.SHOULD_NOT_BE_EMPTY,值'{value}'不能为空值。,Nilai '{value}' tidak boleh kosong,値'{value}'が空の値であってはなりません.,value '{value}' should not be empty,값 '{value}'이 빈값이면 안됩니다.
+error.auth error,认证错误。{message},ralat pengesahan. {message},認証エラー。{message},auth error. {message},인증 오류. {message}
+error.authn verification failed,用户认证失败。,pengesahan kelayakan pengguna gagal.,ユーザー認証に失敗しました。,user credential verification failed.,사용자 자격 증명을 실패하였습니다.
+error.board name is already taken,板块名称 '{name}' 已被占用。请使用其他板块名称重试。,Nama papan '{name}' sudah diambil. Sila cuba semula dengan nama papan yang berbeza.,ボード名 '{name}' は既に使用されています。別のボード名で再試行してください。,Board name '{name}' is already taken. Pls. retry with different board name.,'{name}' 보드 이름이 이미 사용중입니다. 다른 이름으로 다시 시도해주세요.
+error.confirm password not matched,新密码与确认密码不匹配！,Kata laluan baru dan pengesahan kata laluan tidak sepadan,新しいパスワードと確認パスワードが一致しません.,new password and confirm password is not matched,새 비밀번호와 확인 비밀번호가 일치하지 않습니다.
+error.contact-email-not-set,ID为{contactId}的联系人没有设置工作邮箱。,Kenalan dengan ID {contactId} tidak mempunyai emel kerja yang ditetapkan.,ID {contactId} の連絡先には勤務用のメールアドレスが設定されていません。,The contact with ID {contactId} does not have a work email set.,연락처({contactId})에 이메일(work) 정보가 없습니다.
+error.contact-information-required,该员工需要联系信息。,Maklumat hubungan diperlukan untuk pekerja ini.,この従業員には連絡先情報が必要です。,Contact information is required for this employee.,해당 직원의 연락처 정보가 필요합니다.
+error.contact-initial-password-required,必须提供初始密码或默认密码。,kata laluan awal atau kata laluan lalai mesti disediakan.,初期パスワードまたはデフォルトパスワードが提供される必要があります。,An initial password or default password must be provided.,초기 비밀번호나 디폴트 비밀번호가 제공되어야 합니다.
+error.contact-not-found,无法找到ID为{contactId}的联系人。,Kenalan dengan ID {contactId} tidak dapat ditemui.,ID {contactId} の連絡先が見つかりません。,Contact with ID {contactId} could not be found.,연락처({contactId})를 찾을 수 없습니다.
+error.contact-role-not-found,在域中找不到角色'{roleName}'。,Peranan '{roleName}' tidak dapat ditemui dalam domain.,ドメイン内で役割'{roleName}'が見つかりませんでした。,The role '{roleName}' could not be found in the domain.,'{name}'라는 이름의 역할이 정의되어 있지 않습니다.
+error.count over license limit,您的看板或子域数量超过了许可证限制！,Bilangan papan atau domain anda melebihi had lesen!,ライセンスで規定したボードまたはドメイン数量を超えました!,Your board or domain count over license limit!,라이선스에서 규정한 보드 또는 도메인 수량을 초과 하였습니다!
+error.domain mismatch,证书不适用于该域！,Sijil tidak sesuai untuk domain ini,証明書のドメインと現在のドメインが一致しません.,certificate is not for this domain,인증서의 도메인과 현재 도메인이 일치하지 않습니다.
+error.domain not allowed,您无权限使用此域,anda tidak dibenarkan akses domain ini,'{subdomain}'領域はこのユーザーに許可されていません.,this domain is not allowed for you,'{subdomain}' 영역은 이 사용자에게 허가되지 않았습니다.
+error.email already exists,电子邮件已被其他用户使用！,Emel telah digunakan oleh pengguna lain,メールはすでに他のユーザーによって使用されています.,email already used by another user,이메일이 이미 사용되고 있습니다.
+error.employee-already-registered,该员工已注册为系统用户。,Pekerja ini sudah didaftarkan sebagai pengguna sistem.,この従業員はすでにシステムユーザーとして登録されています。,This employee is already registered as a system user.,해당 직원은 이미 시스템 사용자로 등록되어 있습니다.
+error.failed to find x,查询{x}失败！,Gagal mencari {x},{x}が見つかりません.,failed to find {x},{x}을(를) 찾을 수 없습니다.
+error.invalid license key,无效的许可证密钥！,Kunci Lesen tidak sah!,ライセンスが無効です!,Invalid license key!,라이센스가 유효하지 않습니다!
+error.license expiration notice,许可证到期提醒,Notis Tamat Tempoh Lesen,ライセンス満了予定のお知らせ,License Expiration Notice,라이선스 만료예정 알림
+error.license key is empty,许可证密钥为空！,Kunci Lesen kosong!,ライセンス情報がありません!,License Key is empty!,라이센스 정보가 없습니다!
+error.license key is not certified,许可证密钥未通过认证！,Kunci Lesen tidak disahkan!,ライセンスが認証されていません!,License Key is not certified!,라이센스가 인증되지 않았습니다!
+error.license token not valid,您的数据密钥验证失败，系统许可无效！,Data token lesen anda tidak sah!,ライセンス トークン データのテストに失敗しました!,Your license token data is not valid!,라이선스 토큰 데이터 검사에 실패하였습니다!
+error.name must be unique from the original board,板块名称 '{name}' 必须与原始板块不同。请使用其他板块名称重试。,Nama papan '{name}' mesti unik dari papan asal. Sila cuba semula dengan nama papan yang berbeza.,ボード名 '{name}' は元のボードと異なる必要があります。別のボード名で再試行してください。,Board name '{name}' must be unique from the original board. Pls. retry with different board name.,'{name}' 보드 이름은 원본 보드의 이름과 다르면서 유일하게 제공되어야 합니다. 다른 이름으로 다시 시도해주세요.
+error.new-password-and-confirm-password-do-not-match,新密码与认证密码不同,kata laluan baharu dan pengesahan berbeza,新しいパスワードと確認パスワードが一致しません.,new password and confirm password do not match,새 비밀번호와 확인 비밀번호가 일치하지 않습니다.
+error.not allowed file type for upload,{mimetype}是未经允许的上传文件类型。,{mimetype} adalah jenis fail yang tidak dibenarkan untuk dimuat naik.,{mimetype}はアップロードが許可されていないファイルタイプです。,{mimetype} is not an allowed file type for upload.,{mimetype}은 업로드가 허가되지 않은 파일형식입니다.
+error.not valid pattern of type,{type}格式错误,tidak sah corak {type},正しい{type}形式ではありません.,not valid pattern of {type},올바른 {type} 형식이 아닙니다.
+error.password should be supported,应支持初始密码或默认密码,kata laluan awal atau kata laluan lalai harus disokong,初期パスワードまたはデフォルトパスワードがサポートされるべきです,initial password or default password should be supported,초기 비밀번호나 디폴트 비밀번호가 제공되어야 합니다.
+error.password should match the rule,密码应符合以下规则。${rule},Kata laluan harus mematuhi peraturan berikut. ${rule},パスワードは次の規則を守らなければなりません. {rule},password should match following rule. ${rule},비밀번호는 다음 규칙을 지켜야 합니다. {rule}
+error.password used in the past,使用过的密码！,Kata laluan telah digunakan dalam masa lampau,過去に使用されたパスワードです.,password used in the past,과거에 사용된 비밀번호입니다.
+error.password-not-matched,密码不匹配。 5次失败后，您的帐户将被锁定。(失败次数:{failCount}),salah kata kunci. akaun anda akan dikunci selepas 5 kali percubaan. (gagal: {failCount}),パスワードが一致しません. 5回失敗するとアカウントがロックされます. (失敗: {failCount}),"password not matched. after 5 failures, your account will be locked. (failure: {failCount})",비밀번호가 일치하지 않습니다. 5번 실패하면 계정이 잠깁니다. (실패: {failCount})
+error.scenario instance not found,无法找到场景实例 '{instance}'。它可能已经结束。,Tidak dapat mencari instans senario '{instance}'. Mungkin telah berakhir.,シナリオ インスタンス'{instance}'が見つかりません. 既に終了している可能性があります.,scenario instance '{instance}' not found.,시나리오 인스턴스 '{instance}'를 찾을 수 없습니다. 이미 종료되었을 수 있습니다.
+error.scenario not found,无法找到场景 '{scenario}'。,Tidak dapat mencari senario '{scenario}'.,シナリオ'{scenario}'が見つかりません.,scenario '{scenario}' not found.,시나리오 '{scenario}'를 찾을 수 없습니다.
+error.scenario run error,处理场景 '{scenario}' 请求时发生错误。请联系管理员。,Ralat berlaku semasa memproses permintaan senario '{scenario}'. Sila hubungi pentadbir.,シナリオ '{scenario}' のリクエストを処理中にエラーが発生しました。管理者に連絡してください。,an error occurred while processing the '{scenario}' request. please contact the administrator.,시나리오 '{scenario}' 요청을 처리하는 중 오류가 발생했습니다. 관리자에게 문의하십시오.
+error.scenario run unauthorized,没有执行场景 '{scenario}' 的权限。请联系管理员。,Anda tidak mempunyai kebenaran untuk menjalankan senario '{scenario}'. Sila hubungi pentadbir.,シナリオ '{scenario}' を実行する権限がありません。管理者に連絡してください。,you do not have permission to run the '{scenario}' scenario. please contact the administrator.,시나리오 '{scenario}'를 실행할 권한이 없습니다. 관리자에게 문의하십히오.
+error.schedule is not set,要注册为计划，场景 '{scenario}' 需要设置计划信息。,"Untuk mendaftarkan sebagai jadual, maklumat jadual mesti diset dalam senario '{scenario}'.",スケジュールとして登録するためにはシナリオ'{scenario}'にスケジュール情報が設定される必要があります.,schedule should be set for the scenario '{scenario}' in order to register as a schedule,스케쥴로 등록하기 위해서는 시나리오 '{scenario}'에 스케쥴 정보가 설정되어야 합니다.
+error.setting-error,设置错误,Ralat Tetapan,設定エラー,Setting error,설정 오류
+error.subdomain not found,用户域查询失败！,Domain tidak ditemui,サブドメインが見つかりません.,domain not found,서브도메인을 찾을 수 없습니다.
+error.timezone is not set,要注册为计划，场景 '{scenario}' 需要设置时区信息。,"Untuk mendaftarkan sebagai jadual, maklumat zon masa mesti diset dalam senario '{scenario}'.",スケジュールとして登録するためにはシナリオ'{scenario}'にタイム ゾーン情報が設定される必要があります.,timezone should be set for the scenario '{scenario}' in order to register as a schedule,스케쥴로 등록하기 위해서는 시나리오 '{scenario}'에 타임존 정보가 설정되어야 합니다.
+error.token or password is invalid,令牌或密码无效！,Token atau kata laluan tidak sah,トークンまたはパスワードが無効です.,token or password is invalid,토큰 또는 비밀번호가 유효하지 않습니다.
+error.unavailable-domain,不可用的域名,Domain tidak tersedia,使用できないドメインです.,unavailable domain,사용할 수 없는 도메인입니다.
+error.user credential not found,用户凭证未找到。您需要注册设备以使用生物识别认证。,kelayakan pengguna tidak ditemui. Anda perlu mendaftarkan peranti untuk menggunakan pengesahan biometrik.,ユーザー資格情報が見つかりません. 生体認証を使用するにはデバイスを登録する必要があります.,user credential not found. You need to register device to use biometric authentication.,사용자 자격 증명을 찾을 수 없습니다. 바이오메트릭 인증을 사용하기 위해서는 먼저 기기를 등록해야 합니다.
+error.user credential registeration failed,用户凭证注册失败。可能是已注册的凭证。,pendaftaran kelayakan pengguna gagal. Mungkin kelayakan tersebut sudah didaftarkan.,ユーザー資格情報の登録に失敗しました。既に登録されている資格情報の可能性があります。,user credential registration failed. It may be an already registered credential.,사용자 인증서 등록이 실패하였습니다. 이미 등록된 인증서일 수 있습니다.
+error.user credential registration not allowed,用户凭证注册失败。注册超时或注册不被允许。,pendaftaran kelayakan pengguna gagal. Masa pendaftaran telah tamat atau pendaftaran tidak dibenarkan.,ユーザー資格情報の登録に失敗しました。登録のタイムアウトまたは登録が許可されていません。,user credential registration failed. The registration timed out or was not allowed.,사용자 인증서 등록이 실패하였습니다. 등록 시간이 초과되었거나 등록이 허용되지 않았습니다.
+error.user duplicated,存在一个用户帐户使用相同的电子邮件或用户ID。,terdapat akaun pengguna yang menggunakan e-mel atau ID pengguna yang sama.,,,동일한 이메일이나 사용자아이디로 가입된 계정이 이미 존재합니다.
+error.user duplicated.,,,ユーザーが重複しています.,there is a user account using same email or user ID.,
+error.user not activated,用户未激活！,Pengguna tidak diaktifkan,ユーザーがアクティブ化されていません.,user is not activated,사용자가 활성화되지 않았습니다.
+error.user not found,找不到用户,pengguna tidak wujud,ユーザーが存在しません.,user not found,사용자가 존재하지 않습니다.
+error.user or verification token not found,找不到用户或验证令牌。,Pengguna atau token pengesahan tidak ditemui,ユーザーまたは確認トークンが見つかりません.,user or verification token not found,사용자 또는 확인토큰을 찾을 수 없습니다.
+error.user validation failed,用户验证失败！,Validasi pengguna gagal,ユーザー確認に失敗しました.,user validation failed,사용자 확인에 실패하였습니다.
+error.user verification failed,用户验证失败,,,,
+error.user-deleted,找不到用户,pengguna tidak wujud,ユーザーが存在しません.,user account is deleted,사용자가 존재하지 않습니다.
+error.user-locked,用户帐户已锁定,pengguna dikunci,アカウントがロックされました. メールで再アクティブ化してください.,user account is locked,계정이 잠겼습니다. 이메일을 통해 재활성화하세요.
+error.username already exists,用户名已被其他用户使用,Nama pengguna telah digunakan oleh pengguna lain,ユーザー名はすでに他のユーザーによって使用されています.,username already used by another user,사용자 아이디가 이미 사용되고 있습니다.
+error.value is empty,{value}为空,{value} kosong,{value}の値が存在しません.,{value} is empty,{value}의 값이 존재하지 않습니다.
+error.x already exists in y,{x}已存在于{y},{x} telah wujud dalam {y},{x}が既に{y}に存在します.,{x} already exists in {y},{x}이/가 이미 {y}에 존재합니다.
+error.x is not a member of y,{x}不是{y}的成员,{x} bukan ahli {y},{x}は{y}のメンバーではありません.,{x} is not a member of {y},{x}은(는) {y}의 멤버가 아닙니다.
+"error.your license due date is x, please renewal your license!",您的许可证到期日期为{x}，请续订您的许可证！,"Tarikh tamat tempoh lesen anda adalah {x}, sila perbaharui lesen anda!",ライセンス期限は{x}です. ライセンスを更新してください!,"Your license due date is {x}, please renewal your license!",라이센스 기한은 {x}입니다. 라이센스를 갱신하십시오!
+error.your license is expired! expired date is [x],您的许可证已过期！ 过期日为[{x}],Lesen anda sudah tamat tempoh! Tarikh tamat tempoh adalah [{x}],ライセンスが満了しました! 満了日は[{x}]です!,Your license is expired! Expired date is [{x}],라이센스가 만료되었습니다! 만료일은 [{x}]입니다!
+error.your license is not valid in this host,您的许可证在此主机中无效！,Lesen anda tidak sah di hos ini!,このホストでライセンスが無効です!,Your license is not valid in this host!,이 호스트에서 라이센스가 유효하지 않습니다!
+field.accessed-at,访问于,diakses pada,ログイン日時,accessed at,로그인 일시
+field.active,激活,aktif,アクティブ化,active,활성화
+field.address,地址,alamat,住所,address,주소
+field.api_url,API URL,URL API,API URL,API URL,API URL
+field.appliance_id,终端机ID,Perkakas,器具ID,appliance id,기구 아이디
+field.approver,审批人,penyetuju,決裁者,approver,결재자
+field.association,组合,penyatuan,連携,association,연계
+field.attributes,属性,ciri-ciri,属性,attributes,속성
+field.auth,认证,pengesahan,auth,auth,인증
+field.boards,板,papan-papan,boards,boards,boards
+field.body,消息正文,badan,本文,body,본문
+field.brand,品牌,Jenama,ブランド,brand,브랜드
+field.brand_image,品牌图片,imej,ブランド写真,brand_image,브랜드 사진
+field.brand_name,品牌名称,jenama,ブランド名,brand_name,브랜드 이름
+field.break_main,,,BreakMain,,BreakMain
+field.bundle,,longgokan,バンドル,bundle,번들
+field.buttons,按键,butang-butang,buttons,buttons,buttons
+field.category,类别,kategori,category,category,category
+field.childrens,子系统,childrens,子,childrens,자식
+field.client-id,客户端ID,ID klien,クライアントID,client id,client id
+field.client-secret,客户端密钥,Rahsia klien,クライアントシークレット,client secret,client secret
+field.code,代码,kod,コード,code,코드
+field.col_size,纵行尺寸,saiz ruangan,カラム サイズ,col size,컬럼 사이즈
+field.col_type,纵行类型,jenis ruangan,カラム タイプ,col type,컬럼 타입
+field.columns,纵行,ruangan,カラム,columns,컬럼
+field.common-code,通用代码,kod umum,共通コード,common code,공통코드
+field.company,公司,syarikat,会社,company,회사
+field.confirm password,确认密码,sahkan kata laluan,パスワード確認,confirm password,비밀번호 확인
+field.connection,连接,sambungan,連結,connection,연결
+field.content_image,内容图片,isian imej,コンテンツ イメージ,content_image,컨텐츠 이미지
+field.content_template,内容模板,templat kandungan,コンテンツテンプレート,content template,본문 템플릿
+field.control-no,控制编号,nombor kawalan,管理番号,control No.,관리 번호
+field.cover_template,封面模板,templat muka depan,カバーテンプレート,cover template,표지 템플릿
+field.created-at,创建时间,dicipta pada,作成日時,created at,생성일시
+field.created_at,创建时间,dicipta pada,作成日時,created at,생성일시
+field.creator,创建者,pencipta,作成者,creator,생성자
+field.crontab,crontab,crontab,クロン タブ,crontab,크론탭
+field.custom_view,客制内容,custom view,custom view,custom view,custom view
+field.data_prop,数据属性,properti data,データ プロップ,data prop,데이터 프로프
+field.def_val,数据定义,nilai asal,def val,def val,def val
+field.default,默认,asalan,基本,default,기본
+field.del_strategy,,del strategy,del strategy,del strategy,del strategy
+field.deleted-at,删除时间,dibuang pada,削除日時,deleted at,삭제일시
+field.deleted_at,删除时间,dibuang pada,削除日時,deleted at,삭제일시
+field.deleter,删除者,pembuang,削除者,deleter,삭제자
+field.department,部,jabatan,部署,department,부서
+field.description,描述,keterangan,説明,description,설명
+field.detail_form_id,表格详细id,id borang perincian,detail form id,detail form id,detail form id
+field.detail_layout,布局详细,susun atur perincian,detail layout,detail layout,detail layout
+field.display,显示,paparan,表示,display,표시
+field.domain,域名,domain,ドメイン,domain,도메인
+field.edge-server,边缘服务器,pelayan tepi,エッジサーバー,edge server,엣지 서버
+field.email,电子邮件,e-mel,メール,email address,이메일
+field.endpoint,端点,titik akhir,エンド ポイント,endpoint,엔드포인트
+field.entity,,entiti,エンティティ,entity,엔티티
+field.entity_id,entity id,id entiti,entity id,entity id,entity id
+field.ext_entity,,entiti luaran,ext entity,ext entity,ext entity
+field.ext_field,ext信息组,ext field,ext field,ext field,확장 필드
+field.fixed_columns,固定纵行,ruangan tetap,確定カラム,fixed columns,확정 컬럼
+field.footer_template,页脚模板,templat pengaki,フッターテンプレート,footer template,바닥글 템플릿
+field.forgot-password,忘记密码,terlupa kata laluan,パスワードを忘れましたか?,forgot password,암호가 기억나지 않나요?
+field.form_editor,表格编辑,penyunting borang,form editor,form editor,form editor
+field.form_format,表格格式,format borang,form format,form format,form format
+field.form_validator,表格验证者,pengesah borang,form validator,form validator,form validator
+field.grid_align,格子对齐,penyelarasan grid,grid align,grid align,grid align
+field.grid_editor,编辑格,penyunting grid,grid editor,grid editor,grid editor
+field.grid_format,格式,format grid,grid format,grid format,grid format
+field.grid_rank,排行格,susunan grid,grid rank,grid rank,grid rank
+field.grid_save_url,储存格子url,simpan url grid,grid save url,grid save url,grid save url
+field.grid_validator,格子验证者,pengesah grid,grid validator,grid validator,grid validator
+field.grid_width,格宽,lebar grid,grid width,grid width,grid width
+field.group,组合,kumpulan,グループ,group,그룹
+field.hashtags,标签,tanda pagar,ハッシュタグ,hashtags,해시태그
+field.header_template,页眉模板,templat pengepala,ヘッダーテンプレート,header template,머릿글 템플릿
+field.hidden,隐藏,tersembunyi,隠し,hidden,감추기
+field.hidden_flag,hidden flag,bendera terlindung,hidden flag,hidden flag,hidden flag
+field.hired-on,入职日期,diberhentikan pada,入社日,hired on,입사일
+field.i18n-label,多语言标签,label pelbagai bahasa,多言語ラベル,multi-lingual label,다국어 라벨
+field.icon,图标,ikon,icon,icon,아이콘
+field.icon_path,图标路径,laluan ikon,icon path,icon path,icon path
+field.id,账号,id,ID,id,아이디
+field.id_field,id纵行,ruang id,IDフィールド,id field,ID필드
+field.id_type,,jenis id,IDタイプ,id type,ID타입
+field.ignore_on_sav,,abaikan ketika simpan,ignore on sav,ignore on sav,ignore on sav
+field.ignore_on_save,忽视以存,abaikan ketika simpan,ignore on save,ignore on save,ignore on save
+field.image,图片,imej,イメージ,image,이미지
+field.ip_address,IP地址,alamat IP,IPアドレス,IP address,IP 주소
+field.items_prop,项目属性,properti item,items prop,items prop,items prop
+field.key,键,kunci,キ,key,키
+field.last_template,最后模板,templat terakhir,最後のテンプレート,last template,뒷표지 템플릿
+field.license,许可证,lesen,ライセンス,license,라이센스
+field.locale,语言环境,lokaliti,ロケール,locale,로케일
+field.log,日志,log,ログ,log,로그
+field.logic,逻辑,logik,logic,logic,로직
+field.master,,master,マスター,master,마스터
+field.master_field,主要信息组,ruangan master,master field,master field,master field
+field.menu,菜单,menu,menu,menu,메뉴
+field.menu_type,目录种类,jenis menu,menu type,menu type,menu type
+field.message,信息,mesej,メッセージ,message,메시지
+field.model,模型,model,モデル,model,모델
+field.multi_save_url,,url multi-simpanan,マルチ保存Url,multi save url,멀티 저장 Url
+field.name,名字,nama,名前,name,이름
+field.netmask,子网掩码,netmask,ネットマスク,netmask,네트워크 마스크
+field.note,备注,catatan,コメント,note,코멘트
+field.nullable,可空,nullable,null値許容,nullable,널값 허용
+field.options,选项,pilihan,オプション,options,옵션
+field.owner,所有人,pemilik,管理者,owner,소유자
+field.owner-type,所有者类型,jenis pemilik,所有者タイプ,owner type,소유자 종류
+field.owner-user,所有人,pemilik,管理者,owner,소유자
+field.page_size,页面大小,saiz halaman,ページサイズ,page size,크기
+field.pagination,分页,penomboran,pagination,pagination,pagination
+field.params,参数,parameter,パラメーター,parameters,파라미터
+field.parent,母系统,parent,parent,parent,parent
+field.parent-domain,父域名,domain induk,親ドメイン,parent domain,부모도메인
+field.password,密码,kata laluan,パスワード,password,비밀번호
+field.phone,电话号码,telefon,電話,phone,전화
+field.private-key,私钥,Kunci peribadi,プライベートキー,private key,private key
+field.privilege,特权,keistimewaan,特権,privilege,권한
+field.privileges,权限,Keistimewaan,権限,privileges,권한
+field.progress,进展,kemajuan,進捗,progress,진척
+field.range_val,数据范围,jarak antara nilai,range val,range val,range val
+field.rank,排行,susunan,順位,rank,순위
+field.receivers,接收器,senarai penerima,受信者リスト,receivers,수신자 리스트
+field.ref_field,,ruang rujukan,ref field,ref field,ref field
+field.ref_name,参考名称,nama rujukan,ref name,ref name,ref name
+field.ref_params,参考参数,parameter rujukan,ref params,ref params,ref params
+field.ref_related,参考有关,rujukan berkaitan,ref related,ref related,ref related
+field.ref_type,参考类型,jenis rujukan,ref type,ref type,ref type
+field.ref_url,参考网址,url rujukan,ref url,ref url,ref url
+field.register-account,注册账户,daftar akaun,アカウント登録,account,계정 등록
+field.required privilege,必需权限,keperluan keistimewaan,必要な権限,required privilege,필수 권한
+field.required role,所需角色,peranan diperlukan,必要な役割,required role,필수 역할
+field.resource_name,资源名称,nama sumber,resource name,resource name,resource name
+field.resource_type,资源种类,jenis sumber,resource type,resource type,resource type
+field.resource_url,资源url,url sumber,resource url,resource url,resource url
+field.result,结果,Hasil,けっか,result,결과
+field.reverse_sort,相反分类,susun kebelakang,逆整列,reverse sort,역정렬
+field.roles,角色,Peranan,ルール,roles,규칙
+field.rounds,回合,pusingan,回目,rounds,회차
+field.routing,路由,penghalaan,routing,routing,라우팅
+field.routing_type,路由类型,jenis penghalaan,routing type,routing type,routing type
+field.save_url,储存url,simpan url,save url,save url,save url
+field.schedule,日程,jadual,スケジュール,schedule,스케줄
+field.schedule-application,申请,permohonan,申請,application,어플리케이션
+field.schedule-operation,操作,operasi,操作,operation,오퍼레이션
+field.search_editor,搜索编辑,penyunting carian,search editor,search editor,search editor
+field.search_init_val,初始搜索,nilai asal carian,search init val,search init val,search init val
+field.search_name,搜索名称,nama carian,search name,search name,search name
+field.search_oper,搜索工具,operater carian,search oper,search oper,search oper
+field.search_rank,搜索排行,susunan carian,検索順位,search rank,검색 순위
+field.search_url,搜索url,url carian,検索URL,search url,검색 URL
+field.serial-no,序列号,nombor siri,シリアル番号,serial #,일련번호
+field.sign in,登录,log masuk,ログイン,sign in,로그인
+field.sign out,退出,log keluar,ログアウト,sign out,로그아웃
+field.sign up,注册,daftar akaun,ユーザー登録,sign up,사용자 등록
+field.skip,跳过,langkau,スキップ,skip,건너뛰기
+field.sort_rank,分类排行,susun susunan,整列順位,sort rank,정렬 순위
+field.source-domain,源域,domain sumber,ソースドメイン,source domain,소스 도메인
+field.state,,,,state,상태
+field.state-value,状态值,nilai keadaan,状態値,state value,상태값
+field.status,状态,status,状態,status,상태
+field.style,样式,gaya,style,style,스타일
+field.subdomain,子域名,domain-sub,サブ ドメイン,subdomain,서브도메인
+field.supervisor,主管,penyelia,監督者,supervisor,감독자
+field.system brief,系统信息,maklumat sistem,システム情報,system brief,시스템 정보
+field.system-user,系统用户,pengguna sistem,システムユーザー,system user,시스템 사용자
+field.system_flag,系统标志,bendera sistem,system_flag,system_flag,system_flag
+field.table_name,,nama jadual,テーブル名,table_name,테이블 이름
+field.tag,tag,tag,タグ,tag,태그
+field.tags,标签,tag,タグ,tags,태그
+field.target-domain,目标域,domain sasaran,ターゲットドメイン,target domain,타겟 도메인
+field.task,任务,tugas,タスク,task,작업
+field.template,型板,templat,template,template,템플릿
+field.tenant-id,租户ID,ID penyewa,テナントID,tenant id,tenant id
+field.term,术语,terma,用語,term,용어
+field.text,文体,teks,text,text,텍스트
+field.theme,主题,tema,テーマ,theme,테마
+field.thumbnail,缩略图,lakaran,プレビュー,thumbnail,미리보기
+field.timezone,时区,zon masa,タイムゾーン,timezone,타임존
+field.title,题目,tajuk,タイトル,title,제목
+field.title_field,标题纵行,ruang tajuk,タイトル フィールド,title field,타이틀 필드
+field.token,代币,token,認証トークン,token,인증 토큰
+field.total_prop,总属性,jumlah properti,total prop,total prop,total prop
+field.ttl-seconds,TTL(秒),TTL(detik),TTL(秒),TTL(seconds),TTL(초)
+field.type,类型,jenis,分類,type,분류
+field.uniq_rank,特殊排行,susunan unik,uniq rank,uniq rank,uniq rank
+field.updated-at,更新于,updated at,修正日時,updated at,수정일시
+field.updated_at,更新于,updated at,修正日時,updated at,수정일시
+field.updater,更新者,updater,修正者,updater,수정자
+field.url,url,url,url,url,url
+field.user,用户,Pengguna,ユーザー,user,사용자
+field.user-id or email,用户名或电子邮件,ID pengguna atau e-mel,ユーザーIDまたはメール,user id or email,사용자 아이디 또는 이메일
+field.user-type,用户类型,jenis pengguna,ユーザー タイプ,user type,사용자유형
+field.user_account,用户账号,Akaun pengguna,ユーザー アカウント,user account,사용자 계정
+field.user_id,用户id,id pengguna,ユーザーID,user_id,사용자ID
+field.user_type,用户类型,Jenis pengguna,ユーザー タイプ,user type,사용자 유형
+field.username,用户名,ID pengguna,ユーザーID,user id,사용자 아이디
+field.value,值,nilai,値,value,값
+field.version,版本,versi,バージョン,version,버전
+field.view_section,观看区块,lihat seksyen,view section,view section,view section
+field.virtual_field,模拟信息组,ruang maya,virtual field,virtual field,virtual field
+field.visibility,可见性,ketaraan,可視性,visibility,가시성
+field.watermark,水印,tanda air,ウォーターマーク,watermark,워터마크
+field.wrote-at,编写日期和时间,tarikh & masa penulisan,作成日時,wrote at,작성일시
+label.3dcontainer-style,3D容器样式,Gaya Bekas 3D,3次元コンテナ スタイル,3d containerstyle,3차원 컨테이너 스타일
+label.3dish,立体,3D,3D,3D,3D
+label.3dmode,三维模式,Mod 3D,3次元モード,3D Mode,3차원 모드
+label.Department,部门,jabatan,部署,department,부서
+label.Employee,员工,pekerja,従業員,employee,직원
+label.MyDepartment,我的部门,jabatan saya,私の部署,my department,내 부서
+label.MySupervisor,我的主管,penyelia saya,私の上司,my supervisor,내 관리자
+label.Myself,我自己,diri saya,私自身,myself,나
+label.QoS,QoS,QoS,QoS,QoS,QoS
+label.Role,角色,peranan,役割,role,역할
+label.about-system,关于系统,Maklumat sistem,システム情報,about system,시스템 정보
+label.access token,访问令牌,token akses,アクセストークン,access token,액세스 토큰
+label.accessor,访问器,pencapai,アクセサー,accessor,접근자
+label.accessor-item,访问器项,Item Pencapai,アクセサーのアイテム,Accessor's Item,접근자 아이템명
+label.accessor-target,访问器目标,Sasaran Pencapai,アクセサーのターゲット,Accessor's Target,접근자 대상
+label.accumulator_avg,平均,Purata,平均,avg,평균
+label.accumulator_count,计数,Kiraan,カウント,cnt,계수
+label.accumulator_max,最小,Minimum,最小,min,최소
+label.accumulator_min,最大,Maksimum,最大,max,최대
+label.accumulator_sum,总和,Jumlah,合計,sum,합계
+label.action,action,Tindakan,action,action,action
+label.activated-user,用户已激活,diaktifkan,正常,activated,정상
+label.activation,激活,Aktif,アクティブ化,Active,활성화
+label.active,是否激活,,アクティブ化,Active,활성화
+label.active index,活动索引,indeks aktif,アクティブインデックス,active index,활성 페이지
+label.active-fill-style,激活填充颜色,Gaya Isian Aktif,アクティブ タブの塗りつぶしスタイル,active fill style,활성탭 채우기 스타일
+label.active-font-color,激活字体颜色,Warna Fon Aktif,アクティブ タブの文字の色,active font color,활성탭 글씨 색상
+label.active-line-color,激活线颜色,Warna Garisan Aktif,アクティブ タブの枠線,active line color,활성탭 테두리 색상
+label.active-line-width,激活线宽度,Lebar Garisan Aktif,アクティブ タブの枠太さ,active line width,활성탭 테두리 굵기
+label.active-type,,Jenis Aktif,,,
+label.active_request,申请激活,Permintaan,アクティブ化要求,Request,활성화 요청
+label.add,添加,,追加,add,추가
+label.add-card,添加卡片,tambah kad,カードを追加,add card,카드 추가
+label.add-floor,添加楼层,tambah tingkat,階を追加,add floor,플로어(층) 추가
+label.add-new-font-family,增加新字体,,フォント ファミリー追加,add new font-family,폰트패미리 추가
+label.address,地址,alamat,アドレス,address,주소
+label.admin,管理员,Admin,管理者,Admin,관리자
+label.admin-email,管理员邮件,,管理者メール,Admin Email,관리자 이메일
+label.admin-name,管理员名称,,管理者名,Admin Name,관리자 이름
+label.admin-user,管理用户,admin,管理者,admin,관리자
+label.agent-url,打印代理地址,,Agent URL,Agent URL,Agent URL
+label.alias,别名,alias,別名,alias,별칭
+label.align,对其,,揃え,Align,정렬
+label.align-bottom,底部,Bawah,下,bottom,하단
+label.align-left,左侧,Kiri,左,left,왼쪽
+label.align-right,右侧,Kanan,右,right,오른쪽
+label.align-top,顶部,Atas,上,top,상단
+label.alignment,,Penjajaran,,,
+label.all,all,,全体,all,전체
+label.allow push message,允许推送消息,benarkan mesej tolak,プッシュメッセージ受信許可,allow push message,푸시 메시지 받기 허용
+label.alltime-focus,始终聚焦,fokus sepanjang masa,常時フォーカス,alltime focus,상시 포커스
+label.alltime-focus-pending,始终等待聚焦,menunggu fokus sepanjang masa,常時フォーカス保留,alltime focus pending,상시 포커스 지연 시간
+label.anim-from-base,从基础动画,animasi dari pangkalan,ベースからアニメーション,animation from base,바닥값부터 애니메이션
+label.animation,动画效果,kesan animasi,アニメーション効果,animation effect,애니메이션 효과
+label.animation-interval,动画间隔,,アニメーション間隔,animation-interval,재생 간격
+label.annotation-text,文本,teks,テキスト,text,텍스트
+label.anti-alias,图形保真,,アンチエイリアシング,anti aliasing,안티앨리어싱
+label.api-key,API密钥,,api key,api key,api key
+label.api-provider,API 提供者,Penyedia API,APIプロバイダー,API provider,API 제공자
+label.api-url,API地址,,APIアドレス,API URL,API주소
+label.application,应用程序,aplikasi,応用プログラム,application,응용프로그램
+label.application_settings,,Tetapan Aplikasi,,,
+label.apply,,Terapkan,,,
+label.approval_status,,Status Kelulusan,,,
+label.approved,,Diluluskan,,,
+label.around,,Sekitar,,,
+label.as_staff,,Sebagai Staf,,,
+label.as_student,,Sebagai Pelajar,,,
+label.attachment,附件,,添付ファイル,Attachment,첨부파일
+label.attachment-id,附件ID,,添付ファイルID,Attachment ID,첨부파일 ID
+label.auth,权限,,権限,authority,권한
+label.auth-client,认证客户端,klien oauth2,oauth2クライアント,oauth2 client,oauth2 클라이언트
+label.auth-domain,验证域,,auth domain,auth domain,auth domain
+label.auth-key,认证密钥,Kunci pengesahan,認証キー,authentication key,인증 키
+label.auth-tenant-id,租户 ID,ID penyewa,テナント ID,auth tenant id,테넌트 아이디
+label.authorization,授权,,authorization,authorization,authorization
+label.authtype,授权类型,jenis autentikasi,認証タイプ,auth-type,인증 유형
+label.auto refresh board view,,,ボード ビュー自動リフレッシュ,auto refresh board view,보드 뷰 자동 리프레시
+label.auto-refresh-board-view,自动刷新看板视图,,,,
+label.auto-rotate,自动旋转,,自動回転,auto rotate,자동 회전
+label.auto-start,自动启动,Auto-mula,自動開始,Auto-start,자동 시작
+label.autofocus,初始化焦点,fokus pada inisiasi,初期フォーカス,focus on init,시작시 포커스
+label.autoplay,自动播放,,自動再生,autoplay,자동플레이
+label.autostart,自动开始,mula auto,自動開始,auto start,자동 시작
+label.axes,轴,paksi,軸,axes,축
+label.axis-max,最大值,nilai maksimum,最大値,maximum value,최대값
+label.axis-max-auto,最大值自动,nilai maksimum auto,最大値自動,maximum value auto,최대값 자동
+label.axis-min,最小值,nilai minimum,最小値,minimum value,최소값
+label.axis-min-auto,最小值自动,nilai minimum auto,最小値自動,minimum value auto,최소값 자동
+label.axis-step-size,步长,langkah,ステップ,step size,스텝
+label.back-side-template,背侧模板,,裏面テンプレート,back side template,뒷면 템플릿
+label.back-to-info,,Kembali ke Maklumat,,,
+label.background,,Latar Belakang,,,
+label.background-color,背景颜色,,背景色,background color,배경 색상
+label.balance,,Baki,,,
+label.banned-user,黑名单用户,disenarai hitam,使用禁止,banned,사용금지
+label.bar-spacing,条形间距,jarak bar,バー間隔,bar spacing,막대 간격
+label.base-url,服务器地址,,Base URL,Base URL,Base URL
+label.baseline_shift,,Alihan Garis Asas,,,
+label.before-due-font-color,到期前字体颜色,warna fon sebelum tarikh akhir,期限前フォント色,before due font color,만기이전 폰트색상
+label.before-due-progress-color,到期前进度颜色,warna kemajuan sebelum tarikh akhir,期限前進行色,before due progress color,만기이전 진행색상
+label.begin-size,起始大小,,開始サイズ,begin size,시작 크기
+label.begin-type,起始类型,,開始模様,begin type,시작 모양
+label.below,,Di Bawah,,,
+label.below-widget,,Di Bawah Widget,,,
+label.beside,,Di Sisi,,,
+label.bevel,斜面,,斜めの面,bevel,비스듬한 면
+label.bin-locations,储物箱位置,bin locations,ビンの位置,bin locations,BIN 로케이션
+label.blacklist,黑名单,senarai hitam,ブラックリスト,blacklist,블랙리스트
+label.blank-stroke-style,空白斯托克风格,,空きスペース線スタイル,blank stoke style,빈공간 선 스타일
+label.blue,,Biru,,,
+label.board,看板,papan,ボード,board,보드
+label.board id,板卡标识,ID papan,ボードID,board id,보드 ID
+label.board-copy,看板复制（域，群组）,"salin papan (domain, kumpulan)",ボードコピー（ドメイン、グループ）,"board copy (domain, group)","보드 복제 (도메인, 그룹)"
+label.board-template,看板模板,templat papan,ボードテンプレート,board template,보드 템플릿
+label.board-type,看板类型,papan type,ボードタイプ,board type,보드 타입
+label.board-type-main,主看板,main,メイン,main,메인보드
+label.board-type-popup,弹出窗口,popup,ポップアップ,popup,팝업보드
+label.board-type-sub,子看板,sub,サブ,sub,서브보드
+label.body,主体,badan,body,body,body
+label.bold,,Tebal,,,
+label.boolean,布尔值,,True-False,boolean,True-False
+label.border-color,边框颜色,,境界部分の色,border color,경계부분 색상
+label.border-style,边框样式,,枠スタイル,border style,테두리 스타일
+label.border-type,边框类型,,枠の種類,border type,테두리 종류
+label.border-width,边框宽度,lebar sempadan,境界部分の幅,border width,경계부분 넓이
+label.bottom,,Bawah,,,
+label.box-color,盒子颜色,,ボックス色,box color,박스 색상
+label.brand-name,商标名称,,ブランド名,Brand Name,브랜드 이름
+label.brand_name,商标名称,,ブランド名,Brand Name,브랜드 이름
+label.bring_forward,,Bawa Ke Depan,,,
+label.bring_to_back,,Bawa Ke Belakang,,,
+label.bring_to_front,,Bawa Ke Hadapan,,,
+label.broker,代理,,broker,broker,broker
+label.brown,,Coklat,,,
+label.button_style,,Gaya Butang,,,
+label.byte,,Bait,,,
+label.cache,缓存,cache,キャッシュ,cache,cache
+label.call_end_time,,Masa Tamat Panggilan,,,
+label.call_phone_number,,Nombor Telefon Panggilan,,,
+label.call_start_time,,Masa Mula Panggilan,,,
+label.camera-x,摄像机X,camera X,カメラX,camera X,카메라 X
+label.camera-y,摄像机Y,camera Y,カメラY,camera Y,카메라 Y
+label.camera-z,摄像机Z,camera Z,カメラZ,camera Z,카메라 Z
+label.cancel-request-confirm,,Batal,,,
+label.cancel-request-release,,Batal,,,
+label.cap-type,线帽类型,,線端スタイル,cap type,선끝 스타일
+label.cases,案例,kes,cases,cases,cases
+label.cast-shadow,投射阴影,cast shadow,影の投射,cast shadow,그림자 생성
+label.category,类别,kategori,カテゴリー,category,카테고리
+label.category1,,Kategori 1,,,
+label.category2,,Kategori 2,,,
+label.category3,,Kategori 3,,,
+label.center,,Tengah,,,
+label.center_x,,Pusat X,,,
+label.center_y,,Pusat Y,,,
+label.change password,更改密码,tukar kata laluan,パスワード変更,change password,비밀번호 변경
+label.change-group,更改组,,グループ変形,Group Change,그룹변경
+label.change-password,,Tukar Kata Laluan,,,
+label.char_spacing,,Ruangan Aksara,,,
+label.chart,图表,carta,チャート,chart,차트
+label.chart-annotation,注释,anotasi,アノテーション,annotation,어노테이션
+label.chart-annotation-type,类型,jenis,タイプ,type,타입
+label.chart-style,图表样式,gaya carta,チャートスタイル,chart style,차트 스타일
+label.chart-type,图表类型,jenis carta,チャートタイプ,chart type,차트 유형
+label.checkbox,,Kotak Semak,,,
+label.checked,已勾选,,チェック済み,checked,체크됨
+label.child-data-path,子数据路径,,child data path,child data path,child data path
+label.choose-type,,Pilih Jenis,,,
+label.circle,,Bulatan,,,
+label.cl-border-color,中间线颜色,,CL境界色,CL border color,CL 경계 색상
+label.cl-border-width,中间线宽度,,CL境界の広さ,CL border width,CL 경계 넓이
+label.class,分组,,クラス,class,클래스
+label.clear,清除,kosongkan,クリア,clear,비우기
+label.clear all,全部清除,padam semua,全て削除,clear all,모두 삭제
+label.client,客户端组件标识,ID komponen klien,クライアントコンポーネントID,Client component ID,클라이언트 컴포넌트 ID
+label.client-id,客户端id,id pelanggan,クライアントID,client id,클라이언트 아이디
+label.client-secret,客户端密钥,rahsia pelanggan,クライアントシークレット,client secret,클라이언트 시크릿
+label.client_name,,Nama Pelanggan,,,
+label.clientlib-path,客户端目录位置,laluan pustaka klien,クライアント位置,client library path,클라이언트 위치
+label.closable,可关闭功能,Boleh Ditutup,閉じれる,closable,닫기 기능
+label.close,,Tutup,,,
+label.color,颜色,warna,色,color,색상
+label.color-contrast,,Kontras Warna,,,
+label.color-contrast-text,,Teks Kontras Warna,,,
+label.color-fill-type,,Jenis Isian Warna,,,
+label.color-line,,Warna Garisan,,,
+label.color-placeholder,,Warna Placeholder,,,
+label.color-stops,色站,,カラー ストップ,color stops,컬러스탑
+label.column,,Lajur,,,
+label.columns,列,,列,columns,열
+label.command,命令,,コマンド,Command,커맨드
+label.common-user,普通用户,pengguna biasa,一般,common,일반
+label.company,公司,syarikat,会社,company,회사
+label.company-name,,Nama Syarikat,,,
+label.company-url,,URL Syarikat,,,
+label.compass-style,指南针样式,,羅針盤スタイル,compass style,나침반 스타일
+label.confirm,确定,sahkan,確認,confirm,확인
+label.confirm-password,,Sahkan Kata Laluan,,,
+label.confirmed-password,确认密码,,パスワード確認,Confirmed Password,비밀번호 확인
+label.confirmed_password,确认密码,,パスワード確認,Confirmed Password,비밀번호 확인
+label.confirmer,释放者,,配布者,Releaser,배포자
+label.connection,连接,sambungan,コネクション,connection,커넥션
+label.connection-name,连接名称,nama sambungan,接続名,Connection name,커넥션 이름
+label.connectionTimeoutMillis,连接超时时间（毫秒）,Had Masa Sambungan (milisaat),接続タイムアウト（ミリ秒）,Connection Timeout (milliseconds),연결 시간 제한 (밀리초)
+label.content,内容,kandungan,内容,content,내용
+label.content-type,内容类型,jenis kandungan,コンテンツタイプ,content type,content type
+label.contrast,,Kontras,,,
+label.control-no,控制编号,nombor kawalan,管理番号,control No.,관리번호
+label.control-type,控制类型,jenis kawalan,制御タイプ,Control type,작업 타입
+label.controls,显示控件,tunjuk kawalan,コントロール表示,show controls,컨트롤 보이기
+label.conveyor-type,传送带类型,,コンベアの種類,conveyor type,컨베이어 종류
+label.copies,份数,salinan,コピー数,copies,프린트 매수
+label.copy,复制,Salin,,,
+label.copy-value-to-data,将值复制到数据,,ValueをDataで自動コピー,copy value to data,Value를 Data로 자동복사
+label.count,计数,bilangan,カウント,count,수량
+label.create,创建,Cipta,作成,create,생성
+label.created-at,创建时间,,作成日時,created at,생성일시
+label.created_at,,Dicipta pada,,,
+label.created_by,,Dicipta oleh,,,
+label.creator,创建人,,作成者,Creator,생성자
+label.credentials,凭据,kelayakan,資格情報,credentials,credentials
+label.cross-origin,Cross-Origin,,Cross-Origin,Cross-Origin,Cross-Origin
+label.currency,,Mata Wang,,,
+label.current_password,当前密码,,現在パスワード,Current Password,현재 비밀번호
+label.curved,curved,,曲線形,curved,곡선형
+label.custom-text,,Teks Tersuai,,,
+label.customer_id,,ID Pelanggan,,,
+label.customers,客户,pelanggan,顧客,customers,고객
+label.cycle,周期,,周期,Cycle,주기
+label.daily,每日的,harian,日間,daily,일간
+label.dark,,Gelap,,,
+label.data,值,Data,data,data,data
+label.data-format,数据格式,format data,データ形式,data format,데이터 포멧
+label.data-index,数据索引,,データ インデックス,data index,데이터 인덱스
+label.data-key,数据引用,rujukan data,データ参照,data reference,데이터 참조
+label.data-label-anchor,位置,kedudukan,位置,position,위치
+label.data-label-offset,偏移,offset,オフセット,offset,오프셋
+label.data-label-rotation,旋转角度,sudut putaran,回転角度,rotation angle,회전각
+label.data-reflection,数据反映,pantulan data,データ反映,data reflection,데이타반영
+label.data-spread,数据传播,,データ伝播,data spread,데이타 전파
+label.data-spread-to,扩展到,sebar ke,スプレッド先,spread to,spread to
+label.data-type,数据类型,,データ タイプ,Data type,데이터 타입
+label.database,数据库,pangkalan data,データベース,database,데이타베이스
+label.database-url,数据库URL,,database url,database url,database url
+label.date,,Tarikh,,,
+label.date-time,日期-时间,tarikh-masa,日付-時間,date-time,날자 시간
+label.day,,Hari,,,
+label.day-of-month,月日,hari dalam bulan,日付,day of month,날짜
+label.day-of-week,星期几,hari dalam minggu,曜日,day of week,요일
+label.days,天,hari,日,days,일
+label.deactivation,退出激活,,非アクティブ化,Deactive,비활성화
+label.debug,调试,,デバッグ ロギング,debug,디버그로깅
+label.decay,衰减,decay,減衰,decay,감쇠
+label.decrease-font,,Kecilkan Fon,,,
+label.default label printer,[zh] default label printer,[ms] default label printer,ラベル プリンタ選択,default label printer,라벨 프린터 선택
+label.default-color,默认颜色,,基本色,default color,기본 색상
+label.default-image-storage,一般图片保存位置,,基本イメージ保存位置,Default Image Storage,기본 이미지 저장위치
+label.delay,延迟,,遅延,Delay,지연
+label.delete,删除,Padam,削除,Delete,삭제
+label.delete account,删除户口,hapuskan akaun,アカウント削除,delete account,계정 삭제
+label.delete-request-confirm,,Padam Permintaan,,,
+label.delete-request-release,,Padam Permintaan,,,
+label.deleted-user,已删除用户,pengguna dihapus,削除済み,deleted,삭제됨
+label.demographics,,Demografi,,,
+label.department,部门,jabatan,部署,department,부서
+label.depth,深度,,深さ,depth,깊이
+label.description,描述,penerangan,説明,description,설명
+label.detail,,Butiran,,,
+label.dialog-settings,,Tetapan Dialog,,,
+label.dimension,尺寸,,大きさ,dimension,크기
+label.direct-printer,直接打印机,pencetak langsung,直接プリンター,direct printer,연결 프린터
+label.direction,方向,,方向,Direction,방향
+label.disable,,Matikan,,,
+label.disabled,关闭,,使用不能,disabled,사용불능
+label.display,显示,,表示,Display,표시
+label.display-tick,显示刻度,paparan tanda,目盛表示,display tick,눈금 표시
+label.display-time,显示时间,masa paparan,表示時間,display time,표시 시간
+label.distance,距离,distance,距離,distance,거리
+label.divider,,Pengasing,,,
+label.domain,域,domain,ドメイン,domain,도메인
+label.domain-name,域名,,ドメイン名,Domain Name,도메인 이름
+label.domain-owner,域名所有者,pemilik domain,ドメインオーナー,domain owner,도메인 관리자
+label.domain-url,域地址,,ドメインURL,Domain URL,도메인 URL
+label.domain_app,域应用程序,,ドメイン アプリケーション,domain application,도메인 애플리케이션
+label.donut-style,圆环样式,,ドーナッツ スタイル,donut style,도넛 스타일
+label.dpi,DPI,DPI,DPI,DPI,DPI
+label.draggable,可拖动,Boleh Diseret,ドラッグ機能,draggable,드래깅 기능
+label.dropdown,,Runcingkan,,,
+label.dropdown-list,,Senarai Runcingkan,,,
+label.due,到期,tamat tempoh,期限,due,종료시간
+label.duration,持续时间,Tempoh,期間,Duration,지속시간
+label.e_mail,,E-mel,,,
+label.edit,,Sunting,,,
+label.edit_group,,Edit Kumpulan,,,
+label.email,电子邮件,emel,メール,email,이메일
+label.email-id,邮件ID,,メールID,email ID,이메일 ID
+label.email.contents,contents,contents,contents,contents,내용
+label.email.from,from,from,from,from,보내는 사람
+label.email.html,HTML,HTML,HTML,HTML,HTML
+label.email.pass,pass,pass,pass,pass,패스워드
+label.email.subject,subject,subject,subject,subject,제목
+label.email.to,to,to,to,to,받는 사람
+label.email.user,user,user,user,user,사용자
+label.email_address,邮件地址,,メール,Email Address,메일
+label.email_verified,,E-mel Disahkan,,,
+label.emphasize,强调,,強調,emphasize,강조
+label.emphasize-animation,强调线动画,,強調アニメーション,emphasize animation,강조 라인 애니메이션
+label.emphasize-distance,强调线距离,,強調距離,border gap,강조 라인 거리
+label.emphasize-line-width,强调线宽度,,強調線幅,border width,강조 라인 두께
+label.employee,员工,pekerja,職員,employee,직원
+label.enable,,Aktifkan,,,
+label.encoding,加密,pengekodan,エンコーディング,encoding,엔코딩
+label.encrypt,加密,enkripsi,暗号化,encrypt,암호화
+label.end-alpha,结束阿尔法,,終了透明度,End Alpha,종료 투명도
+label.end-angle,结束角度,,端の角度,end angle,끝부분 각도
+label.end-size,结束大小,,端のサイズ,end size,끝 크기
+label.end-time,结束时间,masa tamat,終了時間,end time,완료 시간
+label.end-type,结束类型,,端の模様,end type,끝 모양
+label.end-value,结束值,,端の値,end value,끝값
+label.endian,尾数,endian,endian,endian,endian
+label.endpoint,端点,Titik akhir,エンドポイント,Endpoint,엔드포인트
+label.english-only,仅英文输入,hanya input bahasa Inggeris,英語のみ入力,english input only,영어만 입력받음
+label.enter-verification-code,,Masukkan Kod Pengesahan,,,
+label.environment,,Persekitaran,,,
+label.error,异常,,エラー,Error,에러
+label.error-propagation,错误传播,penyebaran ralat,エラー伝播,error propagation,오류 전파
+label.eval,评估,,関数,eval,함수
+label.examples,例子,contoh,例示,examples,예시
+label.export,,Eksport,,,
+label.export-locale-file,,Eksport Fail Lokal,,,
+label.fail_reason,,Sebab Gagal,,,
+label.failure,,Gagal,,,
+label.fallback,备用,fallback,フォールバック,fallback,기본값
+label.false,,Palsu,,,
+label.family_name,,Nama Keluarga,,,
+label.far,FAR,,Far,Far,Far
+label.fetch-on-load,加载时获取,muat pada muat,ロード時のフェッチ,fetch on load,fetch on load
+label.field,字段,Medan,フィールド,field,필드
+label.file,文件,fail,ファイル,file,파일
+label.fill,填充,isian,塗り,fill,채우기
+label.fill-style,填充颜色,,塗りつぶしスタイル’,fill style,채우기 스타일
+label.fill_color,,Warna Isian,,,
+label.filter,过滤器,penapis,フィルター,filters,필터
+label.final_confirm,最终确认,,最終確認,Final Confirmation,최종 확인
+label.find_sth,,Cari {sth},,,
+label.first-name,,Nama Pertama,,,
+label.first_name,,Nama Pertama,,,
+label.fit,匹配,,合わせる,Fit,맞춤
+label.fixed,,Tetap,,,
+label.float type,浮点型,jenis titik terapung,浮動小数点タイプ,floating point type,부동소숫점 유형
+label.floor,层,,階,floor,층
+label.font,字体,fon,フォント,font,폰트
+label.font-code,字体代码,,フォント コード,Font Code,폰트코드
+label.font-color,字体颜色,warna fon,フォント色,font color,폰트 색상
+label.font-family,字体,,フォント ファミリー,font family,폰트패미리
+label.font-size,大小,saiz,サイズ,size,크기
+label.foreground,,Latar Depan,,,
+label.forgot-password,,Lupa Kata Laluan,,,
+label.form-data,,Data Borang,,,
+label.formal_name,,Nama Rasmi,,,
+label.format,格式,format,フォーマット,format,포멧
+label.format-run,计时格式,format masa,時間フォーマット,time format,카운트다운 포맷
+label.format-stop,停止,berhenti,停止,stopped,멈춤포맷
+label.fov,FOV,,FOV,FOV,FOV
+label.from,,Dari,,,
+label.front-side-template,前端模板,,表面テンプレート,front side template,앞면 템플릿
+label.full_name,,Nama Penuh,,,
+label.gamma-factor,伽马因子,gamma factor,ガンマ係数,gamma factor,감마 인자
+label.gantt-column-config,列配置.,konfigurasi lajur.,列設定.,column config.,컬럼 설정
+label.gantt-from-date,起始日期,tarikh mula,開始日,from date,시작일
+label.gantt-gridline,网格线,garis grid,グリッド線,gridline,그리드라인
+label.gantt-task-end-date,结束日期,tarikh tamat,終了日,end date,종료 날짜
+label.gantt-task-id,ID,id,ID,ID,아이디
+label.gantt-task-previous,以前,sebelumnya,前,previous,이전
+label.gantt-task-progress,进度,kemajuan,進捗,progress,진행 상황
+label.gantt-task-section,部分,seksyen,セクション,section,섹션
+label.gantt-task-start-date,开始日期,tarikh mula,開始日,start date,시작 날짜
+label.gantt-task-tags,标签,tag,タグ,tags,태그
+label.gantt-task-title,标题,tajuk,タイトル,title,제목
+label.gantt-task-type,类型,jenis,タイプ,type,유형
+label.gantt-time-scale,时间轴刻度,skala masa,時間軸スケール,time scale,시간축 스케일
+label.gantt-to-date,结束日期,tarikh tamat,終了日,to date,완료일
+label.gauge-style,测量仪器的样式,,ゲージ スタイル,gauge style,게이지 스타일
+label.gender,,Jantina,,,
+label.general,,Umum,,,
+label.getting_started,,Mula,,,
+label.gltf-file-info,文件信息,file info.,ファイル情報,file info.,
+label.gltf-info,,,,,파일정보
+label.goto,转到,pergi ke,goto,goto,goto
+label.gradient,渐变,,グラディエント,gradient,그라디언트
+label.green,,Hijau,,,
+label.grid-line,网格线,garis grid,グリッドライン,grid line,그리드 라인
+label.group,组,Kumpulan,グループ,Group,그룹
+label.group1,,Kumpulan 1,,,
+label.group2,,Kumpulan 2,,,
+label.group3,,Kumpulan 3,,,
+label.group_name,,Nama Kumpulan,,,
+label.guide-only,仅供建模指南,Panduan sahaja,モデリングガイド用,guide only,모델링 가이드용
+label.have-questions,,Punya Soalan?,,,
+label.headers,头文件,header,headers,headers,headers
+label.headless-link,无头链接,pautan tanpa kepala,ヘッドレスリンク,headless link,헤드리스 링크
+label.headless-link by-name,按名称生成,nama generate,名前で生成,generate by name,대상 이름을 사용하여 생성
+label.headless-link query-key,查询键,kunci pertanyaan,クエリキー,query key,오브젝트형 파라미터 키이름
+label.headless-link query-parameters,查询参数,parameter pertanyaan,クエリパラメータ,query parameters,파라미터
+label.headless-link target-appliance,目标设备,alat sasaran,ターゲットアプライアンス,target appliance,대상 장치
+label.height,高度,Ketinggian,高さ,height,높이
+label.hello,,Helo,,,
+label.help_center,,Pusat Bantuan,,,
+label.hidden,隐藏,,非表示,hidden,숨김
+label.hide,,Sembunyi,,,
+label.hide-empty-stock,隐藏空库位,,空の在庫を非表示する,hide empty stock,빈 재고 숨김
+label.hide-keyboard,,,,,키보드 숨기기(모바일)
+label.hide-rack-frame,隐藏货架框,,ラック フレーム非表示,hide rack frame,랙 기둥 숨기기
+label.high,,Tinggi,,,
+label.hired-on,入职日期,diberhentikan pada,入社日,hired on,입사일
+label.history,,Sejarah Cetakan,,,
+label.home,首页,Laman Utama,ホーム,home,홈
+label.horizontal,水平对齐,Laras Mendatar,横,horizontal,가로
+label.horizontal-anchor,水平锚点,jangkar mendatar,水平アンカー,horizontal anchor,수평 기준점
+label.horizontal-padding,,Pemadatan Mendatar,,,
+label.hour,小时,jam,時間,hour,시간
+label.hour-width,时针厚度,,時針の厚さ,Hour Width,시침 두께
+label.hourly,每小时,setiap jam,時間単位,hourly,시간단위
+label.hours,小时,jam,時間,hours,시간
+label.hover-action,悬停操作,,ホバー アクション,hover action,호버 액션
+label.hover-event,悬停事件,,ホバー イベント,Hover Event,호버 이벤트
+label.href,href,,href,href,href
+label.i18n-key,国际化键,kunci i18n,I18nキー,i18n key,다국어 키
+label.id,ID,,ID,ID,ID
+label.id-field,ID字段,medan ID,IDフィールド,ID field,ID 필드
+label.identifier,识别符,Pengenal,識別子,Identifier,식별자
+label.idleTimeoutMillis,空闲超时时间（毫秒）,Had Masa Tanpa Aktiviti (milisaat),アイドルタイムアウト（ミリ秒）,Idle Timeout (milliseconds),유휴 시간 제한 (밀리초)
+label.ignored,,Diabaikan,,,
+label.image,图片,imej,イメージ,image,이미지
+label.image-box,图像框,,イメージ ボックス,Image Box,이미지 박스
+label.image-selector,图片选择器,,イメージ セレクター,Image Selector,이미지 셀렉터
+label.image-source,图片来源,,イメージ ソース,Source,이미지 소스
+label.image-src,图像来源,sumber imej,画像ソース,image source,이미지 소스
+label.image-view,图片,,イメージ,image view,이미지
+label.images,图像,imej,画像,images,이미지 리스트
+label.import,导入,import,読み込み,import,가져 오기
+label.import-locale-file,,Import Fail Lokal,,,
+label.in-text,文内,,内側の文字,in text,안쪽 글씨
+label.in_progress,,Sedang Berjalan,,,
+label.inactive-user,非活动用户,tidak aktif,非アクティブ,inactive,비활성
+label.index-name,索引名,Nama Indeks,インデックス名,Index Name,인덱스명
+label.index-type,索引类型,Jenis Indeks,インデックスタイプ,Index type,인덱스 타입
+label.indigo,,Indigo,,,
+label.indoor-style,内饰风格,,室内マップスタイル,indoor style,실내맵 스타일
+label.influxdb.bucket,bucket,bucket,bucket,bucket,bucket
+label.influxdb.measurement,measurement,measurement,measurement,measurement,measurement
+label.influxdb.organization,organization,organization,organization,organization,organization
+label.influxdb.point-scheme,point scheme,point scheme,point scheme,point scheme,point scheme
+label.influxdb.query,query,query,query,query,query
+label.influxdb.token,token,token,token,token,token
+label.info,信息,Maklumat,情報,Information,정보
+label.info-window,信息窗口,,情報ウィンドウ,info. window,정보창
+label.information,信息,maklumat,基本情報,information,기본정보
+label.init-data-endpoint,初始数据端点,titik akhir data awal,初期データエンドポイント,Initial data endpoint,초기 데이터 엔드포인트
+label.initial-data,初始数据,,初期データ,initial data,초기 데이타
+label.inner-circle-color,内圈颜色,,真ん中の円の色,Inner Circle Color,가운데 원 색상
+label.inner-circle-fill-style,内圈填充样式,,"内側の円
+塗りつぶしスタイル",inner circle fill style,"안쪽 원
+채우기 스타일"
+label.inner-circle-size,内圈大小,,真ん中の円のサイズ,Inner Circle Size,가운데 원 크기
+label.innercircle-fillstyle,中心点样式,,内側の円塗りつぶしスタイル,innercircle fill style,안쪽 원 채우기 스타일
+label.input-data,输入数据,,入力データ,input data,입력 데이타
+label.input-tz,输入时区,zona masa input,入力タイムゾーン,input tz,입력 타임존
+label.instance-name,实例名称,nama contoh,インスタンス名,Instance name,인스턴스 명
+label.intensity,强度,intensity,強度,intensity,강도
+label.intent-sensitive,意图敏感,,Intent Sensitive,Intent Sensitive,Intent Sensitive
+label.intext,文本显示到内,,内側のテキスト,intext,안쪽 텍스트
+label.invalid_code,,Kod Tidak Sah,,,
+label.invalid_email,,E-mel Tidak Sah,,,
+label.invite customer,邀请客户或合作伙伴,jemput pelanggan,顧客社パートナー招待,invite customer,고객사 파트너 초대
+label.invite user,邀请用户,jemput pengguna,ユーザー招待,invite user,사용자 초대
+label.is-empty,为空,,is empty,is empty,is empty
+label.is-local-time,当地时间,,現地時間可否,is localtime,현지 시간 여부
+label.is_disabled,,Dimatikan,,,
+label.is_enabled,,Diaktifkan,,,
+label.is_visible,,Dapat Dilihat,,,
+label.issue_date,,Tarikh Keluaran,,,
+label.italic,,Italic,,,
+label.item,,Item,,,
+label.item-hidden,隐藏,,非表示,hidden,숨김
+label.job-position,职位,jawatan kerja,役職,job position,직급
+label.job-responsibility,工作职责,tanggungjawab kerja,職務責任,job responsibility,직책
+label.job_category,Job Category,Job Category,Job Category,Job Category,업무 카테고리
+label.job_class,Job Class,Job Class,Job Class,Job Class,업무 구분
+label.job_type,Job Type,Job Type,Job Type,Job Type,업무 유형
+label.join-type,关联风格,,連結スタイル,join type,연결 스타일
+label.json-data,,Data JSON,,,
+label.jsonata-expression,JSonata表达式,JSonata ungkapan,JSonata式,JSonata expression,JSonata 표현식
+label.key,变量ID,,変数ID,key,변수 ID
+label.keyword,关键字,,キーワード,Keyword,키워드
+label.label,标签,label,ラベル,label,라벨
+label.label-print,标签打印,,ラベル出力,label print,라벨 출력
+label.label-rotation,标签旋转,,ラベル回転,label rotation,라벨 회전
+label.label-thumbnail-storage,标签图片存储位置,,ボードイメージ保存位置,Label Thumbnail Storage,보드 이미지 저장위치
+label.language,语言,bahasa,言語,language,언어
+label.large,,Besar,,,
+label.last-name,,Nama Akhir,,,
+label.last-sign-in-at,最终登录时间,,最終ログイン日時,last sign in at,마지막 로그인 일시
+label.last_name,,Nama Akhir,,,
+label.latitude,纬度,latitud,緯度,latitude,위도
+label.layout,layout,,レイアウト,layout,레이아웃
+label.left,,Kiri,,,
+label.leg-color,腿色,,足の色’,leg color,다리 색상
+label.legal,,Undang-Undang,,,
+label.legend,图例,legenda,凡例,legend,범례
+label.legend-position,图列位置,,,legend position,
+label.legend-target,范例目标,,レジェンド ターゲット,Legend Target,레전드 타겟
+label.level,程度,tahap,レベル,level,레벨
+label.light,,Ceria,,,
+label.light-type,灯光类型,light type,ライトの種類,light type,조명 타입
+label.line-color,线的颜色,,ライン色,Line Color,라인 색상
+label.line-dash,虚线,garis putus-putus,破線,line dash,라인대시
+label.line-dash-offset,虚线偏移,pelepasan dash garis,破線オフセット,line dash offset,라인대시 오프셋
+label.line-height,文本的高度,Ketinggian Garis,ラインの高さ,Line Height,라인 높이
+label.line-style,线颜色,,ライン スタイル,line style,라인 스타일
+label.line-tension,张力,ketegangan,緊張度,tension,긴장도
+label.line-type,线类型,,線スタイル,line type,선 스타일
+label.line-width,线的宽度,,ラインの広さ,Line Width,라인 넓이
+label.lines,线,,ライン,Lines,라인
+label.link,,Pautan,,,
+label.link_to_application_settings,,Pautan ke Tetapan Aplikasi,,,
+label.list,,Senarai,,,
+label.locale,多语言,Lokal,ロケール,Locale,로케일
+label.location,位置,Lokasi,ロケーション,location,로케이션
+label.location-field,库位字段,,ロケーション フィールド,Location Field,로케이션 필드
+label.location-increase-pattern,位置增加模式,,ロケーションID増加パターン,location increase pattern,로케이션 아이디 증가 패턴
+label.location-pattern,位置模式,,位置パターン,location pattern,위치 패턴
+label.location-radius,位置半径,jejari lokasi,位置半径,location radius,위치 반경
+label.locked,锁定,,位置固定,locked,위치고정
+label.locked-user,用户已锁定,dikunci,ロック,locked,잠김
+label.login,登录帐户,,ログイン,Login,로그인
+label.login-api-url,登录API URL,URL API log masuk,ログインAPI URL,login API URL,로그인 API URL
+label.login-page-path,登录页面路径,laluan halaman log masuk,ログインページパス,login page path,로그인 페이지 경로
+label.login_history,登录历史,sejarah log masuk,ログイン履歴,login history,로그인 이력
+label.logout,,Log Keluar,,,
+label.longitude,经度,longitud,経度,longitude,경도
+label.loop,循环,,繰り返し,loop,반복
+label.mac-address,MAC地址,,Macアドレス,Mac Address,Mac 주소
+label.magenta,,Magenta,,,
+label.main-settings,,Tetapan Utama,,,
+label.major,主要,,Major,Major,Major
+label.male,,Lelaki,,,
+label.manager,经理,pengurus,管理者,manager,관리자
+label.manual,手册,,マニュアル,manual,매뉴얼
+label.map,映射,,マッピング,map,매핑
+label.mapping-rule,映射规则,peraturan pemetaan,マッピング規則,mapping rule,매핑 규칙
+label.margin,,Margin,,,
+label.mark-as-complete,,Tanda Sebagai Selesai,,,
+label.mark-as-read,,Tanda Sebagai Dibaca,,,
+label.markdown,,Markdown,,,
+label.mask-on-error,错误时掩码,mask dalam kes ralat,エラー時にマスク,Mask on error,오류시 마스크 적용
+label.material,材料,,品目,material,품목
+label.max,最大,,最大,max,최대
+label.max-length,最大长度,,最大長さ,max length,최대 길이
+label.max-size,队列大小,Saiz Barisan,キューサイズ,Queue Size,큐 사이즈
+label.maxPoolConnection,最大连接池连接数,Sambungan Pool Maksimum,最大プール接続数,Max Pool Connection,최대 풀 연결 수
+label.max_height,,Ketinggian Maksimum,,,
+label.max_length,,Panjang Maksimum,,,
+label.max_width,,Lebar Maksimum,,,
+label.maximum-retries,最大重试次数,bilangan cubaan semula maksimum,最大リトライ回数,maximum retry count,최대 재시도 횟수
+label.md-dialog-buttons,按钮,Butang,ボタン,Buttons,버튼
+label.md-dialog-close-button,关闭按钮,Butang Tutup,閉じるボタン,Close button,닫기 버튼
+label.md-dialog-content,内容,Kandungan,コンテンツ,Content,내용
+label.md-dialog-heading,对话框标题,Tajuk Dialog,ダイアログタイトル,Title,타이틀
+label.md-fab-icon,Material 图标,Ikon Material,マテリアル アイコン,Material icon,Material 아이콘
+label.md-fab-label,按钮标签,Label butang,ボタンラベル,Button label,버튼 레이블
+label.md-fab-position,位置,Kedudukan,位置,Position,위치
+label.md-fab-size,大小,Saiz,サイズ,Size,크기
+label.md-fab-variant,变体,Varian,バリアント,Variant,변형
+label.medium,,Sederhana,,,
+label.menu,菜单管理,Menu,メニュー,Menu,메뉴
+label.message,信息,mesej,メッセージ,message,메시지
+label.message-body,消息正文,isi kandungan,本文,message,본문
+label.message_type,,Jenis Mesej,,,
+label.messaging-sender-id,消息发送者ID,,メッセージング送信側ID,messaging sender ID,메시징 송신측 ID
+label.method,方法,,メソッド,method,메쏘드
+label.mime-type,MIME 类型,jenis MIME,MIMEタイプ,MIME type,MIME type
+label.min,最小,,最小,min,최소
+label.min-section,最小段,,min section,min section,min section
+label.min-size,最小队列大小,Saiz Barisan Minimum,最小キューサイズ,Minimum Queue Size,최소 큐 사이즈
+label.min-unit,最小单位,,min unit,min unit,min unit
+label.min_height,,Ketinggian Minimum,,,
+label.min_length,,Panjang Minimum,,,
+label.min_width,,Lebar Minimum,,,
+label.minimizable,可最小化,Boleh Dikecilkan,最小化機能,minimizable,최소화 기능
+label.minimized,最小化,Dikurangkan,最小化,minimized,최소화
+label.minor,次要,,Minor,Minor,Minor
+label.mint,,Mint,,,
+label.minute,分钟,minit,分,minute,분
+label.minute by minute,每分钟,setiap minit,分単位,minute by minute,분단위
+label.minute-width,分针厚度,,分針の厚さ,Minute Width,분침 두께
+label.minutes,分钟,minit,分,minutes,분
+label.missing,,Hilang,,,
+label.miter,斜边,,斜めの角形,miter,비스듬한 각모양
+label.mm,毫米,,mm,mm,mm
+label.mobile_phone,,Telefon Mudah Alih,,,
+label.modal,[zh] modal,,Modal,modal,Modal
+label.mode,模式,mod,モード,mode,mode
+label.module,模块,modul,モジュール,module,모듈
+label.monochrome,单色,monokrom,モノクローム,monochrome,단색
+label.month,月份,bulan,月,month,월
+label.monthly,每个月,setiap bulan,月間,monthly,월간
+label.more-info,,Maklumat Lanjut,,,
+label.move_to_admin,移动到管理者页面。,,管理者ページに移動,Move to Administrator Page,관리자 페이지로 이동
+label.multi-axis,双轴,2 paksi,2軸,dual axis,2축
+label.multiple,多个,,多重,multiple,다중
+label.mutation,变异查询,pertanyaan mutasi,ミューテーション クエリ,mutation query,뮤테이션 쿼리
+label.muted,静音,senyap,ミュート,muted,무음
+label.my_profile,,Profil Saya,,,
+label.myself,我,diri saya,私,myself,나
+label.name,名字,nama,名前,name,이름
+label.namespace,命名空间,ruang nama,ネームスペース,namespace,네임스페이스
+label.navbar,,Bar Navigasi,,,
+label.navigation,,Navigasi,,,
+label.ndns,无数据不显示,,No Data No Show,No Data No Show,No Data No Show
+label.ndnsp,无数据不传播,,No Data No Spreading,No Data No Spreading,No Data No Spreading
+label.near,NEAR,,Near,Near,Near
+label.needle-fill-style,指针填充样式,,針塗りつぶし色,needle fill style,바늘 채우기 색상
+label.needle-fillstyle,指针样式,,針塗りつぶしスタイル,needle fill style,바늘 채우기 스타일
+label.needle-round,圆针,,針丸く,Needle Round,바늘 둥글게
+label.needle-size,指针大小,,針のサイズ,needle size,바늘 크기
+label.new,,Baru,,,
+label.new-password,,Kata Laluan Baru,,,
+label.new_password,新密码,,新しいパスワード,New Password,새로운 비밀번호
+label.next,,Seterusnya,,,
+label.next-input,下一个输入,input seterusnya,次の入力,next input,다음 포커스 Input ID
+label.no,,Tidak,,,
+label.no-fill,无,,空にする,no fill,비우기
+label.no-repeat,[zh] no repeat,,繰り返しなし,no repeat,반복 없음
+label.no_results,,Tiada Hasil,,,
+label.none,,Tiada,,,
+label.normal,,Normal,,,
+label.not-allowed,,Tidak Dibenarkan,,,
+label.not-started,,Belum Bermula,,,
+label.note,备注,catatan,ノート,note,노트
+label.notification,,Pemberitahuan,,,
+label.notification list,消息列表,senarai pemberitahuan,通知,notification list,알림
+label.notifications,,Pemberitahuan,,,
+label.notify,,Maklum,,,
+label.number,数字,,数字,number,숫자
+label.number of bytes,字节数,bilangan bait,バイトの長さ,number of bytes,바이트 길이
+label.object-type,对象类型,jenis objek,オブジェクト タイプ,object type,오브젝트 유형
+label.off,,Matikan,,,
+label.off-color,关闭颜色,warna mati,オフの色,off color,off 색
+label.offset-x,偏移-X,,オフセットX,Offset X,오프셋 X
+label.offset-y,偏移-Y,,オフセットY,Offset Y,오프셋 Y
+label.ok,,OK,,,
+label.on,,Hidupkan,,,
+label.on-color,开启颜色,warna hidup,オンの色,on color,on 색
+label.on/off,开/关,hidup/matikan,オン/オフ,on/off,on/off
+label.opacity,透明度,,透明度,opacity,투명도
+label.open,,Buka,,,
+label.operation,操作,operasi,動作,operation,동작
+label.opinion,意见,,意見,opinion,의견
+label.option,,Pilihan,,,
+label.options,选项,,options,options,options
+label.orange,,Oren,,,
+label.order,,Pesanan,,,
+label.orderby,排序,mengikut susunan,並び替え,orderby,정열
+label.organization,,Organisasi,,,
+label.organization_name,,Nama Organisasi,,,
+label.outline,,Garis Panduan,,,
+label.output-tz,输出时区,zona masa output,出力タイムゾーン,output tz,출력 타임존
+label.over-due-font-color,到期后字体颜色,warna fon selepas tarikh akhir,期限後フォント色,over due font color,만기이후 폰트색상
+label.over-due-progress-color,到期后进度颜色,warna kemajuan selepas tarikh akhir,期限後進行色,over due progress color,만기이후 진행색상
+label.packman-style,吃豆人样式,gayapackman,パックマンスタイル,packman style,팩맨 모양
+label.padding,间隔,Penyelaras,余白,padding,여백
+label.paddingheight,填充高度,tinggi pembalutan,パディング高さ,padding-h,패딩높이
+label.paddingwidth,填充宽度,lebar pembalutan,パディング幅,padding-w,패딩폭
+label.page,页面,Halaman,ページ,page,페이지
+label.page-size,页大小,Saiz Halaman,ページサイズ,Page Size,페이지 사이즈
+label.page_break,,Pemutus Halaman,,,
+label.pagerduty_service_key,,Kunci Perkhidmatan PagerDuty,,,
+label.pagerduty_subdomain,,Subdomain PagerDuty,,,
+label.parameters,参数,parameter,パラメータ,parameters,파라미터
+label.params,参数,parameter,パラメータ,parameters,파라미터
+label.partial-spreading,部分传播,,部分的な拡散,partial spreading,부분 전파
+label.partner,合作伙伴,Rakan kongsi,パートナー,partner,파트너
+label.passcode,密码,,パースコード,passcode,패스코드
+label.password,密码,kata laluan,パスワード,password,비밀번호
+label.password-selector,密码选择器,pemilih kata laluan,パスワードセレクター,password selector,비밀번호 선택자
+label.password_reset_code,,Kod Reset Kata Laluan,,,
+label.password_strength,,Kekuatan Kata Laluan,,,
+label.paste,,Tampal,,,
+label.path,path,path,path,path,path
+label.pattern,图案,,パターン,pattern,패턴
+label.pending,,Dalam Tungguan,,,
+label.period,周期,tempoh,期間,period,Period
+label.persistent-data,持久数据,,継続性データ,persistent data,지속성 데이타
+label.phone,,Telefon,,,
+label.phone_number,,Nombor Telefon,,,
+label.picking-location,取出位置,,ピッキング ロケーション,picking location,피킹 로케이션
+label.picking-order,拣料单,,ピッキング オーダー,picking order,피킹 오더
+label.picture,照片,gambar,写真,picture,사진
+label.placeholder,占位符,Placeholder,placeholder,placeholder,placeholder
+label.play,播放,,プレイ,play,플레이
+label.play-group,播放组,kumpulan mainan,プレイ グループ,play group,플레이그룹
+label.player,播放,pemain,プレイヤー,player,플레이어
+label.playsinline,内联播放,main sebaris,インライン再生,playsinline,인라인플레이 가능
+label.pls-name-font-family,请配置字体系列,,フォント ファミリーの名前を書いてください,pls. name font-family,폰트패미리 이름을 적어주세요
+label.point,,Titik,,,
+label.point-bg-color,点背景色,,Point背景色,Point Bg Color,Point 배경색
+label.point-border-color,点边框颜色,,ポイント境界色,point border color,포인트 경계 색상
+label.point-border-width,点边框宽度,,ポイント境界の広さ,point border width,포인트 경계 넓이
+label.point-shape,点形状,bentuk titik,ポイント形状,point shape,포인트 모양
+label.point-size,点大小,saiz titik,ポイントサイズ,point size,Point 크기
+label.pool-increment,连接池增量,peningkatan kolam sambungan,コネクションプールの増加,connection pool increment,커넥션 풀 증분
+label.pool-max,最大连接池,kolam sambungan maks.,最大コネクションプール,max. connection pool,최대 커넥션 풀
+label.pool-min,最小连接池,kolam sambungan min.,最小コネクションプール,min. connection pool,최소 커넥션 풀
+label.popover,,Popover,,,
+label.popup-origin,原点,,原点,origin,원점
+label.popup-position,弹出位置,popup position,ポップアップ位置,popup position,팝업 위치
+label.popup-scene,弹窗看板,,Popup Scene,Popup Scene,Popup Scene
+label.port,端口,,port,port,port
+label.position,位置,kedudukan,位置,position,위치
+label.position-origin,位置原点,,位置原点,origin,원점
+label.precision,精确度,,精度,precision,정밀도
+label.pressed,按压效果,,押さえ効果,pressed,눌림효과
+label.preview,,Pratonton,,,
+label.previous,,Sebelumnya,,,
+label.primary_color,,Warna Utama,,,
+label.print-history,打印记录,,プリント履歴,Print History,프린트 이력
+label.printed-at,打印时间,,プリント時間,Printed At,프린트 시간
+label.printer,打印机,,プリンター,Printer,프린터
+label.printer_driver,Printer Driver,Printer Driver,Printer Driver,Printer Driver,프린터 드라이버
+label.printer_ip,Printer IP,Printer IP,Printer IP,Printer IP,프린터 IP
+label.printer_port,Printer Port,Printer Port,Printer Port,Printer Port,프린터 포트
+label.priority,优先度,keutamaan,優先順位,priority,우선순위
+label.privilege,特权,keistimewaan,特権,privilege,권한
+label.procedure,存储过程,Prosedur,プロシージャ,procedure,프로시져
+label.procedure-code,过程代码,kod prosedur,手順コード,procedure code,프로시져 코드
+label.procedure-name,过程名称,nama prosedur,手順名,procedure name,프로시져 이름
+label.processed_at,处理时间,,処理日時,processed at,처리일시
+label.processing,,Dalam Pemprosesan,,,
+label.processor,处理人,,処理者,processor,처리자
+label.product,,Produk,,,
+label.product-id,产品ID.,ID produk,製品ID.,product ID.,제품 ID.
+label.profile,,Profil,,,
+label.progress,,Kemajuan,,,
+label.progress-color,进度颜色,warna kemajuan,進捗色,progress color,진도 색상
+label.progress-direction,进度方向,arah kemajuan,進行方向,progress direction,진행 방향
+label.progress-style,进度条样式,,プログレスバー スタイル,progress style,프로그레스바 스타일
+label.progress-threshold,进度阈值,ambang kemajuan,進行しきい値,progress threshold,진행 임계값
+label.project-id,项目ID,,プロジェクト名,project ID,프로젝트명
+label.prompt,提示,prompt,プロンプト,prompt,프롬프트
+label.property,属性,,プロパティ,property,속성
+label.property-name,属性名,Nama Hartanah,プロパティ名,Property Name,속성명
+label.protected-request-ip,安全请求 IP,IP permintaan yang selamat,安全なリクエスト IP,safe request IP,안전한 요청 IP
+label.protectedlist,受保护的 IP 列表,senarai IP yang dilindungi,保護された IP リスト,protected IP list,보호 IP 리스트
+label.provider,提供者,,プロバイダー,provider,제공자
+label.publish,,Terbitkan,,,
+label.published,,Diterbitkan,,,
+label.purple,,Ungu,,,
+label.push-notification,推送消息,notifikasi push,プッシュ通知,push notification,푸시 알림
+label.qos,qos,,サービス品質,qos,서비스품질
+label.qr_code,,Kod QR,,,
+label.qty,数量,,数量,qty.,수량
+label.quantity,数量,kuantiti,数量,quantity,수량
+label.query,查询,Kuiri,クエリ,Query,Query
+label.queue-propname,队列名称,Nama barisan,キュー名,Queue name,큐 이름
+label.quota,,Kuota,,,
+label.rack-style,站位样式,,ラック スタイル,rack style,랙 스타일
+label.radio_button,,Butang Radio,,,
+label.random,,Rawak,,,
+label.range,范围,Julat,範囲,range,범위
+label.rate,,Kadar,,,
+label.ratio,比率,,比率,ratio,비율
+label.read,,Baca,,,
+label.readonly,只读,,読み専用,readonly,읽기 전용
+label.reason,,Sebab,,,
+label.receivers,接收器,senarai penerima,受信者リスト,receivers,수신자 리스트
+label.rect-style,方框样式,,四角スタイル,rect style,사각 스타일
+label.red,,Merah,,,
+label.redirect,重定向,pengalihan,リダイレクト,redirect,redirect
+label.redirect_uri,重定向URI,redirect uri,リダイレクトuri,redirect uri,리디렉션 uri
+label.redo,,Ulang,,,
+label.reducing-propname,简化属性名,Nama Hartanah Mengurangkan,リデューシングプロパティ名,Reducing Property Name,Reducing명
+label.reducing-type,简化类型,Jenis Pengurangan,リデューシングタイプ,Reducing Type,Reducing 타입
+label.ref,参考,,参照,reference,참조
+label.ref_by,参考 ID,rujukan ID,参照 ID,Reference ID,참조 ID
+label.referrer-policy,引用政策,dasar rujuk balik,リファラーポリシー,referrer policy,referrer policy
+label.registered_at,,Daftar pada,,,
+label.reject-unauthorized,使用认证文件,tolak tidak dibenarkan,証明書使用,reject unauthorized,인증서 사용
+label.related,,Berkaitan,,,
+label.released_at,释放时间,,配布時間,Released at,배포시간
+label.releases,个版本,,配布バージョン,releases,배포버전
+label.remove,去除,Alihkan,除去,remove,제거
+label.rename,改名,Ganti Nama,名前変更,Rename,이름 변경
+label.repeat,重复,ulangi,繰り返し,repeat,반복
+label.repeat-interval,重复间隔,selang ulangan,繰り返し間隔,Repeat interval,반복 간격
+label.reply,,Balas,,,
+label.report,,Laporan,,,
+label.request,申请,,申請,Request,신청
+label.requested_at,申请时间,,申請日時,requested at,신청일시
+label.requester,申请人,,申請者,requester,신청자
+label.resend,发过验证邮件,hantar semula,再送信,resend,재전송
+label.reset,,Set Semula,,,
+label.reset-on-leave,离开时恢复,,出る時元の状態に復旧,reset on leave,나갈 때 원상태로 복구
+label.reset-password,重置密码,,暗号リセット,Reset Password,암호초기화
+label.reset_password,重置密码,,パースワード リセット,Reset Password,비밀번호 초기화
+label.resolved,,Selesai,,,
+label.resource,,Sumber,,,
+label.retain,保持,,維持,retain,유지
+label.retention,保存期间,,維持期間,retention,유지기간
+label.retired-at,退休时间,bersara pada,退職日時,retired at,퇴사일
+label.reverse,反转,,逆方向,reverse,역방향
+label.right,,Kanan,,,
+label.role,角色,peranan,ロール,role,역할
+label.roll-width,卷宽度,,ロール服,roll width,롤 너비
+label.rotate,旋转,,回転,rotate,회전
+label.rotation,旋转,,回転,rotation,회전
+label.rotation-speed,转速,,回転速度,Rotation Speed,회전 속도
+label.rotation-x,X轴旋转,,X軸回転,rot. X,X축 회전
+label.rotation-y,Y轴旋转,,Y軸回転,rot. Y,Y축 회전
+label.rotation-z,Z轴旋转,,Z軸回転,rot. Z,Z축 회전
+label.round,弧形,,丸く,round,둥글게
+label.row,,Baris,,,
+label.rows,行,,行,rows,행
+label.rule-type,规则类型,,ルール タイプ,rule type,규칙 타입
+label.run-on-start,启动时运行,jalankan pada permulaan,開始時に実行,Run on start,시작시 자동 실행
+label.save-new-board,保存新看板,,新しいボード保存,save new board,새보드 저장
+label.save_changes,,Simpan Perubahan,,,
+label.scale,比例,,スケール,scale,스케일
+label.scale-h,高度比例,,縦スケール,height scale,세로 스케일
+label.scale-height,尺的高度,,高さの比率,Scale Height,높이 비율
+label.scale-w,宽度比例,,横スケール,width scale,가로 스케일
+label.scale-width,尺的宽度,,広さの比率,Scale Width,넓이 비율
+label.scenario,方案,senario,シナリオ,scenario,시나리오
+label.scenario-name,场景名称,nama senario,シナリオ名,Scenario name,시나리오 명
+label.scene-count,标签数量,,Scene個数,Scene count,Scene 개수
+label.scene-number,景号,,SCENE番号,SCENE Number,SCENE 번호
+label.screen-size,界面大小,,画面サイズ,Screen Size,화면 사이즈
+label.script,程序,skrip,スクリプト,script,스크립트
+label.search,,Cari,,,
+label.search-params,搜索参数,parameter carian,search params,search params,search params
+label.search_hint,,Petunjuk Carian,,,
+label.second,秒,saat,秒,second,초
+label.second by second,一秒接一秒,setiap saat,秒単位,second by second,초단위
+label.second-width,秒针厚度,,秒針の厚さ,Second Width,초침 두께
+label.secondary_color,,Warna Sekunder,,,
+label.seconds,秒,saat,秒,seconds,초
+label.section,段,,セクション,section,섹션
+label.section-digits,部门数字,section digits,セクションの桁数,section digits,섹션 넘버링
+label.select,select,pilih,select,select,select
+label.select file,选择文件,pilih fail,ファイル選択,select file,파일 선택
+label.select-after-change,更改后选择,pilih selepas perubahan,変更後に選択,select over change,변경후 전체 선택
+label.select_domain,选择域,pilih domain,ドメイン選択,select domain,도메인 선택
+label.selected,,Dipilih,,,
+label.selectors,选择器,pemilih,selectors,selectors,selectors
+label.send,,Hantar,,,
+label.send activation email,发送激活电子邮件,hantar pengaktifan emel,アクティブ化要求メール送信,send activation email,활성화 요청 메일 전송
+label.sent_at,,Dihantar pada,,,
+label.series,系列,siri,シリーズ,series,시리즈
+label.series-type,系列类型,jenis siri,シリーズタイプ,series type,시리즈 유형
+label.service_url,Service URL,Service URL,Service URL,Service URL,서비스 URL
+label.set-data-on-change,更改时设置数据,tetapkan data berubah,変更時にデータ設定,set data on change,변경시 데이타에 반영
+label.setting,设置,Tetapan,設定,setting,설정
+label.settings,,Tetapan,,,
+label.shadow,阴影,,影の効果,shadow,그림자효과
+label.shadow-dom-selectors,Shadow-DOM选择器,pemilih Shadow-DOM,Shadow-DOMセレクター,Shadow-DOM selector,Shadow-DOM 선택자
+label.shadowOffsetX,偏移-X,,X軸位置,Offset-X,X축 위치
+label.shadowOffsetY,偏移-Y,,Y軸位置,Offset-Y,Y축 위치
+label.shadowSize,大小,,サイズ,Size,크기
+label.shelf-locations,货架位置,shelf locations,棚の位置,shelf locations,선반 로케이션
+label.shelf-pattern,架子模式,,単パターン,shelf pattern,단 패턴
+label.shelves,站位高度,,旋盤,shelves,선반
+label.show,显示,Tunjukkan,示す,show,보이기
+label.show-all-board-type,显示所有看板类型,semua jenis papan,すべてのボードタイプを表示,show all type,모든 타입 보기
+label.show-axis,,,軸を表示,,
+label.show-end-value,显示结束值,,最後の値表示,show end value,끝값 보이기
+label.show-helper,显示助手,show helper,ヘルパーを表示,show helper,도우미 보기
+label.show-intermediate-markers,显示中间标记,Tunjukkan Penanda Antarabangsa,中間マーカーを表示,Show Intermediate Markers,중간마커 보이기
+label.show-legend,显示图列,,,show legend,범주 보이기
+label.show-needle,显示指针,,針を表示,show needle,바늘 보이기
+label.show-number,显示数字,,数字表示,Show Number,숫자 표시
+label.show-overview,显示 概述,tunjukkan gambaran keseluruhan,概要 表示,show overview,오버뷰 보이기
+label.show-path,显示路径,Tunjukkan Laluan,パスを表示,Show Path,패스 보이기
+label.show-progress,显示进度颜色,tunjukkan warna kemajuan,進行色を表示,show progress color,진행색상 보이기
+label.show-second,显示秒针,,秒針表示,Show Second,초침 표시
+label.show-start-value,显示起始值,,開始値を表示,show start value,시작값 보이기
+label.show-step-line,显示单位线,,ステップを表示,show step line,스텝 보이기
+label.show-step-text,显示单位值,,ステップ テキスト,show step text,스텝 텍스트
+label.show-sub-step,显示子步,,補助ステップを表示,show sub step,보조 스텝 보이기
+label.show-substep,显示子单位,,サブステップ表示,show substep,서브스텝 보이기
+label.show-text,显示文本,,テキスト表示,ShowText,텍스트 보이기
+label.show-timer,显示计时器,tunjukkan pemasa,タイマーを表示,show timer,타이머 보이기
+label.show-title-on-page-header,在页面头部显示标题,tunjukkan tajuk pada pengepala halaman,ページヘッダーにタイトルを表示,show title on page header,페이지 헤더에 타이틀 보이기
+label.show_menu,,Tunjukkan Menu,,,
+label.sidebar,,Bar Sisi,,,
+label.sign-up,申请账户,,ID申請,Sign Up,ID신청
+label.sign_in,,Log Masuk,,,
+label.sign_up,注册,Daftar,ユーザー登録申請,Sign Up,사용자 등록신청
+label.signature,,Tandatangan,,,
+label.signin with,通过 {title} 登录,daftar masuk dengan {title},{title} でサインイン,signin with {title},{title} 로그인
+label.size,大小,Saiz,大きさ,size,크기
+label.skip,skip,langkau,skip,skip,skip
+label.skip-numbering,跳过编号,,Skip Numbering,Skip Numbering,Skip Numbering
+label.small,,Kecil,,,
+label.soap-action,SOAP 操作,Aksi SOAP,SOAPアクション,SOAP Action,SOAP 액션
+label.social,,Sosial,,,
+label.solid,纯色,,単色,solid,단색
+label.sorting,,Penyusunan,,,
+label.sound,,Bunyi,,,
+label.source,源,,ソース,source,소스
+label.spacing,,Ruangan,,,
+label.spc-option,SPC选项,,SPCオプション,SPC option,SPC 옵션
+label.special_characters,,Aksara Khas,,,
+label.specified,,Dinyatakan,,,
+label.spread-on-init,在初始化时传播,,初期値伝播,spread on init,초기값 전파
+label.square,方形,,四角形,square,각진모양
+label.src,源,,ソース,source,소스
+label.ssl,SSL,,SSL,SSL,SSL
+label.stack-group,堆叠组,kumpulan terkumpul,積み重ねグループ,stack group,누적 그룹
+label.stacked,堆叠,bertingkat,積み重ね,stacked,누적
+label.star-style,星型样式,,星模様スタイル,star style,별모양 스타일
+label.start-alpha,起始透明度,,開始透明度,Start Alpha,시작 투명도
+label.start-angle,起始角度,,開始部分角度,start angle,시작부분 각도
+label.start-end-marker-different-design,起点和终点标记使用不同设计,Reka Bentuk Penanda Mula dan Akhir Berbeza,スタートとエンドのマーカーに異なるデザインを適用,Apply First and Last Marker Design,처음과 마지막 마커 디자인 적용
+label.start-section,起始段,,開始セクション,Start Section,시작 섹션
+label.start-time,开始时间,masa mula,開始時間,start time,시작 시간
+label.start-unit,起始单位,,開始ユニット,Start Unit,시작 유닛
+label.start-value,起始值,,開始値,start value,시작값
+label.start_date,,Tarikh Mula,,,
+label.started,自动开始,auto mula,自動スタート,auto started,자동 시작
+label.state,状态,negeri,状態,state,상태
+label.status,状态,Status,状態,Status,상태
+label.step,基本单位,,基本ステップ,step,기본 스텝
+label.step-fill-style,分割区填充样式,,ステップ塗りつぶし色,step fill style,스텝 채우기 색상
+label.step-fillstyle,分割区样式,,ステップ塗りつぶしスタイル,step fill style,스텝 채우기 스타일
+label.step-needle-size,分割线大小,,ステップ針サイズ,step needle size,스텝 바늘 크기
+label.step-text-size,分割文本大小,,スタップ文字サイズ,step text size,스텝 글씨 크기
+label.stock-scale,Stock Scale,,Stock Scale,Stock Scale,Stock Scale
+label.storage,存储,,ストレージ,Storage,저장소
+label.storage-bucket,存储桶,,ストレージ バケット,storage bucket,저장소 버킷
+label.storage-root,存储路径,,基本ストレージ,Storage Root,기본 저장소
+label.strikethrough,,Garis Batal,,,
+label.string,文本,,文字列,string,문자열
+label.stroke-style,线条样式,gaya garis,線スタイル,line style,선 스타일
+label.stroke-thickness,线条厚度,ketebalan garis,線の太さ,line thickness,선 두께
+label.style,样式,,スタイル,style,스타일
+label.sub-step,子步,,補助ステップ,sub step,보조 스텝
+label.subdomain,子域,,サブ ドメイン,Subdomain,서브 도메인
+label.subject,主题,subjek,タイトル,subject,제목
+label.submit-on-change,变更时提交,,変更時に提出,submit on change,변경시 제출
+label.submit-on-load,加载时提交,,ロード時に提出,submit on load,로드시 제출
+label.submit-selector,提交选择器,pemilih serah,送信セレクター,submit selector,제출 선택자
+label.subscription token,订阅令牌,token langganan mesej tolak,プッシュメッセージ受信トークン,subscription token,푸시 메시지 수신 토큰
+label.subscription-handlers,订阅处理程序,pengendali langganan,サブスクリプションハンドラー,subscription handlers,구독 핸들러
+label.substep,子单位,,サブステップ,substep,서브 스텝
+label.subtext-size,子文本大小,,サブテキスト サイズ,subtext size,서브텍스트 크기
+label.success,,Berjaya,,,
+label.success-selector,成功选择器,pemilih kejayaan,成功セレクター,success selector,성공 선택자
+label.superuser,超级用户,superuser,スーパーユーザー,superuser,수퍼유저
+label.support,,Sokongan,,,
+label.support-markdown,启用Markdown格式,Format Markdown,Markdownフォーマット有効,markdown formatting,마크다운 형식지원
+label.suspend,,Tangguhkan,,,
+label.svg-info,SVG信息,maklumat SVG,SVG情報,SVG info.,SVG 정보
+label.switch,,Tukar,,,
+label.symbol,符号,simbol,シンボル,symbol,심볼
+label.system reload,系统刷新,Muat semula sistem,システムのリロード,system reload,시스템 새로고침
+label.system_flag,系统,,システム,System Flag,시스템
+label.tab,,Tab,,,
+label.tab-active-index,标签激活指数,,アクティブ タブ インデックス,tab active index,활성탭 인덱스
+label.tab-reference,标签参考,,タブ参照,tab reference,탭 참조
+label.table,,Jadual,,,
+label.tablet,,Tablet,,,
+label.tact-time,tact time,tact time,tact time,tact time,tact time
+label.tact-timer-mask-color,掩码颜色,warna topeng,マスク色,mask color,마스크 색상
+label.tag,标签,Tag,タグ,tag,태그
+label.tap-action,点击操作,,タップ アクション,tap action,탭 액션
+label.tap-event,点击事件,,タブ イベント,Tap Event,탭 이벤트
+label.target,目标,sasaran,ターゲット,target,대상
+label.target-axis,目标轴,paksi sasaran,対象軸,target axis,대상 축
+label.target-map,目标地图,Peta Sasaran,目標マップ,Target Map,타겟 지도
+label.targetRetention,目标保留,pengekalan sasaran,ターゲット保持,target retention,대상 유지기간
+label.tel,,Telefon,,,
+label.template,模版,templat,テンプレート,template,템플릿
+label.template-prefix,模版前缀,,テンプレート接頭語,template prefix,템플릿 접두어
+label.term,术语,istilah,用語,term,용어
+label.terms,术语,istilah,用語,terms,용어 정의
+label.text,值,Teks,テキスト,text,텍스트
+label.text-align,文本调整,Jajar Teks,テキスト ソート,Text Align,텍스트 정렬
+label.text-box,文本框,,テキスト ボックス,text box,텍스트 상자
+label.text-field,文本字段,medan teks,テキストフィールド,text field,텍스트필드
+label.text-fill-style,文本颜色,,文字の色,text color,글씨 색상
+label.text-fillstyle,文本填充样式,,塗りつぶしスタイル,text fill style,채우기 스타일
+label.text-format,文本格式,,テキスト形式,text format,텍스트 형식
+label.text-overflow,文本溢出,melimpah teks,テキストオーバーフロー,text overflow,텍스트 오버플로우
+label.text-size,文本大小,,文字サイズ,Text Size,글씨 크기
+label.text-style,文本颜色,,テキスト スタイル,text style,텍스트 스타일
+label.text-wrap,文本换行,,テキスト改行,text wrap,텍스트 개행
+label.text_color,,Warna Teks,,,
+label.textbox,文本,,テキスト ボックス,text box,텍스트 상자
+label.theme,主题,tema,テーマ,theme,테마
+label.theta,θ,,角度,Theta,각도
+label.thickness,厚度,ketebalan,太さ,thickness,두께
+label.three-d,,3D,,,
+label.thumbnail-color,缩略图颜色,thumbnail,サムネイルの色,thumbnail,썸네일 색
+label.tick-spacing,刻度间距,jarak tanda,目盛間隔,tick spacing,눈금 간격
+label.tilt,倾斜,,傾き,tilt,기울어짐
+label.time,,Masa,,,
+label.time-format,时间格式,,時間形式,time format,시간 형식
+label.timeout,暂停,masa had,タイムアウト,timeout,타임아웃
+label.title,标题,tajuk,タイトル,title,제목
+label.toggle_sidebar,,Togol Menu,,,
+label.tooltip,工具提示,tooltip,ツールチップ,tooltip,툴팁
+label.top,top,atas,top,top,top
+label.topic,主题,topik,topic,topic,topic
+label.translate,translate,,移動,translate,이동
+label.transparent,,Tidak Jelas,,,
+label.true,,Benar,,,
+label.trust-server-certificate,信任服务器证书,percaya sijil pelayan,サーバー証明書を信頼する,trust server certificate,서버 인증서 신뢰
+label.type,类型,Jenis,タイプ,type,유형
+label.ucl/lcl-border-color,上限/下限边框颜色,,LCL境界色,LCL border color,LCL 경계 색상
+label.ucl/lcl-border-width,上限/下限边框宽度,,LCL境界広さ,LCL border width,LCL 경계 넓이
+label.under-threshold-color,低于阈值颜色,warna di bawah ambang,しきい値以下の色,under threshold color,임계이하 색상
+label.underline,,Garis Bawah,,,
+label.unit,单位,,ユニット,unit,유닛
+label.unit-digits,单位数字,unit digits,単位の桁数,unit digits,유닛 넘버링
+label.unresolved,,Belum Selesai,,,
+label.unselected-label,未选择的标签,label tidak dipilih,未選択のラベル,unselected label,미선택 라벨
+label.update,更新,,修正,update,수정
+label.updated-at,修改时间,,修正日時,updated at,수정일시
+label.updater,修改人,,修正者,Updater,수정자
+label.upload,,Muat Naik,,,
+label.uppercase,,Huruf Besar,,,
+label.uri,URI,URI,URI,URI,URI
+label.url,URL,URL,URL,url,URL
+label.user,用户,pengguna,ユーザー,user,사용자
+label.user-id,用户ID,ID pengguna,ユーザーID,user ID,사용자 아이디
+label.user_auth_setting,给予用户权限,,ユーザー権限割り当て,User Authority Assignment,사용자 권한 할당
+label.user_id,,ID Pengguna,,,
+label.user_name,用户名,,ユーザー名,User Name,사용자 이름
+label.username,用户名,nama pengguna,ユーザー名,username,사용자명
+label.username-selector,用户名选择器,pemilih nama pengguna,ユーザー名セレクター,username selector,사용자 이름 선택자
+label.utc,UTC,,UTC,UTC,UTC
+label.uuid,UUID,,UUID,UUID,UUID
+label.value,值,Nilai,値,Value,값
+label.value-display,值显示,paparan nilai,値表示,value display,값 표시
+label.value-field,值字段,medan nilai,値フィールド,value field,값 필드
+label.value-format,值格式,format nilai,値形式,value format,값 형식
+label.value-prefix,值前缀,awalan nilai,値プレフィックス,value prefix,값 접두사
+label.value-suffix,值后缀,akhiran nilai,値サフィックス,value suffix,값 접미사
+label.variable,变量信息,,変数情報,variable,변수정보
+label.variable-list,变量清单,,変数リスト,variable list,변수리스트
+label.variables,设定变量,,変数リスト,Variables,변수 리스트
+label.vendor id,供应商标识,ID vendor,ベンダーID,vendor id,공급자 ID
+label.vendor-id,厂商标识,ID penjual,ベンターID.,vendor ID.,공급자 ID.
+label.vendors,供应商,penjual,ベンダー,vendors,공급 업체
+label.version,版本,,バージョン,Version,버전
+label.vertical,垂直对齐,Laras Menegak,縦,vertical,세로
+label.vertical-anchor,垂直锚点,jangkar menegak,垂直アンカー,vertical anchor,수직 기준점
+label.vertical-padding,,Pemadatan Menegak,,,
+label.vertical_position,,Kedudukan Menegak,,,
+label.view,,Lihat,,,
+label.viewer-option,viewer配置,,ビューア設定,viewer option,뷰어 설정
+label.visibility,,Keterlihatan,,,
+label.visibility-domain,群组内公开,umum dalam kumpulan,グループ内公開,public in group,그룹내 공개
+label.visibility-private,私密,peribadi,プライベート,private,비공개
+label.visibility-public,公开,umum,公開,public,공개
+label.visible,,Boleh Dilihat,,,
+label.wait-for,等待时间,tunggu untuk,待機時間,wait for,대기 시간
+label.wait-for-selectors,等待选择器,wait-for pemilih,wait-for セレクター,wait-for selectors,wait-for 선택자
+label.wait-for-timeout,等待超时,wait-for masa,wait-for タイムアウト,wait-for timeout,wait-for 시간 제한
+label.waiting-time,等待时间,,待ち時間,Waiting Time,대기 시간
+label.warning,报警,Amaran,警告,Warning,경고
+label.weather-apikey,API 密钥（OpenWeatherMap 必需）,Kunci API (Diperlukan untuk OpenWeatherMap),APIキー（OpenWeatherMapに必要）,API Key (Required for OpenWeatherMap),API 키 (OpenWeatherMap에 필요)
+label.week,,Minggu,,,
+label.week-language,星期语言,bahasa hari minggu,週の言語,weekday language,요일 언어
+label.weekly,每周的,setiap minggu,週間,weekly,주간
+label.wheel-size,滚轮大小,,ホイール サイズ,wheel size,휠 크기
+label.white,,Putih,,,
+label.whitelist,白名单,senarai putih,ホワイトリスト,whitelist,화이트리스트
+label.width,宽度,Lebar,広さ,width,넓이
+label.will-get-return,会得到回报,,リターン値反映,will get return,리턴값 반영
+label.wing,翼,,翼,wing,날개
+label.with-credentials,包含凭据,dengan kelayakan,クレデンシャルを含む,with credentials,With Credentials
+label.withdraw,,Tarik Balik,,,
+label.without-enter,无回车键,tanpa kekunci enter,エンターキーなし,without enter key,스캔시 엔터키 붙이지않음
+label.wslivevideo-style,视频直播风格,,ライブビデオ スタイル,live video style,라이브비디오 스타일
+label.x description,{x} 描述,{x} penerangan,{x}説明,{x} description,{x} 설명
+label.x name,{x} 名称,{x} nama,{x}名前,{x} name,{x} 이름
+label.x-axes,X 轴,paksi X,X軸,X axes,X 축
+label.y-2nd-axes,Y 辅助轴,paksi Y kedua,Y補助軸,Y secondary axes,Y 보조축
+label.y-axes,Y 轴,paksi Y,Y軸,Y axes,Y 축
+label.yearly,每年的,setiap tahun,年間,yearly,연간
+label.yellow,,Kuning,,,
+label.yes,,Ya,,,
+label.you,,Anda,,,
+label.z-axes,Z 轴,paksi Z,Z軸,Z axes,Z 축
+label.z-pos,Z轴的值,,Z座標,pos. Z,Z 좌표
+label.zone,区域,,ゾーン,zone,존
+label.zoom,变焦,,拡大/縮小,Zoom,확대/축소
+label.zoom-in,,Zum Masuk,,,
+label.zoom-out,,Zum Keluar,,,
+menu.admin,管理员,,管理者メニュー,Administrator,관리자 메뉴
+menu.attachments,附件管理,Pengurusan lampiran,添付ファイル管理,attachments,첨부파일 관리
+menu.board-list,看板管理,,ボード管理,board list,보드 관리
+menu.board-template,看板模板,templat papan,ボードテンプレート管理,board template,보드 템플릿 관리
+menu.domain,,,ドメイン,Domain,도메인
+menu.domain-list,域名管理,,ドメイン リスト,Domain,도메인 관리
+menu.fonts,字体,,フォント,Fonts,폰트 관리
+menu.group-auth,组权限,,グループ権限,Group Authority,그룹 권한
+menu.group-list,业务群组,,グループ リスト,group list,그룹 관리
+menu.initialize-setting,基本配置,,初期化設定,initialize settings,초기화 설정
+menu.my-scenes,我的仪表盘,,私が作ったリスト,my scenes,내가 만든 리스트
+menu.play-groups,播放群组,,プレイ グループ リスト,play group list,플레이그룹 관리
+menu.preferences,设定,,環境設定,Preferences,환경설정
+menu.printer-device,Printer,Printer,Printer,Printer,프린터 관리
+menu.recent-applied,待审批列表,,,,
+menu.recent-created,最近创建列表,,最近の作成順序,recent created,최근 생성 순서
+menu.recent-printed,最近打印列表,,最近のプリント順序,recent printed,최근 프린트 순서
+menu.recent-released,最近发布列表,,最近のリリース順序,recent released,최근 릴리즈 순서
+menu.recent-submitted,最近提交列表,,配布要請リスト,recent submitted,배포 요청 리스트
+menu.recent-updated,最近更新列表,,最近の修正順序,recent updated,최근 수정 순서
+menu.request-auth,批准授权,,権限承認,Approval Authorization,권한 승인
+menu.user-list,用户列表,,ユーザー リスト,User,사용자 관리
+menu.variables,变量,,変数管理,Variables,변수관리
+password.new_password,,Kata Laluan Baru,,,
+password.password,,Kata Laluan,,,
+password.password_confirm,,Sahkan Kata Laluan,,,
+password.password_reset_code,,Kod Reset Kata Laluan,,,
+password.reset_password,,Tetap Semula Kata Laluan,,,
+password.reset_your_password,,Tetap Semula Kata Laluan Anda,,,
+password.setup_new_password,,Tetapkan Kata Laluan Baru Anda,,,
+privilege.category.system,系统配置,Tetapan sistem,システム設定,system setting,시스템 설정
+privilege.description,{name} {category}数据,Untuk {name} data {category},{category}を{name}できる,to {name} {category} data,{category}를 {name}할 수 있음
+privilege.name.mutation,编辑,Sunting,"作成, 修正, 削除",edit,"생성, 수정, 삭제"
+privilege.name.query,查询,Baca,照会,read,조회
+profile.account,,Akaun,,,
+profile.billing_address,,Alamat Bil,,,
+profile.change_password,,Tukar Kata Laluan,,,
+profile.email,,E-mel,,,
+profile.name,,Nama,,,
+profile.notifications,,Pemberitahuan,,,
+profile.password,,Kata Laluan,,,
+profile.profile,,Profil,,,
+profile.update_profile,,Kemaskini Profil,,,
+profile.update_successful,,Profil telah berjaya dikemaskini,,,
+profile.user_profile,,Profil Pengguna,,,
+prompt.sure to empty approval line ?,确定要清空审批行吗？,pasti mahu kosongkan garis kelulusan?,承認ラインを空にしますか？,sure to empty approval line ?,결재라인을 비우시겠습니까 ?
+prompt.sure to navigate away?,更改未保存。您确定要离开吗？,Anda mempunyai perubahan yang belum disimpan. Adakah anda pasti mahu berpindah?,未保存の変更があります。本当に移動しますか？,You have unsaved changes. Are you sure you want to navigate away?,변경 사항이 저장되지 않았습니다. 정말 이동하시겠습니까?
+scene.scene-height,标签高(Pixel),,場面(シーン) 高さ(ピクセル),Scene Height(Pixel),장면(씬) 높이(픽셀)
+scene.scene-width,标签宽(Pixel),,場面(シーン) 広さ(ピクセル),Scene Width(Pixel),장면(씬) 넓이(픽셀)
+text.10 am on every payday,每发薪的10点早上,pukul 10 pagi pada setiap hari gajian,給料日の午前10時ごとに,10 am on every payday,월급날 오전 10시마다
+text.NOTHING_CHANGED,没有新的更新。,,変更はありません.,Nothing Changed,변경된 것이 없습니다.
+text.New Alarm Message is Arrived.,新报警到达！,,新しい通知メッセージが届きました.,New Alarm Message is Arrived.,새로운 알람 메시지가 도착했습니다.
+text.Server Processing,执行服务中..,,処理中です..,Server Processing ...,처리 중 입니다 ..
+text.Success to Process,执行成功,,処理完了,Success to Process,처리 완료
+text.Sure To Delete Important,所有相关数据都会被删除，请确认是否删除？,,関連する全てのデータが削除されます. 削除しますか? ,All related data will be removed. Are you sure to delete?,관련된 모든 데이터가 삭제됩니다. 삭제하시겠습니까? 
+text.Sure to X,确定要{x}吗？,,{x}しますか?,Are you sure to {x},{x} 하시겠습니까?
+text.account is reactivated,账户已经重新激活。,Akaun telah diaktifkan semula,アカウントが再アクティブ化されました.,account is reactivated,계정이 재 활성화되었습니다.
+text.add_files,添加文件,,ファイル追加,text.Add Files,파일 추가
+text.all,,Semua,,,
+text.allowed values,应许的输入值,nilai yang dibenarkan,許された値,allowed values,허용된 값
+text.alternative single values,替代单一价值,nilai tunggal alternatif,代替値,alternative single values,대체 값
+text.an_error_occurred,,Ralat telah berlaku,,,
+text.any value,任何输入值,sebarang nilai,任意の値,any value,아무값
+text.api-sandbox,API沙盒,API sandbox,API サンドボックス,API sandbox,API 샌드박스
+text.appliance,终端设备,perkakas terminal,端末装置,terminal appliance,단말장치
+text.appliance credential,终端设备凭证,kelayakan peralatan terminal,端末装置の資格情報,terminal appliance credential,단말장치 자격증명
+text.application management,应用管理,pengurusan aplikasi,アプリケーション管理,application management,응용프로그램 관리
+text.apply_changes,,Terapkan Perubahan,,,
+text.are_you_sure,您确定要进行吗？,Adakah anda pasti?,進行しますか?,are you sure?,진행하시겠습니까?
+text.are_you_sure_to_delete_x,您确定是否删除{x}？,adakah anda pasti untuk memadam {x}?,{x}を削除しますか?,are you sure to delete {x},{x}를 삭제하시겠습니까?
+text.are_you_sure_to_terminate_contract,您确定要终止合同吗?,adakah anda pasti untuk memadam kontrak?,パートナーシップを解約しますか?,are you sure to terminate contract?,파트너쉽을 해지하시겠습니까?
+text.are_you_sure_to_transfer_owner,您确定要转移业主权限?,adakah anda pasti untuk menukar pemilik?,管理者を変更しますか?,are you sure to transfer owner?,관리자를 변경하시겠습니까?
+text.are_you_sure_to_x,您确定是否{x}?,adakah anda pasti untuk {x}?,{x}しますか?,are you sure to {x}?,{x}하시겠습니까?
+text.are_you_sure_to_x_user,您确定要删除用户{x}?,adakah anda pasti untuk {x} pengguna?,ユーザーを{x}しますか?,are you sure to {x} user?,사용자를 {x}하시겠습니까?
+text.attribute management,属性管理,pengurusan atribut,エンティティ属性管理,attribute management,엔티티 속성 관리
+text.auth profile,账号管理,profil pengguna,ユーザー プロファイル,user profile,사용자 프로파일
+text.auth-provider management,身份验证提供者管理,pengurusan pembekal pengesahan,認証プロバイダー管理,auth provider management,인증 제공자 관리
+text.board cloned,看板 '{board}' 已成功克隆,papan '{board}' telah berjaya dikelonkan,ボード '{board}'は正常にクローンされました,board '{board}' is cloned successfully,보드 '{board}'이 복사되었습니다
+text.board created,看板 '{board}' 创建成功,papan '{board}' berjaya dicipta,ボード'{board}'が作成されました,board '{board}' is created successfully,보드 '{board}'이 생성되었습니다
+text.board deleted,看板 '{board}' 删除成功,papan '{board}' berjaya dipadam,ボード'{board}'が削除されました,board '{board}' is deleted successfully,보드 '{board}'이 삭제되었습니다
+text.board released,看板 '{board}' 成功发布,papan '{board}' telah berjaya dikeluarkan,ボード'{board}'は正常にリリースされました,board '{board}' is released successfully,보드 '{board}'이 배포되었습니다
+text.board reverted,面板 '{board}' 已成功还原至版本 '{version}',Papan '{board}' telah berjaya dikembalikan kepada versi '{version}',ボード '{board}' がバージョン '{version}' に正常に戻されました,board '{board}' is reverted to version-'{version}' successfully,보드 '{board}'이 버전-'{version}'으로 되돌려졌습니다
+text.board updated,看板 '{board}' 更新成功,papan '{board}' berjaya dikemaskini,ボード'{board}'が修正されました,board '{board}' is updated successfully,보드 '{board}'이 수정되었습니다
+text.board-template deleted,看板模版已删除,templat papan berjaya dipadam,ボード テンプレートが正常に削除されました,board template is deleted successfully,보드 템플릿이 삭제되었습니다
+text.board-template updated,看板模版已更新,templat papan berjaya dikemaskini,ボード テンプレートが正常に修正されました,board template is updated successfully,보드 템플릿이 수정되었습니다
+text.boards imported,已导入 {count} 个板块到群组 {group},{count} papan telah diimport ke dalam kumpulan {group},{count} つのボードがグループ {group} にインポートされました,{count} boards are imported into group {group},{count}개의 보드를 그룹'{group}'으로 가져왔습니다
+text.can-not-change-group,无权更改组信息！,,グループ修正権限がありません.,You don't have authority to change group information!,그룹 수정 권한이 없습니다.
+text.can-not-version-up,当前存在未发布版本，无法创建新版本。,,"配布されていないバージョンがあるため, 新しいバージョンを作成できません.","There exists not released version, can not create new version.","배포되지 않은 버전이 있으므로, 새 버전을 생성할 수 없습니다."
+text.cancel,取消,Batal,キャンセル,text.Cancel,취소
+text.cancel_all,全部取消,,すべてキャンセル,text.Cancel All,모두 취소
+text.cannot-be-deleted,此版本无法删除。,,削除できません.,This can not be deleted,삭제가 불가능합니다.
+text.cannot_delete,无法删除,tidak boleh dipadam,削除できません.,cannot be deleted,삭제할 수 없습니다.
+text.change password,修改密码,tukar kata laluan,パスワード変更,change password,비밀번호 변경
+text.character-number-allowed,只可以输入文本和数字。,,文字と数字のみ入力できます.,Only characters and number are allowed.,문자와 숫자만 입력할 수 있습니다.
+text.check-register-in-mail,请在邮件中确认登录过程。,,,,
+text.check_password_in_mail,审批结束后将自动发送到邮件中。,,メールでパスワードを確認してください,You can check your password through your email,메일을 통해 비밀번호를 확인하세요
+text.check_register_in_mail,,,メールで確認登録状況を確認できます.,You can check result of acceptance through your email.,메일에서 확인 등록 진행상황을 확인 가능합니다.
+text.clear_changes,,Kosongkan Perubahan,,,
+text.clearing-cache,正在清除缓存,sedang mengosongkan cache,キャッシュをクリア,clearing cache,캐시클리어
+text.click login history,如果您想查看最近的登录记录，请点击这里。,"Jika anda ingin melihat sejarah log masuk terkini anda, klik di sini.",最近のログイン履歴を確認したい場合は、こちらをクリックしてください。,"If you want to see your recent login history, click",최근 로그인 이력을 보고 싶다면 여기를 클릭하세요.
+text.click_to_configure,,Klik untuk konfigurasi,,,
+text.click_to_edit,,Klik untuk mengedit,,,
+text.close,,Tutup,,,
+text.column visibility setting,列显示,tetapan kebolehlihatan kolum,カラムの表示設定,column visibility,컬럼 보이기
+text.completed,已完成,selesai,完了しました.,completed,완료되었습니다.
+text.confirm password,认证密码,sahkan kata laluan,パスワード確認,confirm password,비밀번호 확인
+text.confirm_password,,Sahkan Kata Laluan,,,
+text.confirmation,,Pengesahan,,,
+text.connecting,链接中,,連結中...,text.Connecting...,연결중...
+text.connection,连接,sambungan,コネクション,connection,커넥션
+text.connection list,连接列表,senarai sambungan,コネクション リスト,connection list,커넥션 리스트
+text.copy,复制,salin,コピー,copy,복사
+text.create,,Cipta,,,
+text.create role,创建角色,bina peranan,ロール作成,create role,역할 생성하기
+text.created_successfully,,Berjaya dicipta,,,
+text.current password,当前密码,kata laluan terkini,現在パスワード,current password,현재 비밀번호
+text.current_password,,Kata Laluan Semasa,,,
+text.data_created_successfully,数据创建成功。,data berjaya dicipta,資料が正常に作成されました.,data created successfully,성공적으로 자료를 생성하였습니다.
+text.data_deleted_successfully,数据删除成功。,data telah berjaya dipadam,資料の削除に成功しました.,data deleted successfully,성공적으로 자료를 삭제하였습니다.
+text.data_saved,,Data telah disimpan,,,
+text.data_updated_successfully,数据更新成功。,data berjaya dikemaskini,資料の修正に成功しました.,data updated successfully,성공적으로 자료를 수정하였습니다.
+text.data_uploaded_successfully,数据上传成功。,data uploaded successfully,資料が正常に作成されました.,data uploaded successfully,성공적으로 자료를 업로드하였습니다.
+text.delete,删除,padam,削除,delete,삭제
+text.delete account succeed,已成功删除账号。,Berjaya memadam akaun,アカウントが削除されました.,delete account succeed,계정이 삭제되었습니다.
+text.delete account warning message,"这步骤将完全删除您的账号。
+
+请输入您的电子邮件和密码，确认删除步骤。","langkah hapuskan akaun tidak boleh diundur.
+
+sila masukkan emel dan kata laluan akaun anda untuk mengesahkan penghapusan akaun.","このタスクはキャンセルできません. これにより, このユーザーに関する全ての情報が永久に削除されます.
+
+続行するには, このアカウントに関するメールとパスワードを入力してください.","this action cannot be undone. this will permanently delete all about this account.
+
+please type in the email and password of this account to confirm.","이 작업은 취소할 수 없습니다. 이것은 이 사용자에 대한 모든 정보를 영구적으로 삭제합니다.
+
+계속하시려면 이 계정에 대한 이메일과 비밀번호를 입력하세요."
+text.delete-domain,请删除域名！,,ドメイン削除!,Delete Domain!,도메인 삭제!
+text.delete-in-proc,正在进行删除。,,削除が進行中です.,Deleting is in process.,삭제가 진행 중 입니다.
+text.deleted_successfully,删除成功,berjaya dihapuskan,削除に成功しました.,deleted successfully,성공적으로 삭제되었습니다.
+text.deleting,正在进行删除。,,削除中,Deleting,삭제 중
+text.dismiss,,Tolak,,,
+text.do_you_want_to_create_role,请确认是否创建角色?,adakah anda hendak membina peranan?,,do you want to create role?,
+text.do_you_want_to_create_x,你想创建 {x} 吗？,adakah anda mahu mencipta {x}?,{x}を作成しますか?,do you want to create {x} ?,{x}을/를 생성하시겠습니까?
+text.do_you_want_to_invite_x,请确认是否邀请客户{x},adakah anda ingin mengundang {x},{x}を招待しますか?,do you want to invite {x},{x}을(를) 초대하시겠습니까?
+text.domain management,域管理,pengurusan domain,ドメイン管理,domain management,도메인 관리
+text.domain sumber dan sasaran tidak boleh sama,,domain sumber dan sasaran tidak boleh sama,,,
+text.done,,Selesai,,,
+text.drop_file_here,请将多个文件拖拽至此。。。,,ファイルをドロップしてください.,text.Drop file here...,파일을 드롭하세요.
+text.drop_files_here,请将多个文件拖拽至此。。。,,ファイルをドロップしてください.,text.Drop files here...,파일들을 드롭하세요.
+text.edit,,Sunting,,,
+text.email is not matched,电子邮件不匹配,alamat email tidak sepadan,メールが一致しません.,email is not matched.,이메일이 일치하지 않습니다.
+text.empty-admin-url-allowed,请在设置页面，设置管理者页面URL。,,管理者ページが設定されていません. 設定データに'client.context.path'の値を設定してください.,Administrator Page URL should not be empty! Please set the Administrator Page URL at Settings page,관리자 페이지가 설정되지 않았습니다. 설정 데이터에 'client.context.path' 값을 설정하세요.
+text.empty-base-url-not-allowed,服务器地址不能为空，请配置服务器地址。,,Base URL設定がされていません. 設定画面でまずBase URLを設定してください.,Base URL should not be empty! Please set the Base URL,Base URL 설정이 되지 않았습니다. 설정화면에서 먼저 Base URL을 설정하세요.
+text.emptyDataMessage,无搜索结果。,,照会結果がありません.,Search Result is Nothing.,조회 결과가 없습니다.
+text.emptyGridMessage,表格为空。,,空のグリッドです.,It's Empty Grid.,비어있는 그리드 입니다.
+text.error,,Ralat,,,
+text.error_occurred,,Ralat telah berlaku,,,
+text.error_while_updating,,Ralat semasa mengemaskini,,,
+text.every 12 hours,每十二小时,setiap 12 jam,12時間ごとに,every 12 hours,매 12시간마다
+text.every 15 minutes,每十五分钟,setiap 15 minit,15分ごとに,every 15 minutes,매 15분마다
+text.every 15 seconds,每十五秒,setiap 15 saat,15秒ごとに,every 15 seconds,매 15초마다
+text.every 2 hours,每两小时,setiap 2 jam,2時間ごとに,every 2 hours,매 2시간마다
+text.every 2 minutes,每两分钟,setiap 2 minit,2分ごとに,every 2 minutes,매 2분마다
+text.every 2 seconds,每两秒,setiap 2 saat,2秒ごとに,every 2 seconds,매 2초마다
+text.every 30 seconds,每三十秒,setiap 30 saat,30秒ごとに,every 30 seconds,매 30초마다
+text.every christmas,每圣诞节,setiap hari Krismas,毎クリスマスに,every christmas,매 크리스마스마다
+text.every day,每天,setiap hari,毎日,every day,매일
+text.every half hour,每半小时,setiap setengah jam,30分ごとに,every half hour,매 30분마다
+text.every hour,每小时,setiap jam,毎時間,every hour,매시간
+text.every hour during working time,工作时间的每小时,setiap jam semasa waktu bekerja,勤務時間中時間ごとに,every hour during working time,근무 시간 동안 매시간마다
+text.every minute,每分钟,setiap minit,毎分,every minute,매분
+text.every second,每秒,setiap saat,毎秒,every second,매초
+text.every sunday,每星期天,setiap Ahad,毎週日曜日に,every sunday,매주 일요일마다
+text.every weekday,每个工作日,setiap hari dalam minggu,平日ごとに,every weekday,평일마다
+text.existing_item_found,,,,existing item found,
+text.failed_logout,注销失败！,,ログアウト失敗.,Failed to Logout.,로그아웃 실패.
+text.field_required,,Medan ini diperlukan,,,
+text.file_is_too_big,文件过大,,ファイル容量が大きすぎます.,text.File is Too Big.,파일 용량이 너무 큽니다.
+text.file_upload_success,,Muat naik fail berjaya,,,
+text.final-confirmation,最终确认,,最終確認,Final Confirmation!,최종 확인
+text.forbidden,访问被拒绝,,禁止されたリクエスト,text.Forbidden,금지된 요청
+text.group created,群组 '{group}' 创建成功,kumpulan '{group}' berjaya dicipta,グループ'{group}'が作成されました,group '{group}' is created successfully,그룹 '{group}'이 생성되었습니다
+text.group deleted,群组 '{group}' 删除成功,kumpulan '{group}' berjaya dipadam,グループ'{group}'が削除されました,group '{group}' is deleted successfully,그룹 '{group}'이 삭제되었습니다
+text.group updated,群组 '{group}' 更新成功,kumpulan '{group}' berjaya dikemaskini,グループ'{group}'が修正されました,group '{group}' is updated successfully,그룹 '{group}'이 수정되었습니다
+text.group-required,请指定组！,,グループは必須情報です!,Label Group is Required!,그룹은 필수 정보 입니다!
+text.help,帮助,bantuan,ヘルプ,help,도움말
+text.inactive user,未激活用账号。,Pengguna tidak aktif,非アクティブユーザーです.,inactive user,비활성 사용자입니다.
+text.incorrect_file_type,错误的文件类型,,正しくないファイル タイプ,text.Incorrect File Type.,올바르지 않은 파일 타입
+text.info_invalid,输入信息不符合规则！,,入力した情報が無効です.,Typed information is not valid.,입력하신 정보가 유효하지 않습니다.
+text.info_x_successfully,{x} 成功。,{x} berjaya.,{x}に成功しました.,{x} success.,성공적으로 {x}했습니다.
+text.initialize-setting-success,已经成功完成初始化过程。,,初期化セッティングが正常に完了しました.,Initialization process is finished successfully,초기화 세팅이 정상적으로 완료되었습니다.
+text.integration analysis,整合分析,analisis integrasi,統合分析 ,integration analysis,인티그레이션 분석
+text.integration monitor,集成监控器,pemantauan integrasi,インテグレーション モニタ,integration monitor,인티그레이션 모니터
+text.invalid verification token,令牌无效。,Token pengesahan tidak sah,確認トークンが無効です.,invalid verification token,확인 토큰이 유효하지 않습니다.
+text.invalid-email,请使用有效的电子邮箱格式。,,正しくないメール形式です.,It's invalid email form.,잘못된 이메일 형식 입니다.
+text.invalid-value,请输入有效的值。,,正しい値を教えてください,Typed invalid value.,올바른 값을 입력해주세요
+text.invalid_email_format,,Format e-mel tidak sah,,,
+text.invalid_input,非法输入,,入力エラー,Invalid Input.,입력 오류
+text.invitation email sent,成功发送邀请电子邮件。,E-mel jemputan telah dihantar,招待メールを送りました.,invitation email sent,초대 이메일을 보냈습니다.
+text.joined into play-group,看板 '{board}' 加入播放组 '{playGroup}',papan '{board}' menyertai kumpulan mainan '{playGroup}',ボード'{board}'がプレイグループ'{playGroup}'に追加されました,board '{board}' joined into play-group '{playGroup}',보드 '{board}'가 플레이그룹 '{playGroup}'에 추가되었습니다
+text.leaved from play-group,看板 '{board}' 离开播放组 '{playGroup}',papan '{board}' keluar dari kumpulan mainan '{playGroup}',ボード'{board}'がプレイグループ'{playGroup}'から削除されました,board '{board}' leaved from play-group '{playGroup}',보드 '{board}'가 플레이그룹 '{playGroup}'에서 제거되었습니다
+text.loading,,Sedang dimuatkan...,,,
+text.login,,Log Masuk,,,
+text.login_failure,登录失败！,,ログイン失敗.,Login failure.,로그인 실패.
+text.logout,,Log Keluar,,,
+text.model-overlay,"因为该仪表盘的状态是{1} 
+所以无法继续编辑。",,"このBoardは{1}状態であるため
+これ以上修正できません.","Because this label is status of {1} 
+, you can not edit more.","이 Board는 {1} 상태이므로
+더 이상 수정할 수 없습니다."
+text.model-overlay-authority-not-allow-change,没有编辑权限。,,"登録したユーザーは修正権限がないため
+これ以上修正できません.","Cause of your authority, you can not edit more.","등록하신 사용자는 수정권한이 없으므로
+더 이상 수정할 수 없습니다."
+text.model-overlay-status-not-allow-change,"因为该仪表盘的状态是{1} 
+所以无法继续编辑。",,"このBoardは{1}状態であるため
+これ以上修正できません.","Because this label is status of {1} 
+, you can not edit more.","이 Board는 {1} 상태이므로
+더 이상 수정할 수 없습니다."
+text.modeller-release-msg,当前版本为较低版本，是否以当前版本为基础创建新版本，并发布？,,"現在のバージョンが旧バージョン情報であり, その内容をもとに新規バージョンを作成および配布しますか?","The version now you edit is older version, do you want to create and release new version base on the version?",현 버전이 저버전 정보이며 해당 내용을 기초로 신규 버전 생성 및 배포 하시겠습니까?
+text.modeller-release-title,发布：版本报警,,配布：バージョン通知,Release：Version Warning,배포：버전알림
+text.modeller-save-msg,当前版本为较低版本，是否以当前版本为基础创建新版本？,,"現在のバージョンが旧バージョン情報であり, その内容をもとに新規バージョンを作成しますか?","The version now you edit is older version, do you want to create new version base on the version?",현 버전이 저버전 정보이며 해당 내용을 기초로 신규 버전 생성하시겠습니까?
+text.modeller-save-title,保存：版本报警,,保存：バージョン通知,Save：Version Warning,저장：버전알림
+text.move-to-home,将会移动到主页。,,ホームに移動します.,It will be moved to home.,홈으로 이동합니다.
+text.name-and-group-required,请指定仪表盘名称和仪表盘组！,,名前とグループ情報は必須情報です.,Label Name and Label Group is Required!,이름과 그룹 정보는 필수 정보입니다.
+text.new password,新密码,kata laluan baru,新しいパスワード,new password,새 비밀번호
+text.new_password,,Kata Laluan Baru,,,
+text.no,,Tidak,,,
+text.no domain available,抱歉，没有域名,"maaf, tiada domain untuk dipilih",使用できるドメインがありません.,no domain available,사용할 수 있는 도메인이 없습니다.
+text.no notification available,无推送消息。,tiada pemberitahuan baru.,新しい通知がありません.,no notification available,새로운 알림이 없습니다.
+text.no properties to set,没有要设置的属性,tiada harta untuk ditetapkan,プロパティの設定は必要ありません.,there's no properties to set,속성 설정이 필요하지 않습니다.
+text.no released version information available,没有发布版本信息可用,tiada maklumat versi yang dikeluarkan,リリースされたバージョン情報はありません,no released version information available,배포된 버전이 없습니다
+text.nothing_changed,无更改,nothing changed,変更なし,nothing changed,변경사항 없음
+text.nothing_selected,未选择,nothing selected,選択されていない,nothing selected,선택되지 않음
+text.notification subscribe started,推送消息已开始订阅。,langganan pemberitahuan tolak telah bermula.,プッシュ通知購読が始まりました.,notification subscribe started,푸시알림 구독이 시작되었습니다.
+text.notification subscribed already,推送消息已订阅。,sudah melanggan pemberitahuan tolak.,既にプッシュ通知を購読中です.,notification subscribed already,이미 푸시알림을 구독중입니다.
+text.notification subscribing failed,消息订阅失败。,gagal melanggan pemberitahuan tolak.,プッシュ購読申請に失敗しました.,notification subscribing failed,푸시알림 구독 신청을 실패하였습니다.
+text.notification unsubscribed,推送消息已取消订阅。,langganan pemberitahuan tolak telah dibatalkan.,プッシュ通知購読をキャンセルしました.,notification unsubscribed,푸시알림 구독을 취소하였습니다.
+text.notification unsubscribed already,推送消息已取消订阅。,sudah membatalkan langganan pemberitahuan tolak.,既にプッシュ通知購読をキャンセルしました.,notification unsubscribed already,이미 푸시알림 구독을 취소하셨습니다.
+text.oauth2-clients,oauth2客户端,oauth2 clients,oauth2クライアント,oauth2 clients,oauth2 클라이언트
+text.offline,离线,luar talian,オフライン,offline,오프라인
+text.ok,,OK,,,
+text.online,在线,dalam talian,オンライン,online,온라인
+text.only-edit-status-label-can-be-deleted,只有EDIT状态的标签才可以删除！,,編集状態のBoardのみ削除できます!,Only EDIT Status Label allow to be deleted!,편집 상태의 Board만 삭제할 수 있습니다!
+text.only-edit-status-label-can-be-saved,只有EDIT状态的标签才可以更改！,,権限が付与されたユーザーと編集状態のBoardのみ修正できます!,Only authorized user and EDIT Status Label allow to be updated!,권한이 부여된 사용자와 편집 상태의 Board만 수정할 수 있습니다!
+text.operato,Operato Framework powered by hatiolab.com,Operato Framework powered by hatiolab.com,,Operato Framework powered by hatiolab.com,hatiolab.com이 제공하는 Operato 프레임워크
+text.owner_transfer_completed,所有权转让成功。,pindah pemilik selesai,owner変更を完了しました.,owner transfer completed,owner 변경을 완료하였습니다.
+text.password,,Kata Laluan,,,
+text.password changed successfully,密码更改成功。,Kata laluan berjaya diubah,パスワードが正常に変更されました.,password changed successfully,비밀번호가 성공적으로 변경되었습니다.
+text.password reset email sent,已发送密码重置邮件。,E-mel reset kata laluan telah dihantar,パスワード リセットメールを送りました.,password reset email sent,비밀번호 재설정 이메일을 보냈습니다.
+text.password reset succeed,密码重置成功。,Reset kata laluan berjaya,パスワードが正常にリセットされました.,password reset succeed,비밀번호 성공적으로 재설정되었습니다.
+text.password rule,输入的密码必须15个字符或8字符包括号码和小写字符,sila pastikan kemasukan kata laluan adalah 15 huruf ATAU 8 huruf termasuk nombor dengan huruf kecil.,"少なくとも15文字以上, あるいは数字と小文字を含めて8文字以上でなければなりません.",make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter.,최소 15자 이상 혹은 숫자와 소문자를 포함하여 8자 이상이어야 합니다.
+text.password-missmatch,新密码与确认密码不同,,,,
+text.password_inited,密码重置申请已提交。,,パスワード リセット,Password Initialized,비밀번호 초기화
+text.password_mismatch,,Kata laluan tidak sepadan,確認したい暗号と新規暗号が異なります.,Password mismatch password and confirmed password,확인하려는 암호와 신규 암호가 다릅니다.
+text.passwords do not match,密码不匹配,kata laluan anda tidak padan,パスワードが一致しません.,these passwords don't match.,비밀번호가 일치하지 않습니다.
+text.pattern_atleast_1_digit,至少1位数字字符,Sekurang-kurangnya 1 aksara digit,少なくとも1つの数字,at least 1 digit character,최소 1개 숫자
+text.pattern_atleast_1_lowercase,至少1个小写字母,Sekurang-kurangnya 1 aksara kecil,少なくとも１つの小文字,at least 1 lowercase character,최소 1개 소문자
+text.pattern_atleast_1_special,至少1个特殊字符（！@＃$％^＆*（））,Sekurang-kurangnya 1 aksara istimewa (!@#$%^&*()),少なくとも1つの特殊文字(!@#$%^&*()),at least 1 special character(!@#$%^&*()),최소 1개 특수문자(!@#$%^&*())
+text.pattern_atleast_1_uppercase,至少1个大写字母,Sekurang-kurangnya 1 aksara besar,少なくとも1つの大文字,at least 1 uppercase character,최소 1개 대문자
+text.pattern_minimum_charaters,最少未字符长度为{length},Minimum {length} aksara,少なくとも{length}文字,minimum {length} charaters,최소 {length} 글자
+text.pattern_not_allowed,不允许重复字符,Tidak dibenarkan aksara berulang,文字の繰り返し使用不可,not allowed repeated charater,문자 반복 사용 불가
+text.play-group created,播放组 '{playGroup}' 创建成功,kumpulan mainan '{playGroup}' berjaya dicipta,プレイグループ'{playGroup}'が作成されました,play-group '{playGroup}' is created successfully,플레이그룹 '{playGroup}'이 생성되었습니다
+text.play-group deleted,播放组 '{playGroup}' 删除成功,kumpulan mainan '{playGroup}' berjaya dipadam,プレイグループ'{playGroup}'が削除されました,play-group '{playGroup}' is deleted successfully,플레이그룹 '{playGroup}'이 삭제되었습니다
+text.play-group updated,播放组 '{playGroup}' 更新成功,kumpulan mainan '{playGroup}' berjaya dikemaskini,プレイグループ'{playGroup}'が修正されました,play-group '{playGroup}' is updated successfully,플레이그룹 '{playGroup}'이 수정되었습니다
+text.please choose a provider,请选择服务提供商,sila pilih penyedia perkhidmatan,サービス プロバイダーを選択してください,Please choose a provider,서비스 제공자를 선택하세요
+text.please enter the email of the user you want to transfer owner,请录入所有权接收人的邮件。,sila masukkan e-mel pengguna yang anda hendak pindahkan pemilik,管理者に変更するユーザーのメールを入力してください.,please enter the email of the user you want to transfer owner,관리자로 변경할 사용자의 이메일을 입력하세요.
+text.please_choose_partner,请选择合作伙伴,Sila pilih rakan kongsi,パートナーを選択してください,please choose a partner,파트너사를 선택해 주세요
+text.please_fill_all_required_fields,请填写所有必填字段,,すべての必須フィールドに入力してください,please fill all required fields,모든 필수 항목을 작성해 주세요
+text.please_wait,正在处理，请稍候。,,処理中です. 少々お待ちください.,,처리 중 입니다. 잠시만 기다려주세요.
+text.pls-name-board,Type board name,,ボードの名前を入力してください,Type board name,보드의 이름을 입력해주세요
+text.printed,printed,printed,印刷が完了しました.,printed,출력되었습니다.
+text.processing_file,进行中。。。,,進行中...,Processing File...,진행중...
+text.processing_msg,请求处理中。,,要請が処理中です.,Your Request is Processing.,요청이 처리중 입니다.
+text.profile changed successfully,个人资料更改成功。,Profil berjaya diubah,プロフィールが正常に変更されました.,profile changed successfully,프로필이 성공적으로 변경되었습니다.
+text.push notification is not supported in your browser,您的浏览器不支持推送消息。,pemberitahuan tolak tidak disokong dalam pelayar anda.,このブラウザではプッシュ通知がサポートされません.,push notification is not supported in your browser.,이 브라우저에서는 푸시알림이 지원되지 않습니다.
+text.pw_changed,密码已更改,,パスワード変更,Password is changed,비밀번호 변경
+text.pw_changed_msg,密码修改成功,,パスワードが変更されました.,Your Account Password is Changed,비밀번호가 변경 되었습니다.
+text.range of values,值的范围,julat nilai,値の範囲,range of values,값의 범위
+text.register,注册,daftar,登録,register,등록
+text.register-in-process,用户正在执行登录过程,,,,
+text.register-template,注册模板,daftar templat,テンプレートを登録,register template,템플릿 등록
+text.register_in_process,,,ユーザー登録が進行中です.,User registering is on processing.,사용자 등록이 진행 중입니다.
+text.registered roles,角色登记成功,peranan sudah didaftar,登録されたロールリスト,registered roles,등록된 역할 리스트
+text.remaining time,剩余{days}天{hours}小时{mins}分钟{secs}秒,masa tinggal {days} hari {hours} jam {mins} minit {secs} saat,{days}日 {hours}時間 {mins}分 {secs}秒 残っています,{days} days {hours} hours {mins} mins {secs} seconds remain,{days}일 {hours}시간 {mins}분 {secs}초 남았습니다
+text.remaining_time,剩余时间:,,残り時間: ,remaining time: ,남은시간: 
+text.reorder play-group,播放组 '{playGroup}' 已成功重新排序,play-group '{playGroup}' telah berjaya diatur semula,プレイグループ''{playGroup}'は正常に並べ替えられました,play-group '{playGroup}' is reordered successfully,플레이그룹 '{playGroup}'이 재정열되었습니다
+text.request-role-success,角色申请成功。,,要請した権限はシステム管理者に要請されました.,Role requested and admin will check it at e-mail.,요청한 권한은 시스템 관리자에게 요청되었습니다.
+text.required_error,必需输入数据。,,必ず値を入力してください.,Value Required.,반드시 값을 입력해야 합니다.
+text.result,结果,Hasil,結果,result,결과
+text.role_management,角色管理,pengurusan peranan,ロール管理,role management,역할 관리
+text.save,,Simpan,,,
+text.saved,已保存,Disimpan,保存された,saved,저장되었습니다
+text.saving,,Menyimpan...,,,
+text.scenario,方案,senario,シナリオ,scenario,시나리오
+text.scenario list,方案列表,senarai senario,シナリオリスト,scenario list,시나리오 리스트
+"text.search with type, id or tag",通过类型、ID或标签名搜索,,"タイプ, IDまたはタグ名で検索","search with type, id or tag","타입, 아이디 또는 태그이름으로 검색"
+text.select domain,选域名,pilih domain,ドメイン選択,select domain,도메인 선택
+text.select_file,选择文件,,ファイルを選択してください,Select File,파일을 선택하세요
+text.select_option,,Pilih satu pilihan,,,
+text.server_error,,Ralat pelayan. Sila cuba lagi kemudian.,,,
+text.server_unavailable,服务器无法链接,,利用できないサーバー,text.Server Unavailable,이용할 수 없는 서버
+text.setting-already-done,,,セッティングが既に完了しています.,,세팅이 이미 완료되었습니다.
+text.settings-already-done,已有设置。,,,Settings are already done.,
+text.should select at least one of x,请选择以下至少一项{x},sila pilih antara satu {x},少なくとも1つ以上{x}を選択してください.,please select at least one of {x},적어도 한개 이상의 {x} 을(를) 선택해 주세요.
+text.signed in,已登录,telah log masuk,ログイン,signed in,로그인
+text.signed out,已退出,telah log keluar,ログアウト,signed out,로그아웃
+text.signout successfully,登出成功。,Berjaya keluar,ログアウトに成功しました.,signout successfully,성공적으로 로그아웃 하였습니다.
+text.sila isi semua medan yang diperlukan,,sila isi semua medan yang diperlukan,,,
+text.source_and_target_domain_cannot_be_same,源域和目标域不能相同,,ソースドメインとターゲットドメインは同じにできません,source and target domain cannot be same,소스 도메인과 타겟 도메인은 동일할 수 없습니다
+text.stalled,停滞,,停滞中...,text.Stalled.,정체중...
+text.step values,阶跃值,nilai langkah,ステップ値,step values,단계 값
+text.success,,Berjaya,,,
+text.supporting text for blacklist,输入要封锁的从事非法或恶意活动的IP地址。,Masukkan alamat IP yang melakukan aktiviti haram atau jahat untuk disekat.,違法または悪意のある活動を行うIPアドレスをブロックする対象を入力します。,Enter the IP addresses engaging in illegal or malicious activities to be blocked.,불법적인 또는 악의적인 활동을 하는 IP 주소를 차단하는 대상을 입력합니다.
+text.supporting text for protected ip-list,当你想限制特定IP地址之外的'保护权限'使用时请输入。,Masukkan bila anda ingin menghadkan penggunaan 'hak yang dilindungi' kecuali dari alamat IP tertentu.,特定のIPアドレス以外で'保護された権限'を使用できないように制限する場合に入力します。,Enter when you want to restrict the use of 'protected rights' except from certain IP addresses.,특정 IP 주소 외에서는 '보호되는 권한'을 사용할 수 없도록 제한하고자 할 때 입력합니다.
+text.supporting text for whitelist,设置可信IP地址列表，以允许只有被批准的IP地址可以访问。,Tetapkan senarai alamat IP yang dipercayai untuk membolehkan hanya alamat IP yang diluluskan mengakses.,信頼できるIPアドレスのリストを設定し、許可されたIPアドレスのみがアクセスできるようにします。,Set up a list of trusted IP addresses to allow only approved IPs to access.,신뢰할 수 있는 IP 주소 목록을 설정하여 허용되는 IP 주소만 접근할 수 있도록 하는 목적으로 입력합니다.
+text.sure-delete-domain,所有相关数据都会被删除，请确认是否删除？,,該当ドメインを削除しますか? (関連する全てのデータが削除されます.),Are you sure to delete it? (Every related data will be removed.),해당 도메인을 삭제하시겠습니까? (관련된 모든 데이터가 삭제됩니다.)
+text.sure-delete-domain-final,将会删除所有相关数据。是否继续进行删除？,,該当ドメインに含まれた全てのデータが削除されます. 削除しますか?,Every related data will be removed. Are you sure to DELETE it?,해당 도메인에 포함된 모든 데이터가 삭제됩니다. 삭제하시겠습니까?
+text.sure-to-delete,是否执行删除操作？,,削除しますか?,Are you sure to delete?,삭제하시겠습니까?
+text.sure_to_x,确定 {x}?,Pasti {x}?,{x}しますか?,Sure to {x}?,{x}하시겠습니까?
+text.synchronize,同步,menyamakan,同期,synchronize,동기화
+text.the application has been updated,应用已更新。,aplikasi telah dikemas kini.,アプリケーションがアップデートされました.,The application has been updated.,어플리케이션이 업데이트되었습니다.
+text.the first day of every month,每月的第一天,hari pertama setiap bulan,毎月1日ごとに,the first day of every month,매월 1일마다
+text.the first day of every year,每年的第一天,hari pertama setiap tahun,毎年1月1日ごとに,the first day of every year,매년 1월 1일마다
+text.theme,设计主题,,テーマ,theme,테마
+text.there_is_nothing_to_delete,没有要删除的数据。,there is nothing to delete,削除するデータがありません.,there is nothing to delete,삭제할 데이터가 없습니다.
+text.there_is_nothing_to_process,没有要处理的数据。,there is nothing to process,処理するデータがありません.,there is nothing to process,처리할 데이터가 없습니다.
+text.there_is_nothing_to_save,没有要保存的数据。,there is nothing to save,保存するデータがありません.,there is nothing to save,저장할 데이터가 없습니다.
+text.token expiry time,令牌过期时间,masa tamat token,トークン有効期限,token expiry time,토큰 만료 시점
+text.too_many_files,文件过多。。。,,ファイルが多すぎます.,Too Many Files.,파일이 너무 많습니다.
+text.unable_to_load_data,,Tidak dapat memuatkan data,,,
+text.unexpected_error,,Ralat tidak dijangka,,,
+text.unexpected_server_error,无法预料的服务器错误。,,予期せぬサーバー エラーが発生しました.,Unexpected Server Error,예상치 못한 서버 오류가 발생했습니다.
+text.unknown_remaining_time,无法确定剩余时间。,,残った時間がわかりません.,unknown remaining time,남은 시간을 알 수 없습니다.
+text.update,更改,kemas kini,変更,update,변경
+text.updated_successfully,更新成功,berjaya dikemaskini,正常にアップデートしました.,updated successfully,성공적으로 업데이트 되었습니다.
+text.upload,,Muat Naik,,,
+text.uploading,,Mengemaskini...,,,
+text.user activated successfully,用户激活成功,Pengguna diaktifkan dengan berjaya,ユーザーが正常に活性化されました.,user activated successfully,사용자가 성공적으로 활성화되었습니다.
+text.user credential registered successfully,设备注册已成功完成。现在可以使用生物识别认证。,pendaftaran peranti berjaya diselesaikan. Kini anda boleh menggunakan pengesahan biometrik.,デバイスの登録が正常に完了しました。今後は生体認証を使用できます。,device registration has been successfully completed. You can now use biometric authentication.,기기 등록이 성공적으로 완료되었습니다. 이제 바이오메트릭 인증을 사용할 수 있습니다.
+text.user inactivated successfully,用户已成功停用,Pengguna tidak aktif dengan berjaya,ユーザーが正常に非アクティブ化されました.,user inactivated successfully,사용자가 성공적으로 비활성화되었습니다.
+text.user invitation prompt,请输入您希望邀请的用户的用户名或电子邮件地址。,sila masukkan nama pengguna atau alamat e-mel pengguna yang ingin anda jemput.,招待したいユーザーのユーザー名またはメールアドレスを入力してください。,Please enter the username or email address of the user you wish to invite.,초대하고자 하는 사용자아이디나 이메일을 입력하세요。
+text.user management,用户管理,pengurusan pengguna,ユーザー管理,user management,사용자 관리
+text.user registered successfully,用户注册成功。 请查看电子邮件以激活帐户。,Pengguna berjaya didaftarkan. Cari e-mel anda untuk mengaktifkan akaun,ユーザーが正常に登録されました. 確認メールでアカウントを有効にしてください.,user registered successfully. find your email to activate account,사용자가 성공적으로 등록되었습니다. 확인 이메일을 통해서 계정을 활성화하시기 바랍니다.
+text.user-active-confirm,是否激活该用户？,,該当ユーザーをアクティブ化しますか?,Would you like to active this user?,해당 사용자를 활성화하시겠습니까?
+text.validation-reason.FORMAT,格式不正确,format tidak sah,形式が正しくありません,invalid format,잘못된 형식입니다.
+text.validation-reason.MANDATORY,必填,wajib,必須,mandatory,필수 입력 항목입니다.
+text.validation-reason.RANGE,超出范围,diluar jangka,範囲外,out of range,범위를 벗어났습니다.
+text.validation-reason.UNIQUE,重复值,nilai duplikat,重複,duplicate value,중복된 값입니다.
+text.value list separator,值列表分隔符,pemisah senarai nilai,値区切り文字,value list separator,값 구분자
+text.verification email sent,验证邮件已发送,E-mel pengesahan telah dihantar,確認メールを送りました.,verification email sent,확인 이메일을 보냈습니다.
+text.want-to-cancel-request-confirm,,,Boardを編集状態に変更しますか??,Do you want to change this version to eidting version?,Board를 편집 상태로 바꾸겠습니까??
+text.want-to-confirm,是否执行审批？,,Boardを配布しますか?,Do you want to release this version?,Board를 배포 하시겠습니까?
+text.want-to-request-confirm,是否执行审批申请？,,Boardを作業完了状態に変更しますか?,Do you want to change this to finished version?,Board를 작업 완료 상태로 바꾸시겠습니까?
+text.want-to-self-confirm,是否希望自我审批？,,,,
+text.want-to-version-up,是否希望升级创建新版本？,,新しいバージョンを作成しますか?,Do you want to version up?,새 버전을 생성하시겠습니까?
+text.web push notification unblock guide,您未开启Web推送通知权限。 单击浏览器地址栏左侧的锁定图标以提供通知权限。,kebenaran pemberitahuan tolak web terhad. Klik ikon kunci di sebelah kiri bar alamat untuk membuka sekatan kebenaran pemberitahuan.,ウェブ プッシュ通知権限が制限された状態です. アドレスバー左のロックアイコンをクリックして、通知権限の制限を解除してください.,You have blocked web push notification permissions. Click the lock icon to the left of the address bar to unblock notification permissions.,웹푸시알림 권한이 제한된 상태입니다. 주소창 왼쪽 자물쇠 아이콘을 클릭하여 알림 권한을 제한을 해제하시기 바랍니다.
+text.x_cannot_delete,{x}无法删除,{x} tidak boleh dipadam,{x}は削除できません.,{x} cannot be deleted,{x}은/는 삭제할 수 없습니다.
+text.x_created_successfully,{x}创建成功,{x} berjaya dibina,{x}が成功的に作成されました.,{x} created successfully,{x}이/가 성공적으로 생성되었습니다.
+text.x_deleted_successfully,{x}删除成功,{x} berjaya dipadam,{x}が成功的に削除されました.,{x} deleted successfully,{x}이/가 성공적으로 삭제되었습니다.
+text.yes,,Ya,,,
+text.you.are.now.in,您现在是 {state}。,anda berada di {state},{state}になりました.,you are now in {state},{state} 되었습니다.
+text.your account is not activated,您的账号还没验证,akaun anda belum diaktifkan,アカウントがアクティブ化されていません.,your account is not activated.,계정이 활성화되지 않았습니다.
+text.your email address,您的邮件地址,alamat emel anda,ユーザー メール,your email address,사용자 이메일
+text.your_changes_will_be_lost,,Perubahan anda akan hilang,,,
+title.approval-line editor,审批线编辑器,editor garis kelulusan,決裁ライン編集,approval line editor,결재라인 편집
+title.approval-line item list,审批线项目列表,senarai item garis kelulusan,決裁ライン詳細,approval line item list,결재라인 상세
+title.approval-line template list,审批线模板列表,senarai templat garis kelulusan,決裁ライン テンプレート リスト,approval line template list,결재라인 템플릿 목록
+title.assignee list,受托人列表,senarai penerima tugasan,譲渡人リスト,assignee list,할당자 목록
+title.assignees editor,受托人编辑器,editor penerima tugasan,譲渡人リスト編集,assignee editor,할당자 목록 편집
+title.attachment list,附件列表,senarai lampiran,添付ファイル照会,attachment list,첨부파일 조회
+title.attribute-item list,属性列表,senarai ciri-ciri,属性アイテム リスト,attribute-item list,속성 아이템 리스트
+title.attributes,属性,ciri-ciri,属性,attributes,속성
+title.auth-provider,身份验证提供者,pemberi pengesahan,認証プロバイダ,auth provider,인증 제공자
+title.board view setting,面板界面设置,,ボード ビュー設定,Board UI setting,보드 뷰 설정
+title.board-template list,看板模板,templat papan,ボードテンプレート管理,board template list,보드템플릿 조회
+title.code-management,代码管理,code management,共通コード管理,code management,공통코드 관리
+title.code-management-detail,代码管理详情,code management detail,共通コード管理詳細,code management detail,공통코드 관리 상세
+title.common-approval-line template list,常用审批线模板列表,senarai templat garis kelulusan biasa,共通決裁ライン テンプレート リスト,common approval line template list,공통 결재라인 템플릿 목록
+title.contact,接触,kenalan,連絡先,contact,연락처
+title.contact list,联系人列表,senarai kenalan,連絡先リスト,contact list,연락처 관리
+title.copy,复制,,コピー,Copy,복사
+title.create-board,创建标签,,ボード作成,create board,보드 생성
+title.create-group,创建组,,グループ作成,create group,그룹 생성
+title.create_domain,域创建,cipta domain,ドメイン作成,create domain,도메인 생성하기
+title.default label printer,[zh] default label printer,[ms] default label printer,ラベル プリンタ選択,default label printer,라벨 프린터 선택
+title.department list,部门列表,senarai jabatan,部署リスト,department list,부서 목록
+title.department tree,部门层级图,hierarki jabatan,部署階層図,department hierarchy,부서 조직도
+title.domain-link management,域链接管理,pengurusan pautan domain,ドメインリンク管理,domain link management,도메인 링크 관리
+title.edit,编辑,edit,編集,edit,편집
+title.edit code,代码编辑,edit kod,,edit code,코드 편집
+title.edit hashtags,编辑标签,sunting tanda pagar,ハッシュタグを編集,edit hashtags,해시태그 편집
+title.edit json,JSON编辑,edit json,,edit json,JSON 편집
+title.edit privilege,编辑权限,kebenaran sunting,編集権限,edit privilege,권한 편집
+title.employee list,员工列表,senarai pekerja,職員リスト,employee list,직원 목록
+title.employees-by-department,按部门分类的员工,pekerja mengikut jabatan,部署別の従業員,Employees By Department,부서별 직원
+title.error,异常,,エラー,Error,에러
+title.forgot password,忘记密码,lupa kata laluan,パスワード探し,forgot password,비밀번호 찾기
+title.i18n-label,多语言标签,label pelbagai bahasa,多言語ラベル,multi-lingual label,다국어 라벨
+title.import,导入,import,読み込み,import,가져 오기
+title.import connection,导入连接,import sambungan,インポート接続,import connection,커넥션 불러오기
+title.import scenario,标题导入场景,import senario,シナリオ読み込み,import scenario,시나리오 불러오기
+title.info,信息,,情報,Information,정보
+title.invalid input,输入无效,invalid input,無効な入力値,invalid input,유효하지 않은 입력값
+title.lookup role,查找角色,cari peranan,ロール検索,lookup role,역할 검색
+title.lookup system-user,查找系统用户,cari pengguna sistem,システムユーザーを検索,lookup system user,시스템 사용자 검색
+title.lookup user,查找用户,cari pengguna,ユーザー検索,lookup user,사용자 검색
+title.mdibar setting,MDI设置,Tetapan MDI,MDI設定,MDI setting,MDI 설정
+title.move to this domain,移动到此域名,pindah ke domain ini,このドメインに移動,move to this domain,이 도메인으로 이동하기
+title.my-approval-line template list,我的审批线模板列表,senarai templat garis kelulusan saya,マイ決裁ライン テンプレート リスト,my approval line template list,나의 결재라인 템플릿 목록
+title.need help,需要帮助?,perlu bantuan?,何かお困りですか?,need help?,도움이 필요하세요?
+title.new-preferences,创建设置,,設定生成,New Preferences,설정 생성
+title.new-variable,新的变量,,変数生成,New Variable,변수 생성
+title.nothing selected,未选择,tiada yang dipilih,選択された項目がありません.,nothing selected,선택된 항목이 없습니다.
+title.notification subscription,通知订阅,langganan pemberitahuan,通知受信,notification subscription,알림 수신
+title.notification-sender,消息发送人,pengirim pemberitahuan,通知送信,notification sender,알림 전송
+title.open attributes view,打开属性视图,lihat atribut terbuka,属性リストを見る,open attributes view,속성목록 보기
+title.organization,组织,organisasi,組織,organization,조직
+title.owner_transfer,业主权限转移,menukar pemilik,ドメイン所有者変更,owner transfer,도메인 소유자 변경하기
+title.partner_setting,,,,partner setting,
+title.partners,合作伙伴,rakan kongsi,パートナー管理,partners,파트너 관리
+title.pdf-template list,,,,PDF template list,PDF 템플릿 리스트
+title.protected-privileges,受保护的权限,hak istimewa yang dilindungi,保護されている権限,protected privileges,보호되는 권한
+title.release note setting,发布说明设置,Pengaturan catatan rilis,リリースノート設定,release note setting,릴리즈 노트 설정
+title.release-note,发布说明,Catatan rilis,リリースノート,release note,릴리즈 노트
+title.reset password,重置密码,reset kata laluan,パスワード リセット,reset password,비밀번호 초기화
+title.scenario-detail,方案详细信息,perincian senario,シナリオ詳細ステップ,scenario detail,시나리오 상세스텝
+title.scenario-instance,场景实例,contoh senario,シナリオ インスタンス,scenario instance,시나리오 인스턴스
+title.scenario-log,场景日志,log senario,シナリオ ログ,scenario log,시나리오 로그
+title.schedule detail,日程详情,butiran jadual,スケジュール詳細,schedule detail,스케쥴 상세
+title.schedule list,时间表列表,senarai jadual,スケジュールリスト,schedule list,스케쥴 목록
+title.secure-ip-list,安全 IP 列表,senarai IP yang selamat,セキュアな IP リスト,secured IP list,보안 IP 리스트
+title.select attachment,选择文件,,ファイル選択,select attachment,파일 선택
+title.select board,选择看板,,ボード選択,select board,보드 선택
+title.select entity,选择实体,pilih entiti,エンティティ選択,select entity,엔티티 선택
+title.select font,选择字体,,フォント選択,select font,폰트 선택
+title.select_item,选择项目,pilih item,アイテム選択,select item,아이템 선택
+title.setting,设置,Tetapan,設定,,설정
+title.setting schedule,时间表配置,,スケジュール設定,setting schedule,스케쥴 설정
+title.sign in,登录,log masuk,ログイン,sign in,로그인
+title.sign up,注册,daftar,ユーザー登録,sign up,사용자 등록
+title.state-register,状态登记表,daftar keadaan,状態登録簿,state register,상태 등록부
+title.switch domain,切换域名,Tukar domain,ドメイン変更,switch domain,도메인 변경
+title.terminology,术语,istilah,用語,terminology,용어
+title.theme list,设计主题列表,,テーマリスト,theme list,테마 리스트
+title.theme setting,主题设置,tetapan tema,テーマ設定,theme setting,테마 설정
+title.title-on-page-header setting,标题设置,tetapan tajuk,タイトル設定,title setting,타이틀 설정
+title.unlock account,解锁帐户,buka semula akaun,アカウントロック解除,unlock account,계정 잠금 해제
+title.update-domain,更新域名,,ドメイン修正,Update Domain,도메인 수정
+title.update-group,修改组,,グループ修正,Update Group,그룹 수정
+title.update-preferences,保存配置,,設定修正,Update Preferences,설정 수정
+title.update-user,更新用户,,ユーザー修正,Update User,사용자 수정
+title.update-variable,更新变量,,変数修正,Update Variable,변수 수정
+title.warn,警告,,警告,Warning,경고
+tooltip.align_bottom,,Jajar ke bawah,,,
+tooltip.align_center,,Jajar tengah,,,
+tooltip.align_left,,Jajar kiri,,,
+tooltip.align_middle,,Jajar tengah,,,
+tooltip.align_right,,Jajar kanan,,,
+tooltip.align_top,,Jajar atas,,,
+tooltip.bring_forward,,Bawa ke hadapan,,,
+tooltip.bring_to_back,,Bawa ke belakang,,,
+tooltip.copy,,Salin,,,
+tooltip.cut,,Potong,,,
+tooltip.delete,,Padam,,,
+tooltip.duplicate,,Gandakan,,,
+tooltip.edit,,Sunting,,,
+tooltip.font_size,,Saiz fon,,,
+tooltip.insert_image,,Masukkan imej,,,
+tooltip.italic,,Italik,,,
+tooltip.maximize,,Maksimum,,,
+tooltip.minimize,,Minimum,,,
+tooltip.paste,,Tampal,,,
+tooltip.redo,,Ulang,,,
+tooltip.remove,,Alihkan,,,
+tooltip.rename,,Ganti nama,,,
+tooltip.select_all,,Pilih semua,,,
+tooltip.strikethrough,,Garis batal,,,
+tooltip.underline,,Garis bawah,,,
+tooltip.undo,,Batal,,,
+validation.email_format,,Sila masukkan alamat e-mel yang sah,,,
+validation.max_length,,Maksimum {length} aksara,,,
+validation.min_length,,Minimum {length} aksara,,,
+validation.required,,Medan ini diperlukan,,,

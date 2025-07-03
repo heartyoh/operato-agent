@@ -25,17 +25,47 @@ cd operato-agent
 3. 가상환경 생성 및 활성화:
 
 ```bash
-uv venv
-source .venv/bin/activate  # Linux/macOS
-# 또는
-.venv\Scripts\activate  # Windows
+python -m venv .venv
+source .venv/bin/activate
 ```
 
-4. 의존성 설치:
+4. pip-tools 설치 및 의존성 설치
+
+#### 운영 환경
 
 ```bash
-uv pip install -r requirements.txt
+make install
 ```
+
+#### 개발/테스트 환경
+
+```bash
+make dev-install
+```
+
+5. 의존성 업데이트
+
+```bash
+make update
+```
+
+- `requirements.in`, `dev-requirements.in`에서 직접 의존성을 관리하세요.
+- `requirements.txt`, `dev-requirements.txt`는 자동 생성됩니다.
+- `setup.py`의 install_requires는 requirements.in을 자동 반영합니다.
+
+6. 주요 파일 설명
+
+- `requirements.in`: 운영(프로덕션) 의존성
+- `dev-requirements.in`: 개발/테스트용 추가 의존성
+- `requirements.txt`, `dev-requirements.txt`: pip-compile로 자동 생성(고정 버전)
+- `Makefile`: 설치/업데이트 자동화 명령어
+- `setup.py`: 패키지화 및 install_requires 자동 연동
+
+7. 참고
+
+- 의존성 추가/변경 시 반드시 `make update`로 txt 파일을 갱신하세요.
+- 가상환경을 항상 활성화한 상태에서 작업하세요.
+- pip-tools 미설치 시 `pip install pip-tools`로 직접 설치 가능
 
 ## 환경 설정
 

@@ -1,0 +1,14 @@
+langchain-core>=0.3.66
+langchain-openai>=0.3.24
+langchain-huggingface>=0.3.0
+langchain-chroma>=0.2.4
+langchain_community>=0.3.26
+openai>=1.90.0
+requests
+chromadb
+sentence-transformers
+huggingface-hub
+pyyaml
+graphql-core>=3.2.0
+pydantic>=2.11.7
+pyahocorasick
